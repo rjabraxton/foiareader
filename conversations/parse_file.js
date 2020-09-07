@@ -7,19 +7,40 @@ const sheet_name_list = workbook.SheetNames;
 
 let unparsed = XLSX.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]]);
 let conversations = {};
+
 for (let i = 0; i < unparsed.length; i++) {
   const current = unparsed[i];
 
-  if (!conversations[current["Recipients"].toString()]) {
-    conversations[current["Recipients"].toString()] = [
-      {
-        sender: current["Sender"],
-        text: current["Body"],
-        time: Moment(current["Date (UTC)"]),
-      },
-    ];
+  if (
+    !conversations[
+      [current["Sender"], ...current["Recipients"].toString().split(", ")]
+        .sort()
+        .join()
+    ]
+  ) {
+    conversations[
+      [current["Sender"], ...current["Recipients"].toString().split(", ")]
+        .sort()
+        .join()
+    ] = {
+      members: [
+        current["Sender"],
+        ...current["Recipients"].toString().split(", "),
+      ].sort(),
+      messages: [
+        {
+          sender: current["Sender"],
+          text: current["Body"],
+          time: Moment(current["Date (UTC)"]),
+        },
+      ],
+    };
   } else {
-    conversations[current["Recipients"].toString()].push({
+    conversations[
+      [current["Sender"], ...current["Recipients"].toString().split(", ")]
+        .sort()
+        .join()
+    ].messages.push({
       sender: current["Sender"],
       text: current["Body"],
       time: Moment(current["Date (UTC)"]),
