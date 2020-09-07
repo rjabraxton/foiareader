@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
+import Conversation from "./Conversation.js";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <span>Home </span>
           </Route>
           <Route path="/about">
-            <span>About </span>
+            <Conversation />
           </Route>
         </Switch>
       </div>
