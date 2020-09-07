@@ -1,7 +1,9 @@
 const XLSX = require("xlsx");
 const Moment = require("moment");
 const fs = require("fs");
-const workbook = XLSX.readFile("./conversations/test.xlsx");
+const workbook = XLSX.readFile("./conversations/test.xlsx", {
+  cellDates: true,
+});
 
 const sheet_name_list = workbook.SheetNames;
 

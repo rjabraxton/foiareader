@@ -8,7 +8,7 @@ section {
   margin: 0 auto;
   max-width: 420px;
   position: relative;
-  display: block;
+  display: flow-root;
 }
 section img {
   border-radius: 50%;

@@ -11,9 +11,19 @@ function Conversation() {
           <div>
             <span>{convo.members.join(", ")}</span>
             {convo.messages.map((current, index) => {
+              const lastMsg = index > 0 && convo.messages[index - 1];
+              const senderIsSubject = current.sender == 5038236773; //subject is the texter to highlight
+              const moreThanThirtyMinutesSince =
+                lastMsg &&
+                Moment(current.time).diff(Moment(lastMsg.time), "minutes") > 30;
+              console.log(moreThanThirtyMinutesSince);
               return (
-                <section className="contact">
-                  {current.sender !== 5038236656 && (
+                <section className={senderIsSubject ? "subject" : "contact"}>
+                  <span>
+                    {(index === 0 || moreThanThirtyMinutesSince) &&
+                      Moment(current.time).format("MMM Qo HH:mm")}
+                  </span>
+                  {!senderIsSubject && (
                     <img src="https://ioneglobalgrind.files.wordpress.com/2014/03/screen-shot-2014-03-05-at-1-00-58-pm.png" />
                   )}
                   <section className="msgs">
