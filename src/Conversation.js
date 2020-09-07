@@ -10,24 +10,34 @@ function Conversation() {
         return (
           <div>
             <span>{convo.members.join(", ")}</span>
+
             {convo.messages.map((current, index) => {
               const lastMsg = index > 0 && convo.messages[index - 1];
               const senderIsSubject = current.sender == 5038236773; //subject is the texter to highlight
               const moreThanThirtyMinutesSince =
                 lastMsg &&
                 Moment(current.time).diff(Moment(lastMsg.time), "minutes") > 30;
-              console.log(moreThanThirtyMinutesSince);
+
               return (
                 <section className={senderIsSubject ? "subject" : "contact"}>
                   <span>
                     {(index === 0 || moreThanThirtyMinutesSince) &&
                       Moment(current.time).format("MMM Qo HH:mm")}
+                    {/* Mon 00th 11:11  */}
                   </span>
                   {!senderIsSubject && (
                     <img src="https://ioneglobalgrind.files.wordpress.com/2014/03/screen-shot-2014-03-05-at-1-00-58-pm.png" />
                   )}
                   <section className="msgs">
-                    <p>{current.text}</p>
+                    <p>
+                      {
+                        current.text &&
+                          current.text.substring(
+                            1,
+                            current.text.length - 1
+                          ) /* remove quotations */
+                      }
+                    </p>
                   </section>
                 </section>
               );
@@ -36,49 +46,6 @@ function Conversation() {
           </div>
         );
       })}
-
-      <section className="contact">
-        <img src="https://ioneglobalgrind.files.wordpress.com/2014/03/screen-shot-2014-03-05-at-1-00-58-pm.png" />
-        <section className="msgs">
-          <p>
-            Ichabod, I'm having trouble with these lyrics, can you come over to
-            help?
-          </p>
-        </section>
-      </section>
-      <section className="subject">
-        <section className="msgs">
-          <p>Sure, JJ. Which part are you getting stuck with?</p>
-        </section>
-      </section>
-      <section className="contact">
-        <img src="https://ioneglobalgrind.files.wordpress.com/2014/03/screen-shot-2014-03-05-at-1-00-58-pm.png" />
-        <section className="msgs">
-          <p>I know what I want to say, but can't get the right onomotopeia</p>
-        </section>
-      </section>
-      <section className="subject">
-        <section className="msgs">
-          <p>We'll work it out...</p>
-          <p>Somehow</p>
-          <p>I'm in love with dat Vicky</p>
-        </section>
-      </section>
-      <section className="contact">
-        <img src="https://ioneglobalgrind.files.wordpress.com/2014/03/screen-shot-2014-03-05-at-1-00-58-pm.png" />
-        <section className="msgs">
-          <p>You look great in her hair.</p>
-          <p>I LOLed when you came out.</p>
-          <p>It was so funny ;)</p>
-          <p>LOL</p>
-        </section>
-      </section>
-      <section className="subject">
-        <section className="msgs">
-          <p>Ya, IRK</p>
-          <p>It was pretty funny, i thought.</p>
-        </section>
-      </section>
     </div>
   );
 }
