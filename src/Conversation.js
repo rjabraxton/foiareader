@@ -26,7 +26,7 @@ const Conversation = () => {
                       Moment(current.time).format("MMM Qo HH:mm")}
                     {/* Mon 00th 11:11  */}
                   </span>
-                  {!senderIsSubject && <Avatar name={current.sender} />}
+                  <Avatar number={current.sender} />
                   <section className="msgs">
                     <p>
                       {

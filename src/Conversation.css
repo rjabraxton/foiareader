@@ -23,6 +23,11 @@ section.contact .avatar {
   left: -42px;
 }
 
+section.subject .avatar {
+  /* border: 4px solid #e5e5ea; */
+  right: -42px;
+}
+
 p {
   display: flex;
   margin: 0 0 2px;
