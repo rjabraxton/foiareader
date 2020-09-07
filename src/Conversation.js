@@ -7,7 +7,7 @@ import Avatar from "./Avatar.js";
 const Conversation = () => {
   return (
     <div id="conversationBody">
-      {Object.values(testFile).map((convo) => {
+      {Object.values(testFile).map((convo, i) => {
         return (
           <div>
             <span>{convo.members.join(", ")}</span>
@@ -51,7 +51,7 @@ const Conversation = () => {
                 </section>
               );
             })}
-            <hr />
+            {Object.values(testFile)[i + 1] && <hr />}
           </div>
         );
       })}
