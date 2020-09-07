@@ -5,6 +5,7 @@ import testFile from "./conversations/student-2.json";
 import Avatar from "./Avatar.js";
 
 const Conversation = () => {
+  console.log(testFile);
   return (
     <div id="conversationBody">
       {Object.values(testFile).map((convo) => {
@@ -12,31 +13,39 @@ const Conversation = () => {
           <div>
             <span>{convo.members.join(", ")}</span>
 
-            {convo.messages.map((current, index) => {
+            {convo.messages.map((currentBlock, index) => {
               const lastMsg = index > 0 && convo.messages[index - 1];
-              const senderIsSubject = current.sender == 5038236773; //subject is the texter to highlight
+              const senderIsSubject = currentBlock[0].sender == 5038236773; //subject is the texter to highlight
               const moreThanThirtyMinutesSince =
                 lastMsg &&
-                Moment(current.time).diff(Moment(lastMsg.time), "minutes") > 30;
+                Moment(currentBlock.time).diff(
+                  Moment(lastMsg.time),
+                  "minutes"
+                ) > 30;
 
               return (
                 <section className={senderIsSubject ? "subject" : "contact"}>
                   <span>
+                    {/* Do not show time if msg was sent less than 30m from last one */}
                     {(index === 0 || moreThanThirtyMinutesSince) &&
-                      Moment(current.time).format("MMM Qo HH:mm")}
+                      Moment(currentBlock.time).format("MMM Qo HH:mm")}
                     {/* Mon 00th 11:11  */}
                   </span>
-                  <Avatar number={current.sender} />
+                  <Avatar number={currentBlock[0].sender} />
                   <section className="msgs">
-                    <p>
-                      {
-                        current.text &&
-                          current.text.substring(
-                            1,
-                            current.text.length - 1
-                          ) /* remove quotations */
-                      }
-                    </p>
+                    {currentBlock.map((message) => {
+                      return (
+                        <p>
+                          {
+                            message.text &&
+                              message.text.substring(
+                                1,
+                                message.text.length - 1
+                              ) /* remove quotations */
+                          }
+                        </p>
+                      );
+                    })}
                   </section>
                 </section>
               );
