@@ -1,8 +1,8 @@
 import React from "react";
 // import "./Conversation.css";
-import contacts from "./conversations/contacts.json";
+import { contacts } from "./conversations/contacts.json";
 
-const getName = (num) => {
+export const getName = (num) => {
   if (contacts[num]) {
     return contacts[num].abbr;
   } else {
@@ -10,8 +10,16 @@ const getName = (num) => {
   }
 };
 
-let Avatar = (props) => {
-  return <div className="avatar">{getName(props.number)}</div>;
+export const getFullName = (num) => {
+  if (contacts[num]) {
+    return contacts[num].name === "Unknown"
+      ? contacts[num].abbr
+      : contacts[num].name;
+  } else {
+    return num;
+  }
 };
 
-export default Avatar;
+export const Avatar = (props) => {
+  return <div className="avatar">{getName(props.number)}</div>;
+};

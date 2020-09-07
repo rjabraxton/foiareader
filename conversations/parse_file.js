@@ -7,6 +7,9 @@ const workbook = XLSX.readFile("./conversations/test.xlsx", {
 
 const sheet_name_list = workbook.SheetNames;
 
+let contactsJson = require("../src/conversations/contacts.json");
+let newTally = contactsJson.tally;
+
 let unparsed = XLSX.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]]);
 let conversations = {};
 
@@ -16,11 +19,45 @@ for (let i = 0; i < unparsed.length; i++) {
   if (!Number.isInteger(current["Recipients"])) {
     //if it's an array of strings, make it an array of ints
     current["Recipients"] = current["Recipients"].split(",");
-    current["Recipients"] = current["Recipients"].map((curr) => parseInt(curr));
+    // eslint-disable-next-line no-loop-func
+    current["Recipients"] = current["Recipients"].map((curr) => {
+      // This handles updating contacts
+      if (!Object.keys(contactsJson.contacts).includes(curr.trim())) {
+        newTally++;
+        contactsJson.contacts[parseInt(curr)] = {
+          name: "Unknown",
+          role: "Unknown",
+          abbr: newTally,
+        };
+      }
+      // Convert numbers to int
+      return parseInt(curr);
+    });
   } else {
+    //this handles updating contacts
+    if (
+      !Object.keys(contactsJson.contacts).includes(
+        current["Recipients"].toString()
+      )
+    ) {
+      newTally++;
+      contactsJson.contacts[current["Recipients"]] = {
+        name: "Unknown",
+        role: "Unknown",
+        abbr: newTally,
+      };
+    }
+
     //if it's a number, put it into an array
     current["Recipients"] = [current["Recipients"]];
   }
+
+  contactsJson.tally = newTally;
+
+  fs.writeFileSync(
+    "./src/conversations/contacts.json",
+    JSON.stringify(contactsJson)
+  );
 
   const members = [current["Sender"], ...current["Recipients"]]
     .sort()

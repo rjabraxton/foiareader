@@ -1,3 +1,32 @@
 {
-  "5038236773": { "name": "Ted Wheeler", "abbr": "TW" }
+  "tally": 22,
+  "contacts": {
+    "5038236773": {
+      "name": "Ted Wheeler",
+      "abbr": "TW",
+      "role": "Mayor of Portland, Police Commissioner"
+    },
+    "5038238622": { "name": "Unknown", "role": "Unknown", "abbr": 1 },
+    "5038236656": { "name": "Unknown", "role": "Unknown", "abbr": 2 },
+    "5038656086": { "name": "Unknown", "role": "Unknown", "abbr": 3 },
+    "5038236402": { "name": "Unknown", "role": "Unknown", "abbr": 4 },
+    "5038238056": { "name": "Unknown", "role": "Unknown", "abbr": 5 },
+    "5038238057": { "name": "Unknown", "role": "Unknown", "abbr": 6 },
+    "5038238819": { "name": "Unknown", "role": "Unknown", "abbr": 7 },
+    "5038238137": { "name": "Unknown", "role": "Unknown", "abbr": 8 },
+    "5038236541": { "name": "Unknown", "role": "Unknown", "abbr": 9 },
+    "5033518356": { "name": "Unknown", "role": "Unknown", "abbr": 10 },
+    "5038238021": { "name": "Unknown", "role": "Unknown", "abbr": 11 },
+    "5038236784": { "name": "Unknown", "role": "Unknown", "abbr": 12 },
+    "5037893328": { "name": "Unknown", "role": "Unknown", "abbr": 13 },
+    "5038656184": { "name": "Unknown", "role": "Unknown", "abbr": 14 },
+    "5038238657": { "name": "Unknown", "role": "Unknown", "abbr": 15 },
+    "5037938233": { "name": "Unknown", "role": "Unknown", "abbr": 16 },
+    "5037931352": { "name": "Unknown", "role": "Unknown", "abbr": 17 },
+    "5038656047": { "name": "Unknown", "role": "Unknown", "abbr": 18 },
+    "5037936702": { "name": "Unknown", "role": "Unknown", "abbr": 19 },
+    "5038236184": { "name": "Unknown", "role": "Unknown", "abbr": 20 },
+    "5038165911": { "name": "Unknown", "role": "Unknown", "abbr": 21 },
+    "5035596384": { "name": "Unknown", "role": "Unknown", "abbr": 22 }
+  }
 }

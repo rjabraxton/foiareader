@@ -2,7 +2,7 @@ import React from "react";
 import Moment from "moment";
 import "./Conversation.css";
 import testFile from "./conversations/student-2.json";
-import Avatar from "./Avatar.js";
+import { Avatar, getFullName } from "./Avatar.js";
 
 const Conversation = () => {
   return (
@@ -10,7 +10,9 @@ const Conversation = () => {
       {Object.values(testFile).map((convo, i) => {
         return (
           <div className="conversation">
-            <span>{convo.members.join(", ")}</span>
+            <span className="members">
+              {convo.members.map((a) => getFullName(a)).join(", ")}
+            </span>
 
             {convo.messages.map((currentBlock, index) => {
               const lastMsg = index > 0 && convo.messages[index - 1];
