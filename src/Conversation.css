@@ -20,12 +20,23 @@ section .avatar {
 }
 section.contact .avatar {
   /* border: 4px solid #e5e5ea; */
-  left: -42px;
+  left: -200px;
 }
 
 section.subject .avatar {
   /* border: 4px solid #e5e5ea; */
   right: -42px;
+}
+
+section.subject .msgBubble {
+  /* border: 4px solid #e5e5ea; */
+  flex-direction: row-reverse;
+}
+
+.msgBubble {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 p {
@@ -38,6 +49,11 @@ p {
   clear: both;
   position: relative;
 }
+
+.time {
+  margin: 0 8px;
+}
+
 .contact p {
   width: auto;
   border-top-right-radius: 1em;

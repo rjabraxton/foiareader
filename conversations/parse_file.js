@@ -13,20 +13,26 @@ let conversations = {};
 for (let i = 0; i < unparsed.length; i++) {
   const current = unparsed[i];
   const previous = i > 0 && unparsed[i - 1];
-  const members = [
-    current["Sender"],
-    ...current["Recipients"].toString().split(", "),
-  ]
+
+  if (!Number.isInteger(current["Recipients"])) {
+    //if it's an array of strings, not a lone number
+    current["Recipients"] = current["Recipients"].split(",");
+    current["Recipients"] = current["Recipients"].map((curr) => parseInt(curr));
+    console.log(current["Recipients"]);
+  } else {
+    //if it's a number
+    current["Recipients"] = [current["Recipients"]];
+  }
+
+  const members = [current["Sender"], ...current["Recipients"]]
     .sort()
-    .join();
+    .join()
+    .trim();
 
   if (!conversations[members]) {
     //if this conversation has not been seen before
     conversations[members] = {
-      members: [
-        current["Sender"],
-        ...current["Recipients"].toString().split(", "),
-      ].sort(),
+      members: [current["Sender"], ...current["Recipients"]].sort(),
       messages: [
         [
           {
@@ -39,8 +45,7 @@ for (let i = 0; i < unparsed.length; i++) {
     };
   } else {
     //if this conversation has been seen before
-
-    if (current["Sender"] == previous["Sender"]) {
+    if (current["Sender"].toString() == previous["Sender"].toString()) {
       //if the last text was sent by the same person as this one
       conversations[members].messages[
         conversations[members].messages.length - 1
