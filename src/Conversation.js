@@ -3,20 +3,37 @@ import Moment from "moment";
 import "./Conversation.css";
 
 let testConvo = {
-  members: [],
+  members: ["bob", "jane"],
   messages: [
     {
       sender: "Ichabod",
-      message: "yo bro",
+      messages: [
+        { text: "yo bro", time: Moment("5/27/2020  7:16:22 PM") },
+        { text: "you have the goods?", time: Moment("5/27/2020  7:18:22 PM") },
+      ],
       time: Moment("5/27/2020  7:16:22 PM"),
     },
   ],
-  lastSent: "a time",
+  lastSent: Moment("5/27/2020  7:16:22 PM"),
 };
 
 function Conversation() {
   return (
     <div id="conversationBody">
+      <span>{testConvo.members.join(", ")}</span>
+      {testConvo.messages.map((current) => {
+        return (
+          <section class="contact">
+            <img src="https://ioneglobalgrind.files.wordpress.com/2014/03/screen-shot-2014-03-05-at-1-00-58-pm.png" />
+            <section class="msgs">
+              {current.messages.map((message) => {
+                return <p>{message.text}</p>;
+              })}
+            </section>
+          </section>
+        );
+      })}
+      <hr />
       <section class="contact">
         <img src="https://ioneglobalgrind.files.wordpress.com/2014/03/screen-shot-2014-03-05-at-1-00-58-pm.png" />
         <section class="msgs">
