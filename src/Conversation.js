@@ -6,10 +6,10 @@ import Avatar from "./Avatar.js";
 
 const Conversation = () => {
   return (
-    <div id="conversationBody">
+    <div id="allConversations">
       {Object.values(testFile).map((convo, i) => {
         return (
-          <div>
+          <div className="conversation">
             <span>{convo.members.join(", ")}</span>
 
             {convo.messages.map((currentBlock, index) => {

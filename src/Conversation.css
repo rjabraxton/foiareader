@@ -1,6 +1,11 @@
-#conversationBody {
+#allConversations {
   border: 1px solid red;
   margin: 10px 25%;
+  background-color: #fafafa;
+}
+
+.conversation {
+  margin: 30px 0;
 }
 
 section {
@@ -35,6 +40,7 @@ section.subject .msgBubble {
 }
 
 .msgBubble {
+  margin: 4px 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -58,6 +64,11 @@ p {
 
 .time {
   margin: 0 8px;
+  color: #7b7b7b;
+}
+
+.time:hover {
+  color: black;
 }
 
 .contact p {
