@@ -12,15 +12,13 @@ let conversations = {};
 
 for (let i = 0; i < unparsed.length; i++) {
   const current = unparsed[i];
-  const previous = i > 0 && unparsed[i - 1];
 
   if (!Number.isInteger(current["Recipients"])) {
-    //if it's an array of strings, not a lone number
+    //if it's an array of strings, make it an array of ints
     current["Recipients"] = current["Recipients"].split(",");
     current["Recipients"] = current["Recipients"].map((curr) => parseInt(curr));
-    console.log(current["Recipients"]);
   } else {
-    //if it's a number
+    //if it's a number, put it into an array
     current["Recipients"] = [current["Recipients"]];
   }
 
@@ -45,11 +43,14 @@ for (let i = 0; i < unparsed.length; i++) {
     };
   } else {
     //if this conversation has been seen before
-    if (current["Sender"].toString() == previous["Sender"].toString()) {
-      //if the last text was sent by the same person as this one
+    const mostRecentBlock =
       conversations[members].messages[
         conversations[members].messages.length - 1
-      ].push({
+      ];
+
+    if (current["Sender"] == mostRecentBlock[0].sender) {
+      //if the last text was sent by the same person as this one
+      mostRecentBlock.push({
         sender: current["Sender"],
         text: current["Body"],
         time: Moment(current["Date (UTC)"]),
