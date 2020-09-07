@@ -10,15 +10,16 @@ section {
   position: relative;
   display: flow-root;
 }
-section img {
-  border-radius: 50%;
+section .avatar {
+  /* border-radius: 50%; */
   width: 32px;
   height: 32px;
   position: absolute;
-  bottom: -6px;
+  bottom: -12px;
+  text-align: right;
 }
-section.contact img {
-  border: 4px solid #e5e5ea;
+section.contact .avatar {
+  /* border: 4px solid #e5e5ea; */
   left: -42px;
 }
 

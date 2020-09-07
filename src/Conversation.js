@@ -2,8 +2,9 @@ import React from "react";
 import Moment from "moment";
 import "./Conversation.css";
 import testFile from "./conversations/student-2.json";
+import Avatar from "./Avatar.js";
 
-function Conversation() {
+const Conversation = () => {
   return (
     <div id="conversationBody">
       {Object.values(testFile).map((convo) => {
@@ -25,9 +26,7 @@ function Conversation() {
                       Moment(current.time).format("MMM Qo HH:mm")}
                     {/* Mon 00th 11:11  */}
                   </span>
-                  {!senderIsSubject && (
-                    <img src="https://ioneglobalgrind.files.wordpress.com/2014/03/screen-shot-2014-03-05-at-1-00-58-pm.png" />
-                  )}
+                  {!senderIsSubject && <Avatar name={current.sender} />}
                   <section className="msgs">
                     <p>
                       {
@@ -48,6 +47,6 @@ function Conversation() {
       })}
     </div>
   );
-}
+};
 
 export default Conversation;
