@@ -1,6 +1,8 @@
 import React from "react";
 import Moment from "moment";
 import "./Conversation.css";
+import testFile from "./conversations/student-2.json";
+console.log(testFile);
 
 let testConvo = {
   members: ["bob", "jane"],
