@@ -8,32 +8,37 @@
     },
     "5038238622": {
       "name": "Jo Ann Hardesty",
-      "role": "Unknown",
-      "abbr": "JAH"
+      "role": "City Commissionr #4",
+      "abbr": "JAH",
+      "info": "https://www.portland.gov/hardesty"
     },
     "5038236656": {
       "name": "Sonia Schmanski",
-      "role": "Unknown",
-      "abbr": "SS"
+      "role": "Deputy Chief of Staff - Ted Wheeler",
+      "abbr": "SS",
+      "info": "https://www.portland.gov/wheeler/meet-mayors-team"
     },
     "5038656086": {
       "name": "Tia Williams",
-      "role": "Unknown",
-      "abbr": "TiW"
+      "role": "Senior Policy Advisor - Ted Wheeler",
+      "abbr": "TiW",
+      "info": "https://www.portland.gov/wheeler/meet-mayors-team"
     },
     "5038236402": {
       "name": "Dr. Amanda Fritz",
-      "role": "Unknown",
-      "abbr": "AF"
+      "role": "City Commissioner #1",
+      "abbr": "AF",
+      "info": "https://www.portlandonline.com/fritz/"
     },
     "5038238056": {
       "name": "Robert King",
-      "role": "Unknown",
-      "abbr": "RK"
+      "role": "Senior Policy Advisor - Ted Wheeler, former police commander, former PPA president",
+      "abbr": "RK",
+      "info": "https://www.portland.gov/wheeler/meet-mayors-team"
     },
     "5038238057": {
       "name": "Jamal Fox",
-      "role": "Unknown",
+      "role": "Former Deputy Chief of Staff - Ted Wheeler (left end of July 2020)",
       "abbr": "JF"
     },
     "5038238819": {
@@ -53,7 +58,7 @@
     },
     "5033518356": {
       "name": "Pastor Matt Hennessee",
-      "role": "Unknown",
+      "role": "Pastor, former chair of Portland Development Commission",
       "abbr": "MH"
     },
     "5038238021": {
@@ -63,12 +68,13 @@
     },
     "5038238021": {
       "name": "Aja Blair",
-      "role": "Unknown",
-      "abbr": "AB"
+      "role": "Operations Manager/Executive Assistant - Ted Wheeler",
+      "abbr": "AB",
+      "info": "https://www.portland.gov/wheeler/meet-mayors-team"
     },
     "5037583002": {
       "name": "Jami Resch",
-      "role": "Unknown",
+      "role": "Assistant Chief, former Chief of Portland Police",
       "abbr": "JR"
     },
     "5037893328": {
@@ -98,7 +104,7 @@
     },
     "5038656047": {
       "name": "Mike Myers",
-      "role": "Unknown",
+      "role": "Director of Bureau of Emergency Management, former Fire Chief",
       "abbr": "MM"
     },
     "5037936702": {

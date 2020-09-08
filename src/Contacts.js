@@ -1,6 +1,5 @@
 import React from "react";
 import { getFullName } from "./utility.js";
-import Card from "@material-ui/core/Card";
 import Paper from "@material-ui/core/Paper";
 
 import "./Contacts.css";
@@ -18,6 +17,9 @@ const Contacts = (props) => {
         </div>
         <hr />
         <div>Role: {currentContact.role}</div>
+        {currentContact.info && (
+          <a href={currentContact.info}>Additional Info</a>
+        )}
       </Paper>
     );
   });
