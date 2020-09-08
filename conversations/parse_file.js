@@ -27,7 +27,7 @@ for (let i = 0; i < unparsed.length; i++) {
         contactsJson.contacts[parseInt(curr)] = {
           name: "Unknown",
           role: "Unknown",
-          abbr: newTally,
+          abbr: `Unknown Person #${newTally}`,
         };
       }
       // Convert numbers to int
@@ -44,7 +44,7 @@ for (let i = 0; i < unparsed.length; i++) {
       contactsJson.contacts[current["Recipients"]] = {
         name: "Unknown",
         role: "Unknown",
-        abbr: newTally,
+        abbr: `Unknown Person #${newTally}`,
       };
     }
 

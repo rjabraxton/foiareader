@@ -1,15 +1,17 @@
 import React from "react";
 import Moment from "moment";
-import "./Conversation.css";
-import testFile from "./conversations/student-2.json";
-import { Avatar, getFullName } from "./Avatar.js";
+import Paper from "@material-ui/core/Paper";
+import Avatar from "@material-ui/core/Avatar";
 
-const Conversation = () => {
+import "./Conversation.css";
+import { getFullName, getAbbrName } from "./utility";
+
+const Conversation = (props) => {
   return (
     <div id="allConversations">
-      {Object.values(testFile).map((convo, i) => {
+      {Object.values(props.texts).map((convo, i) => {
         return (
-          <div className="conversation">
+          <Paper className="conversation" elevation={12}>
             <span className="members">
               {convo.members.map((a) => getFullName(a)).join(", ")}
             </span>
@@ -27,7 +29,9 @@ const Conversation = () => {
               return (
                 <section className={senderIsSubject ? "subject" : "contact"}>
                   {console.log(currentBlock)}
-                  <Avatar number={currentBlock[0].sender} />
+                  <Avatar className="avatar">
+                    {getAbbrName(currentBlock[0].sender)}
+                  </Avatar>
                   <section className="msgs">
                     {currentBlock.map((message) => {
                       return (
@@ -53,8 +57,7 @@ const Conversation = () => {
                 </section>
               );
             })}
-            {Object.values(testFile)[i + 1] && <hr />}
-          </div>
+          </Paper>
         );
       })}
     </div>

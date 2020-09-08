@@ -6,27 +6,120 @@
       "abbr": "TW",
       "role": "Mayor of Portland, Police Commissioner"
     },
-    "5038238622": { "name": "Unknown", "role": "Unknown", "abbr": 1 },
-    "5038236656": { "name": "Unknown", "role": "Unknown", "abbr": 2 },
-    "5038656086": { "name": "Unknown", "role": "Unknown", "abbr": 3 },
-    "5038236402": { "name": "Unknown", "role": "Unknown", "abbr": 4 },
-    "5038238056": { "name": "Unknown", "role": "Unknown", "abbr": 5 },
-    "5038238057": { "name": "Unknown", "role": "Unknown", "abbr": 6 },
-    "5038238819": { "name": "Unknown", "role": "Unknown", "abbr": 7 },
-    "5038238137": { "name": "Unknown", "role": "Unknown", "abbr": 8 },
-    "5038236541": { "name": "Unknown", "role": "Unknown", "abbr": 9 },
-    "5033518356": { "name": "Unknown", "role": "Unknown", "abbr": 10 },
-    "5038238021": { "name": "Unknown", "role": "Unknown", "abbr": 11 },
-    "5038236784": { "name": "Unknown", "role": "Unknown", "abbr": 12 },
-    "5037893328": { "name": "Unknown", "role": "Unknown", "abbr": 13 },
-    "5038656184": { "name": "Unknown", "role": "Unknown", "abbr": 14 },
-    "5038238657": { "name": "Unknown", "role": "Unknown", "abbr": 15 },
-    "5037938233": { "name": "Unknown", "role": "Unknown", "abbr": 16 },
-    "5037931352": { "name": "Unknown", "role": "Unknown", "abbr": 17 },
-    "5038656047": { "name": "Unknown", "role": "Unknown", "abbr": 18 },
-    "5037936702": { "name": "Unknown", "role": "Unknown", "abbr": 19 },
-    "5038236184": { "name": "Unknown", "role": "Unknown", "abbr": 20 },
-    "5038165911": { "name": "Unknown", "role": "Unknown", "abbr": 21 },
-    "5035596384": { "name": "Unknown", "role": "Unknown", "abbr": 22 }
+    "5038238622": {
+      "name": "Jo Ann Hardesty",
+      "role": "Unknown",
+      "abbr": "JAH"
+    },
+    "5038236656": {
+      "name": "Sonia Schmanski",
+      "role": "Unknown",
+      "abbr": "SS"
+    },
+    "5038656086": {
+      "name": "Tia Williams",
+      "role": "Unknown",
+      "abbr": "TiW"
+    },
+    "5038236402": {
+      "name": "Dr. Amanda Fritz",
+      "role": "Unknown",
+      "abbr": "AF"
+    },
+    "5038238056": {
+      "name": "Robert King",
+      "role": "Unknown",
+      "abbr": "RK"
+    },
+    "5038238057": {
+      "name": "Jamal Fox",
+      "role": "Unknown",
+      "abbr": "JF"
+    },
+    "5038238819": {
+      "abbr": "7",
+      "role": "Unknown",
+      "name": "Unknown Person #7"
+    },
+    "5038238137": {
+      "abbr": "8",
+      "role": "Unknown",
+      "name": "Unknown Person #8"
+    },
+    "5038236541": {
+      "name": "Eileen Park",
+      "role": "Unknown",
+      "abbr": "EP"
+    },
+    "5033518356": {
+      "name": "Pastor Matt Hennessee",
+      "role": "Unknown",
+      "abbr": "MH"
+    },
+    "5038238021": {
+      "name": "Aja Blair",
+      "role": "Unknown",
+      "abbr": "AB"
+    },
+    "5038238021": {
+      "name": "Aja Blair",
+      "role": "Unknown",
+      "abbr": "AB"
+    },
+    "5037583002": {
+      "name": "Jami Resch",
+      "role": "Unknown",
+      "abbr": "JR"
+    },
+    "5037893328": {
+      "abbr": "13",
+      "role": "Unknown",
+      "name": "Unknown Person #13"
+    },
+    "5038656184": {
+      "name": "Nike Greene",
+      "role": "Unknown",
+      "abbr": "NG"
+    },
+    "5038238657": {
+      "abbr": "15",
+      "role": "Unknown",
+      "name": "Unknown Person #15"
+    },
+    "5037938233": {
+      "abbr": "16",
+      "role": "Unknown",
+      "name": "Unknown Person #16"
+    },
+    "5037931352": {
+      "abbr": "17",
+      "role": "Unknown",
+      "name": "Unknown Person #17"
+    },
+    "5038656047": {
+      "name": "Mike Myers",
+      "role": "Unknown",
+      "abbr": "MM"
+    },
+    "5037936702": {
+      "abbr": "19",
+      "role": "Unknown",
+      "name": "Unknown Person #19"
+    },
+    "5038236184": {
+      "abbr": "20",
+      "role": "Unknown",
+      "name": "Unknown Person #20"
+    },
+    "5038165911": {
+      "abbr": "21",
+      "role": "Unknown",
+      "name": "Unknown Person #21"
+    },
+    "5035596384": {
+      "abbr": "22",
+      "role": "Unknown",
+      "name": "Unknown Person #22"
+    }
   }
 }
