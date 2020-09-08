@@ -1,17 +1,20 @@
 #allConversations {
-  /* border: 1px solid red; */
-  /* margin: 10px 25%; */
   padding: 5px 0;
   background-color: #fafafa;
 }
 
 .conversation {
   margin-bottom: 30px;
-  padding-bottom: 15px;
+  padding: 15px 0;
+  min-width: 532px;
 }
 
 .members {
   padding: 0 10px;
+}
+
+.members .memberChip {
+  margin: 0 4px;
 }
 
 section {
@@ -21,8 +24,8 @@ section {
   display: flow-root;
 }
 section .avatar {
-  /* width: 38px;/ */
-  /* height: 38px; */
+  width: 43px;
+  height: 43px;
   position: absolute;
   bottom: -12px;
   text-align: center;
@@ -31,11 +34,11 @@ section .avatar {
   justify-content: center;
 }
 section.contact .avatar {
-  left: -42px;
+  left: -47px;
 }
 
 section.subject .avatar {
-  right: -42px;
+  right: -47px;
 }
 
 section.subject .msgBubble {
@@ -67,7 +70,7 @@ p {
 
 .time {
   margin: 0 8px;
-  color: #7b7b7b;
+  color: #b7b7b7;
 }
 
 .time:hover {

@@ -20,7 +20,8 @@ import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
-import BarChartIcon from "@material-ui/icons/BarChart";
+import ListIcon from "@material-ui/icons/List";
+import HomeIcon from "@material-ui/icons/Home";
 
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
@@ -180,7 +181,7 @@ export default function App() {
             <Link to="/">
               <ListItem button>
                 <ListItemIcon>
-                  <BarChartIcon />
+                  <HomeIcon />
                 </ListItemIcon>
                 <ListItemText primary="Home" />
               </ListItem>
@@ -188,7 +189,7 @@ export default function App() {
             <Link to="/records">
               <ListItem button>
                 <ListItemIcon>
-                  <BarChartIcon />
+                  <ListIcon />
                 </ListItemIcon>
                 <ListItemText primary="FOIA Records" />
               </ListItem>

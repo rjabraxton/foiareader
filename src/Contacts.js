@@ -13,7 +13,7 @@ const Contacts = (props) => {
     return (
       <Paper className="personCard" elevation={3}>
         <div>
-          {person} - {getFullName(person)}
+          {getFullName(person)} ({person})
         </div>
         <hr />
         <div>Role: {currentContact.role}</div>

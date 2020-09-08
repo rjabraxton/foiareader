@@ -2,6 +2,7 @@ import React from "react";
 import Moment from "moment";
 import Paper from "@material-ui/core/Paper";
 import Avatar from "@material-ui/core/Avatar";
+import Chip from "@material-ui/core/Chip";
 
 import "./Conversation.css";
 import { getFullName, getAbbrName } from "./utility";
@@ -13,7 +14,13 @@ const Conversation = (props) => {
         return (
           <Paper className="conversation" elevation={12}>
             <span className="members">
-              {convo.members.map((a) => getFullName(a)).join(", ")}
+              {convo.members.map((a) => (
+                <Chip
+                  className="memberChip"
+                  color="primary"
+                  label={getFullName(a)}
+                />
+              ))}
             </span>
 
             {convo.messages.map((currentBlock, index) => {

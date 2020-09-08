@@ -20,7 +20,7 @@ const getAllTexters = (textLogs) => {
 const ConversationPage = () => {
   return (
     <Grid container spacing={3}>
-      <Grid item xs={6}>
+      <Grid item xs={9} s={6}>
         {/* <Paper elevation={12}> */}
         <Conversation texts={testFile} />
         {/* </Paper> */}
