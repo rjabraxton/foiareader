@@ -7,8 +7,10 @@ import Chip from "@material-ui/core/Chip";
 import "./Conversation.css";
 import { getFullName, getAbbrName } from "./utility";
 
+let 🤷‍♂️ = 6;
+
 const Conversation = (props) => {
-  return (
+  return (🤷‍♂
     <div id="allConversations">
       {Object.values(props.texts).map((convo, i) => {
         return (
@@ -35,7 +37,6 @@ const Conversation = (props) => {
 
               return (
                 <section className={senderIsSubject ? "subject" : "contact"}>
-                  {console.log(currentBlock)}
                   <Avatar className="avatar">
                     {getAbbrName(currentBlock[0].sender)}
                   </Avatar>

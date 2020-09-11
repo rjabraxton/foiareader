@@ -1,8 +1,7 @@
 import React from "react";
 import Conversation from "./Conversation";
 import Contacts from "./Contacts";
-import Paper from "@material-ui/core/Paper";
-import testFile from "./conversations/student-2.json";
+import requests from "./conversations/requests.json";
 import Grid from "@material-ui/core/Grid";
 
 const getAllTexters = (textLogs) => {
@@ -17,16 +16,19 @@ const getAllTexters = (textLogs) => {
   return people;
 };
 
-const ConversationPage = () => {
+const ConversationPage = (props) => {
+  const { id } = props.match.params;
+  const texts = require(`./conversations/${requests[id]}`);
+
   return (
     <Grid container spacing={3}>
       <Grid item xs={9} s={6}>
         {/* <Paper elevation={12}> */}
-        <Conversation texts={testFile} />
+        <Conversation texts={texts} />
         {/* </Paper> */}
       </Grid>
       <Grid item xs={3}>
-        <Contacts people={getAllTexters(testFile)} />
+        <Contacts people={getAllTexters(texts)} />
       </Grid>
     </Grid>
   );

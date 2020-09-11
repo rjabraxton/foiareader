@@ -186,7 +186,7 @@ export default function App() {
                 <ListItemText primary="Home" />
               </ListItem>
             </Link>
-            <Link to="/records">
+            <Link to="/record/1">
               <ListItem button>
                 <ListItemIcon>
                   <ListIcon />
@@ -202,9 +202,7 @@ export default function App() {
           <div className={classes.appBarSpacer} />
           <Container maxWidth="lg" className={classes.container}>
             <Switch>
-              <Route path="/records">
-                <ConversationPage />
-              </Route>
+              <Route path="/record/:id" component={ConversationPage} />
               <Route exact path="/">
                 <Grid container spacing={3}>
                   {/* Chart */}

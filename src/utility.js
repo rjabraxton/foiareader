@@ -10,9 +10,7 @@ export const getAbbrName = (num) => {
 
 export const getFullName = (num) => {
   if (contacts[num]) {
-    return contacts[num].name === "Unknown"
-      ? contacts[num].abbr
-      : contacts[num].name;
+    return contacts[num].name;
   } else {
     return num;
   }

@@ -1,5 +1,5 @@
 {
-  "tally": 22,
+  "tally": 27,
   "contacts": {
     "5038236773": {
       "name": "Ted Wheeler",
@@ -53,18 +53,13 @@
     },
     "5038236541": {
       "name": "Eileen Park",
-      "role": "Unknown",
+      "role": "Former Communications Director - Ted Wheeler (left end of July)",
       "abbr": "EP"
     },
     "5033518356": {
       "name": "Pastor Matt Hennessee",
       "role": "Pastor, former chair of Portland Development Commission",
       "abbr": "MH"
-    },
-    "5038238021": {
-      "name": "Aja Blair",
-      "role": "Unknown",
-      "abbr": "AB"
     },
     "5038238021": {
       "name": "Aja Blair",
@@ -82,11 +77,7 @@
       "role": "Unknown",
       "name": "Unknown Person #13"
     },
-    "5038656184": {
-      "name": "Nike Greene",
-      "role": "Unknown",
-      "abbr": "NG"
-    },
+    "5038656184": { "name": "Nike Greene", "role": "Unknown", "abbr": "NG" },
     "5038238657": {
       "abbr": "15",
       "role": "Unknown",
@@ -126,6 +117,27 @@
       "abbr": "22",
       "role": "Unknown",
       "name": "Unknown Person #22"
+    },
+    "5038236784": {
+      "abbr": "TB",
+      "role": "Interim Director of Communications - Ted Wheeler",
+      "name": "Tim Becker"
+    },
+    "5038238172": {
+      "abbr": "25",
+      "role": "Unknown",
+      "name": "Unknown Person #25"
+    },
+    "5037939142": {
+      "abbr": "26",
+      "role": "Unknown",
+      "name": "Unknown Person #26"
+    },
+    "9713225966": {
+      "abbr": "SM",
+      "role": "Multnomah County Commissioner, District 1",
+      "name": "Sharon Meieran",
+      "info": "https://multco.us/commissioner-meieran"
     }
   }
 }
