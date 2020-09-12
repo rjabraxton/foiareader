@@ -25,7 +25,8 @@ import HomeIcon from "@material-ui/icons/Home";
 
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
-import ConversationPage from "./ConversationPage";
+import ConversationPage from "./TextConversations/ConversationPage";
+import HomePage from "./HomePage/HomePage";
 
 function Copyright() {
   return (
@@ -203,26 +204,7 @@ export default function App() {
           <Container maxWidth="lg" className={classes.container}>
             <Switch>
               <Route path="/record/:id" component={ConversationPage} />
-              <Route exact path="/">
-                <Grid container spacing={3}>
-                  {/* Chart */}
-                  <Grid item xs={12} md={8} lg={9}>
-                    <Paper className={fixedHeightPaper}>
-                      {/* <Chart /> */}
-                    </Paper>
-                  </Grid>
-                  {/* Recent Deposits */}
-                  <Grid item xs={12} md={4} lg={3}>
-                    <Paper className={fixedHeightPaper}>
-                      {/* <Deposits /> */}
-                    </Paper>
-                  </Grid>
-                  {/* Recent Orders */}
-                  <Grid item xs={12}>
-                    <Paper className={classes.paper}>{/* <Orders /> */}</Paper>
-                  </Grid>
-                </Grid>
-              </Route>
+              <Route exact path="/" component={HomePage} />
             </Switch>
             <Box pt={4}>
               <Copyright />

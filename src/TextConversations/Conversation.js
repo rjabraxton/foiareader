@@ -8,7 +8,7 @@ import Chip from "@material-ui/core/Chip";
 import LinkIcon from "@material-ui/icons/Link";
 
 import "./Conversation.css";
-import { getFullName, getAbbrName } from "./utility";
+import { getFullName, getAbbrName } from "../utility.js";
 
 const Conversation = (props) => {
   return (

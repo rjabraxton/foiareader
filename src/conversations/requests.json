@@ -1,4 +1,12 @@
 {
-  "1": "Mayor141855_266518_IM_001.xlsx.json",
-  "2": "Wheeler135119_261746_IM_001_redacted_texts.xlsx.json"
+  "1": {
+    "fileName": "Mayor141855_266518_IM_001.xlsx.json",
+    "description": "Sample description.",
+    "requestedBy": "Alan Kessler"
+  },
+  "2": {
+    "fileName": "Wheeler135119_261746_IM_001_redacted_texts.xlsx.json",
+    "description": "",
+    "requestedBy": "Alan Kessler"
+  }
 }

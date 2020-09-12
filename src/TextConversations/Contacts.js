@@ -1,9 +1,9 @@
 import React from "react";
-import { getFullName } from "./utility.js";
+import { getFullName } from "../utility.js";
 import Paper from "@material-ui/core/Paper";
 
 import "./Contacts.css";
-import contactsJson from "./conversations/contacts.json";
+import contactsJson from "../conversations/contacts.json";
 
 const Contacts = (props) => {
   return props.people.map((person) => {

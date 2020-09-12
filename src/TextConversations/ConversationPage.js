@@ -1,7 +1,7 @@
 import React from "react";
 import Conversation from "./Conversation";
 import Contacts from "./Contacts";
-import requests from "./conversations/requests.json";
+import requests from "../conversations/requests.json";
 import Grid from "@material-ui/core/Grid";
 
 const getAllTexters = (textLogs) => {
@@ -18,7 +18,7 @@ const getAllTexters = (textLogs) => {
 
 const ConversationPage = (props) => {
   const { id } = props.match.params;
-  const texts = require(`./conversations/${requests[id]}`);
+  const texts = require(`../conversations/${requests[id].fileName}`);
 
   return (
     <Grid container spacing={3}>
