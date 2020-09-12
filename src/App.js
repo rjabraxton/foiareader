@@ -187,14 +187,6 @@ export default function App() {
                 <ListItemText primary="Home" />
               </ListItem>
             </Link>
-            <Link to="/record/1">
-              <ListItem button>
-                <ListItemIcon>
-                  <ListIcon />
-                </ListItemIcon>
-                <ListItemText primary="FOIA Records" />
-              </ListItem>
-            </Link>
           </List>
           <Divider />
           {/* <List>{secondaryListItems}</List> */}
@@ -206,9 +198,7 @@ export default function App() {
               <Route path="/record/:id" component={ConversationPage} />
               <Route exact path="/" component={HomePage} />
             </Switch>
-            <Box pt={4}>
-              <Copyright />
-            </Box>
+            <Box pt={4}>{/* <Copyright /> */}</Box>
           </Container>
         </main>
       </div>
