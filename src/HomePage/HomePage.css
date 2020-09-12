@@ -1,0 +1,9 @@
+.foiaRequestCard {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.foiaRequestCard a {
+  align-self: flex-end;
+}

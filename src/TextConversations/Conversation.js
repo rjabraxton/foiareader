@@ -1,6 +1,5 @@
 import React from "react";
 import Moment from "moment";
-import { Link } from "react-router-dom";
 import Paper from "@material-ui/core/Paper";
 import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
