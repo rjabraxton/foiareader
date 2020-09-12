@@ -9,8 +9,14 @@
   min-width: 532px;
 }
 
-.members {
+.conversationInfo {
+  display: flex;
+  justify-content: space-between;
   padding: 0 10px;
+}
+
+.conversationInfo a {
+  color: black;
 }
 
 .members .memberChip {
