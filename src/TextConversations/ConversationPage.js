@@ -19,12 +19,13 @@ const getAllTexters = (textLogs) => {
 const ConversationPage = (props) => {
   const { id } = props.match.params;
   const texts = require(`../conversations/${requests[id].fileName}`);
+  const info = requests[id];
 
   return (
     <Grid container spacing={3}>
       <Grid item xs={9} s={6}>
         {/* <Paper elevation={12}> */}
-        <Conversation texts={texts} />
+        <Conversation texts={texts} info={info} />
         {/* </Paper> */}
       </Grid>
       <Grid item xs={3}>

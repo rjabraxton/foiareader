@@ -1,6 +1,61 @@
 {
-  "tally": 27,
+  "tally": 206,
   "contacts": {
+    "2023203432": {
+      "abbr": "174",
+      "role": "Unknown",
+      "name": "Unknown Person #174"
+    },
+    "2029075507": {
+      "abbr": "40",
+      "role": "Unknown",
+      "name": "Unknown Person #40"
+    },
+    "3126722192": {
+      "abbr": "184",
+      "role": "Unknown",
+      "name": "Unknown Person #184"
+    },
+    "3135109968": {
+      "abbr": "166",
+      "role": "Unknown",
+      "name": "Unknown Person #166"
+    },
+    "3143064263": {
+      "abbr": "192",
+      "role": "Unknown",
+      "name": "Unknown Person #192"
+    },
+    "3472760850": {
+      "abbr": "80",
+      "role": "Unknown",
+      "name": "Unknown Person #80"
+    },
+    "3602417792": {
+      "abbr": "181",
+      "role": "Unknown",
+      "name": "Unknown Person #181"
+    },
+    "4042730879": {
+      "abbr": "197",
+      "role": "Unknown",
+      "name": "Unknown Person #197"
+    },
+    "4047132115": {
+      "abbr": "189",
+      "role": "Unknown",
+      "name": "Unknown Person #189"
+    },
+    "4048498966": {
+      "abbr": "169",
+      "role": "Unknown",
+      "name": "Unknown Person #169"
+    },
+    "4156131804": {
+      "abbr": "180",
+      "role": "Unknown",
+      "name": "Unknown Person #180"
+    },
     "5038236773": {
       "name": "Ted Wheeler",
       "abbr": "TW",
@@ -138,6 +193,642 @@
       "role": "Multnomah County Commissioner, District 1",
       "name": "Sharon Meieran",
       "info": "https://multco.us/commissioner-meieran"
+    },
+    "5038236571": {
+      "abbr": "28",
+      "role": "Unknown",
+      "name": "Unknown Person #28"
+    },
+    "5037478986": {
+      "abbr": "29",
+      "role": "Unknown",
+      "name": "Unknown Person #29"
+    },
+    "5037933750": {
+      "abbr": "30",
+      "role": "Unknown",
+      "name": "Unknown Person #30"
+    },
+    "5038236521": {
+      "abbr": "31",
+      "role": "Unknown",
+      "name": "Unknown Person #31"
+    },
+    "5038238400": {
+      "abbr": "32",
+      "role": "Unknown",
+      "name": "Unknown Person #32"
+    },
+    "9717085721": {
+      "abbr": "33",
+      "role": "Unknown",
+      "name": "Unknown Person #33"
+    },
+    "5038238199": {
+      "abbr": "34",
+      "role": "Unknown",
+      "name": "Unknown Person #34"
+    },
+    "5037931650": {
+      "abbr": "35",
+      "role": "Unknown",
+      "name": "Unknown Person #35"
+    },
+    "5038231242": {
+      "abbr": "36",
+      "role": "Unknown",
+      "name": "Unknown Person #36"
+    },
+    "5038236741": {
+      "abbr": "37",
+      "role": "Unknown",
+      "name": "Unknown Person #37"
+    },
+    "5039753631": {
+      "abbr": "38",
+      "role": "Unknown",
+      "name": "Unknown Person #38"
+    },
+    "5037939391": {
+      "abbr": "39",
+      "role": "Unknown",
+      "name": "Unknown Person #39"
+    },
+    "5038233038": {
+      "abbr": "41",
+      "role": "Unknown",
+      "name": "Unknown Person #41"
+    },
+    "5038656048": {
+      "abbr": "42",
+      "role": "Unknown",
+      "name": "Unknown Person #42"
+    },
+    "5038236405": {
+      "abbr": "43",
+      "role": "Unknown",
+      "name": "Unknown Person #43"
+    },
+    "5038656006": {
+      "abbr": "44",
+      "role": "Unknown",
+      "name": "Unknown Person #44"
+    },
+    "5038656240": {
+      "abbr": "45",
+      "role": "Unknown",
+      "name": "Unknown Person #45"
+    },
+    "5039693024": {
+      "abbr": "46",
+      "role": "Unknown",
+      "name": "Unknown Person #46"
+    },
+    "5035191039": {
+      "abbr": "47",
+      "role": "Unknown",
+      "name": "Unknown Person #47"
+    },
+    "5035727629": {
+      "abbr": "48",
+      "role": "Unknown",
+      "name": "Unknown Person #48"
+    },
+    "5039694457": {
+      "abbr": "49",
+      "role": "Unknown",
+      "name": "Unknown Person #49"
+    },
+    "9712802535": {
+      "abbr": "50",
+      "role": "Unknown",
+      "name": "Unknown Person #50"
+    },
+    "5038233592": {
+      "abbr": "51",
+      "role": "Unknown",
+      "name": "Unknown Person #51"
+    },
+    "5038236796": {
+      "abbr": "52",
+      "role": "Unknown",
+      "name": "Unknown Person #52"
+    },
+    "5038236786": {
+      "abbr": "53",
+      "role": "Unknown",
+      "name": "Unknown Person #53"
+    },
+    "5033130896": {
+      "abbr": "54",
+      "role": "Unknown",
+      "name": "Unknown Person #54"
+    },
+    "5038238041": {
+      "abbr": "55",
+      "role": "Unknown",
+      "name": "Unknown Person #55"
+    },
+    "5038232753": {
+      "abbr": "56",
+      "role": "Unknown",
+      "name": "Unknown Person #56"
+    },
+    "5038236700": {
+      "abbr": "57",
+      "role": "Unknown",
+      "name": "Unknown Person #57"
+    },
+    "5038236695": {
+      "abbr": "58",
+      "role": "Unknown",
+      "name": "Unknown Person #58"
+    },
+    "5038236481": {
+      "abbr": "59",
+      "role": "Unknown",
+      "name": "Unknown Person #59"
+    },
+    "5038236560": {
+      "abbr": "60",
+      "role": "Unknown",
+      "name": "Unknown Person #60"
+    },
+    "5038238484": {
+      "abbr": "61",
+      "role": "Unknown",
+      "name": "Unknown Person #61"
+    },
+    "5038238450": {
+      "abbr": "62",
+      "role": "Unknown",
+      "name": "Unknown Person #62"
+    },
+    "5038236388": {
+      "abbr": "63",
+      "role": "Unknown",
+      "name": "Unknown Person #63"
+    },
+    "5038236458": {
+      "abbr": "64",
+      "role": "Unknown",
+      "name": "Unknown Person #64"
+    },
+    "5039366920": {
+      "abbr": "65",
+      "role": "Unknown",
+      "name": "Unknown Person #65"
+    },
+    "5035027046": {
+      "abbr": "66",
+      "role": "Unknown",
+      "name": "Unknown Person #66"
+    },
+    "9719306869": {
+      "abbr": "67",
+      "role": "Unknown",
+      "name": "Unknown Person #67"
+    },
+    "7079536776": {
+      "abbr": "68",
+      "role": "Unknown",
+      "name": "Unknown Person #68"
+    },
+    "5038236712": {
+      "abbr": "69",
+      "role": "Unknown",
+      "name": "Unknown Person #69"
+    },
+    "8184164312": {
+      "abbr": "70",
+      "role": "Unknown",
+      "name": "Unknown Person #70"
+    },
+    "5038238174": {
+      "abbr": "71",
+      "role": "Unknown",
+      "name": "Unknown Person #71"
+    },
+    "5038236439": {
+      "abbr": "72",
+      "role": "Unknown",
+      "name": "Unknown Person #72"
+    },
+    "5038238775": {
+      "abbr": "73",
+      "role": "Unknown",
+      "name": "Unknown Person #73"
+    },
+    "5032010621": {
+      "abbr": "74",
+      "role": "Unknown",
+      "name": "Unknown Person #74"
+    },
+    "9712769968": {
+      "abbr": "75",
+      "role": "Unknown",
+      "name": "Unknown Person #75"
+    },
+    "7074968229": {
+      "abbr": "76",
+      "role": "Unknown",
+      "name": "Unknown Person #76"
+    },
+    "5033176932": {
+      "abbr": "77",
+      "role": "Unknown",
+      "name": "Unknown Person #77"
+    },
+    "5035456709": {
+      "abbr": "78",
+      "role": "Unknown",
+      "name": "Unknown Person #78"
+    },
+    "5034492287": {
+      "abbr": "79",
+      "role": "Unknown",
+      "name": "Unknown Person #79"
+    },
+    "5038109770": {
+      "abbr": "81",
+      "role": "Unknown",
+      "name": "Unknown Person #81"
+    },
+    "5037565828": {
+      "abbr": "82",
+      "role": "Unknown",
+      "name": "Unknown Person #82"
+    },
+    "5035049581": {
+      "abbr": "83",
+      "role": "Unknown",
+      "name": "Unknown Person #83"
+    },
+    "5038236556": {
+      "abbr": "84",
+      "role": "Unknown",
+      "name": "Unknown Person #84"
+    },
+    "5038238582": {
+      "abbr": "85",
+      "role": "Unknown",
+      "name": "Unknown Person #85"
+    },
+    "9518520284": {
+      "abbr": "86",
+      "role": "Unknown",
+      "name": "Unknown Person #86"
+    },
+    "5035931869": {
+      "abbr": "87",
+      "role": "Unknown",
+      "name": "Unknown Person #87"
+    },
+    "9713461247": {
+      "abbr": "88",
+      "role": "Unknown",
+      "name": "Unknown Person #88"
+    },
+    "5039578612": {
+      "abbr": "89",
+      "role": "Unknown",
+      "name": "Unknown Person #89"
+    },
+    "5039357726": {
+      "abbr": "90",
+      "role": "Unknown",
+      "name": "Unknown Person #90"
+    },
+    "5038231253": {
+      "abbr": "91",
+      "role": "Unknown",
+      "name": "Unknown Person #91"
+    },
+    "5038656131": {
+      "abbr": "92",
+      "role": "Unknown",
+      "name": "Unknown Person #92"
+    },
+    "5038236510": {
+      "abbr": "93",
+      "role": "Unknown",
+      "name": "Unknown Person #93"
+    },
+    "9713361914": {
+      "abbr": "94",
+      "role": "Unknown",
+      "name": "Unknown Person #94"
+    },
+    "5034429905": {
+      "abbr": "95",
+      "role": "Unknown",
+      "name": "Unknown Person #95"
+    },
+    "5038656077": {
+      "abbr": "96",
+      "role": "Unknown",
+      "name": "Unknown Person #96"
+    },
+    "9719302710": {
+      "abbr": "97",
+      "role": "Unknown",
+      "name": "Unknown Person #97"
+    },
+    "5033101803": {
+      "abbr": "98",
+      "role": "Unknown",
+      "name": "Unknown Person #98"
+    },
+    "5038232719": {
+      "abbr": "99",
+      "role": "Unknown",
+      "name": "Unknown Person #99"
+    },
+    "5036806873": {
+      "abbr": "100",
+      "role": "Unknown",
+      "name": "Unknown Person #100"
+    },
+    "9712423884": {
+      "abbr": "101",
+      "role": "Unknown",
+      "name": "Unknown Person #101"
+    },
+    "5038233579": {
+      "abbr": "102",
+      "role": "Unknown",
+      "name": "Unknown Person #102"
+    },
+    "5034212603": {
+      "abbr": "103",
+      "role": "Unknown",
+      "name": "Unknown Person #103"
+    },
+    "5037988819": {
+      "abbr": "104",
+      "role": "Unknown",
+      "name": "Unknown Person #104"
+    },
+    "9714090687": {
+      "abbr": "105",
+      "role": "Unknown",
+      "name": "Unknown Person #105"
+    },
+    "5038234180": {
+      "abbr": "106",
+      "role": "Unknown",
+      "name": "Unknown Person #106"
+    },
+    "5034898740": {
+      "abbr": "107",
+      "role": "Unknown",
+      "name": "Unknown Person #107"
+    },
+    "5032387433": {
+      "abbr": "108",
+      "role": "Unknown",
+      "name": "Unknown Person #108"
+    },
+    "5038233077": {
+      "abbr": "109",
+      "role": "Unknown",
+      "name": "Unknown Person #109"
+    },
+    "5035453799": {
+      "abbr": "110",
+      "role": "Unknown",
+      "name": "Unknown Person #110"
+    },
+    "5037087185": {
+      "abbr": "111",
+      "role": "Unknown",
+      "name": "Unknown Person #111"
+    },
+    "NaN": { "abbr": "206", "role": "Unknown", "name": "Unknown Person #206" },
+    "5033072130": {
+      "abbr": "DO",
+      "role": "Former Chief of Police (left 2019)",
+      "name": "Danielle Outlaw"
+    },
+    "5037930490": {
+      "abbr": "114",
+      "role": "Unknown",
+      "name": "Unknown Person #114"
+    },
+    "900080006000": {
+      "abbr": "115",
+      "role": "Unknown",
+      "name": "Unknown Person #115"
+    },
+    "5037939270": {
+      "abbr": "116",
+      "role": "Unknown",
+      "name": "Unknown Person #116"
+    },
+    "6095029322": {
+      "abbr": "138",
+      "role": "Unknown",
+      "name": "Unknown Person #138"
+    },
+    "5043299569": {
+      "abbr": "139",
+      "role": "Unknown",
+      "name": "Unknown Person #139"
+    },
+    "8012091815": {
+      "abbr": "140",
+      "role": "Unknown",
+      "name": "Unknown Person #140"
+    },
+    "5039324932": {
+      "abbr": "141",
+      "role": "Unknown",
+      "name": "Unknown Person #141"
+    },
+    "5039361884": {
+      "abbr": "142",
+      "role": "Unknown",
+      "name": "Unknown Person #142"
+    },
+    "5037937615": {
+      "abbr": "160",
+      "role": "Unknown",
+      "name": "Unknown Person #160"
+    },
+    "5035809485": {
+      "abbr": "161",
+      "role": "Unknown",
+      "name": "Unknown Person #161"
+    },
+    "5035052622": {
+      "abbr": "162",
+      "role": "Unknown",
+      "name": "Unknown Person #162"
+    },
+    "5419153248": {
+      "abbr": "163",
+      "role": "Unknown",
+      "name": "Unknown Person #163"
+    },
+    "5033190775": {
+      "abbr": "164",
+      "role": "Unknown",
+      "name": "Unknown Person #164"
+    },
+    "5035453497": {
+      "abbr": "165",
+      "role": "Unknown",
+      "name": "Unknown Person #165"
+    },
+    "5039700721": {
+      "abbr": "167",
+      "role": "Unknown",
+      "name": "Unknown Person #167"
+    },
+    "6037810168": {
+      "abbr": "168",
+      "role": "Unknown",
+      "name": "Unknown Person #168"
+    },
+    "8016641907": {
+      "abbr": "170",
+      "role": "Unknown",
+      "name": "Unknown Person #170"
+    },
+    "9718062064": {
+      "abbr": "171",
+      "role": "Unknown",
+      "name": "Unknown Person #171"
+    },
+    "5037578401": {
+      "abbr": "172",
+      "role": "Unknown",
+      "name": "Unknown Person #172"
+    },
+    "5038896079": {
+      "abbr": "175",
+      "role": "Unknown",
+      "name": "Unknown Person #175"
+    },
+    "5413251616": {
+      "abbr": "176",
+      "role": "Unknown",
+      "name": "Unknown Person #176"
+    },
+    "8083755823": {
+      "abbr": "177",
+      "role": "Unknown",
+      "name": "Unknown Person #177"
+    },
+    "9712127505": {
+      "abbr": "178",
+      "role": "Unknown",
+      "name": "Unknown Person #178"
+    },
+    "5104105132": {
+      "abbr": "179",
+      "role": "Unknown",
+      "name": "Unknown Person #179"
+    },
+    "5037937543": {
+      "abbr": "182",
+      "role": "Unknown",
+      "name": "Unknown Person #182"
+    },
+    "8324926106": {
+      "abbr": "183",
+      "role": "Unknown",
+      "name": "Unknown Person #183"
+    },
+    "6025962396": {
+      "abbr": "185",
+      "role": "Unknown",
+      "name": "Unknown Person #185"
+    },
+    "5037933837": {
+      "abbr": "186",
+      "role": "Unknown",
+      "name": "Unknown Person #186"
+    },
+    "5037938997": {
+      "abbr": "187",
+      "role": "Unknown",
+      "name": "Unknown Person #187"
+    },
+    "9714012643": {
+      "abbr": "188",
+      "role": "Unknown",
+      "name": "Unknown Person #188"
+    },
+    "5037938281": {
+      "abbr": "190",
+      "role": "Unknown",
+      "name": "Unknown Person #190"
+    },
+    "5038874007": {
+      "abbr": "191",
+      "role": "Unknown",
+      "name": "Unknown Person #191"
+    },
+    "9167199386": {
+      "abbr": "193",
+      "role": "Unknown",
+      "name": "Unknown Person #193"
+    },
+    "4358434411": {
+      "abbr": "194",
+      "role": "Unknown",
+      "name": "Unknown Person #194"
+    },
+    "5035720036": {
+      "abbr": "195",
+      "role": "Unknown",
+      "name": "Unknown Person #195"
+    },
+    "5037160725": {
+      "abbr": "196",
+      "role": "Unknown",
+      "name": "Unknown Person #196"
+    },
+    "5032603065": {
+      "abbr": "198",
+      "role": "Unknown",
+      "name": "Unknown Person #198"
+    },
+    "9712026301": {
+      "abbr": "199",
+      "role": "Unknown",
+      "name": "Unknown Person #199"
+    },
+    "5037549430": {
+      "abbr": "200",
+      "role": "Unknown",
+      "name": "Unknown Person #200"
+    },
+    "5037936789": {
+      "abbr": "201",
+      "role": "Unknown",
+      "name": "Unknown Person #201"
+    },
+    "5037939329": {
+      "abbr": "202",
+      "role": "Unknown",
+      "name": "Unknown Person #202"
+    },
+    "9713227162": {
+      "abbr": "203",
+      "role": "Unknown",
+      "name": "Unknown Person #203"
+    },
+    "9718062196": {
+      "abbr": "204",
+      "role": "Unknown",
+      "name": "Unknown Person #204"
+    },
+    "5038236328": {
+      "abbr": "205",
+      "role": "Unknown",
+      "name": "Unknown Person #205"
     }
   }
 }

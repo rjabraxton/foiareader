@@ -10,6 +10,8 @@ import "./Conversation.css";
 import { getFullName, getAbbrName } from "../utility.js";
 
 const Conversation = (props) => {
+  let sender = props.info.defaultSender;
+
   return (
     <div id="allConversations">
       {Object.values(props.texts).map((convo, i) => {
@@ -34,7 +36,7 @@ const Conversation = (props) => {
 
             {convo.messages.map((currentBlock, index) => {
               const lastMsg = index > 0 && convo.messages[index - 1];
-              const senderIsSubject = currentBlock[0].sender == 5038236773; //subject is the texter to highlight
+              const senderIsSubject = currentBlock[0].sender == sender; //subject is the texter to highlight
               const moreThanTenMinutesSince =
                 lastMsg &&
                 Moment(currentBlock.time).diff(
