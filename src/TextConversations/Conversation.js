@@ -27,11 +27,11 @@ const Conversation = (props) => {
                   />
                 ))}
               </span>
-              <a href={`#${i}`}>
+              {/* <a href={`#${i}`}>
                 <IconButton color="primary">
                   <LinkIcon />
                 </IconButton>
-              </a>
+              </a> */}
             </span>
 
             {convo.messages.map((currentBlock, index) => {
