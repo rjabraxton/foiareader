@@ -12,7 +12,7 @@ const ConversationSummary = (props) => {
   console.log(props);
 
   return (
-    <Paper elevation={5}>
+    <Paper elevation={5} className="topBox">
       <FormControl variant="outlined">
         <InputLabel id="demo-simple-select-outlined-label">Sender</InputLabel>
         <Select

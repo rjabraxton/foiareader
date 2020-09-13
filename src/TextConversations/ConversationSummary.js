@@ -5,7 +5,7 @@ import Paper from "@material-ui/core/Paper";
 
 const ConversationSummary = (props) => {
   return (
-    <Paper elevation={5}>
+    <Paper elevation={5} className="topBox">
       <div>Description: {props.info.description}</div>
       <div>Requested by: {props.info.requestedBy}</div>
     </Paper>

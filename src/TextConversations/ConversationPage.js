@@ -7,6 +7,8 @@ import requests from "../conversations/requests.json";
 import contactsJson from "../conversations/contacts.json";
 import Grid from "@material-ui/core/Grid";
 
+import "./ConversationPage.css";
+
 const getAllTexters = (textLogs) => {
   let people = [],
     usedNumbers = [];
