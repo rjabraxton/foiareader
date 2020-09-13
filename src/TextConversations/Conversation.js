@@ -11,10 +11,15 @@ import { getFullName, getAbbrName } from "../utility.js";
 
 const Conversation = (props) => {
   console.log(props);
+  const { sender } = props;
 
   return (
     <div id="allConversations">
       {Object.values(props.texts).map((convo, i) => {
+        if (!convo.members.includes(sender)) {
+          return;
+        }
+
         return (
           <Paper className="conversation" elevation={12} id={i}>
             <span className="conversationInfo">
