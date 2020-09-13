@@ -6,20 +6,19 @@ import "./Contacts.css";
 import contactsJson from "../conversations/contacts.json";
 
 const Contacts = (props) => {
+  console.warn(props);
   return props.people.map((person) => {
-    const currentContact = contactsJson.contacts[person];
-    if (!currentContact) return;
+    if (!person) return;
 
     return (
       <Paper className="personCard" elevation={3}>
         <div>
-          {getFullName(person)} ({person})
+          {" "}
+          {person.name} ({person.number}){" "}
         </div>
         <hr />
-        <div>Role: {currentContact.role}</div>
-        {currentContact.info && (
-          <a href={currentContact.info}>Additional Info</a>
-        )}
+        <div>Role: {person.role}</div>
+        {person.info && <a href={person.info}>Additional Info</a>}
       </Paper>
     );
   });

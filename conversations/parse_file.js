@@ -41,6 +41,7 @@ fs.readdir(directoryPath, function (err, files) {
                 abbr: newTally.toString(),
                 role: "Unknown",
                 name: `Unknown Person #${newTally}`,
+                number: parseInt(curr),
               };
             }
             // Convert numbers to int
@@ -58,6 +59,7 @@ fs.readdir(directoryPath, function (err, files) {
               abbr: newTally.toString(),
               role: "Unknown",
               name: `Unknown Person #${newTally}`,
+              number: current["Recipients"],
             };
           }
 

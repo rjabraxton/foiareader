@@ -10,7 +10,7 @@ import "./Conversation.css";
 import { getFullName, getAbbrName } from "../utility.js";
 
 const Conversation = (props) => {
-  let sender = props.info.defaultSender;
+  let sender = props.sender;
 
   return (
     <div id="allConversations">
