@@ -1,10 +1,7 @@
 import React from "react";
-import requests from "../conversations/requests.json";
-import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
-import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 
@@ -25,7 +22,9 @@ const ConversationSummary = (props) => {
           label="Sender"
         >
           {props.people.map((person) => {
-            if (!person) return;
+            if (!person) {
+              return null;
+            }
             return <MenuItem value={person.number}>{person.name}</MenuItem>;
           })}
         </Select>

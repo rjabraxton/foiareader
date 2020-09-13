@@ -12,15 +12,10 @@ import List from "@material-ui/core/List";
 import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
-import Badge from "@material-ui/core/Badge";
 import Container from "@material-ui/core/Container";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import NotificationsIcon from "@material-ui/icons/Notifications";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListIcon from "@material-ui/icons/List";
 import HomeIcon from "@material-ui/icons/Home";
 
 import ListItem from "@material-ui/core/ListItem";
@@ -28,18 +23,18 @@ import ListItemText from "@material-ui/core/ListItemText";
 import ConversationPage from "./TextConversations/ConversationPage";
 import HomePage from "./HomePage/HomePage";
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {"Copyright © "}
-      {/* <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{" "} */}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+// function Copyright() {
+//   return (
+//     <Typography variant="body2" color="textSecondary" align="center">
+//       {"Copyright © "}
+//       {/* <Link color="inherit" href="https://material-ui.com/">
+//         Your Website
+//       </Link>{" "} */}
+//       {new Date().getFullYear()}
+//       {"."}
+//     </Typography>
+//   );
+// }
 
 const drawerWidth = 240;
 
@@ -131,7 +126,7 @@ export default function App() {
   const handleDrawerClose = () => {
     setOpen(false);
   };
-  const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
+  // const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
 
   return (
     <Router>

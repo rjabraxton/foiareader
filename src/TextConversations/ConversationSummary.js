@@ -1,6 +1,4 @@
 import React from "react";
-import requests from "../conversations/requests.json";
-import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 
 const ConversationSummary = (props) => {

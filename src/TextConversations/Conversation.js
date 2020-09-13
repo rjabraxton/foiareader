@@ -2,9 +2,7 @@ import React from "react";
 import Moment from "moment";
 import Paper from "@material-ui/core/Paper";
 import Avatar from "@material-ui/core/Avatar";
-import IconButton from "@material-ui/core/IconButton";
 import Chip from "@material-ui/core/Chip";
-import LinkIcon from "@material-ui/icons/Link";
 
 import "./Conversation.css";
 import { getFullName, getAbbrName } from "../utility.js";
@@ -17,7 +15,7 @@ const Conversation = (props) => {
     <div id="allConversations">
       {Object.values(props.texts).map((convo, i) => {
         if (!convo.members.includes(sender)) {
-          return;
+          return null;
         }
 
         return (
@@ -40,14 +38,7 @@ const Conversation = (props) => {
             </span>
 
             {convo.messages.map((currentBlock, index) => {
-              const lastMsg = index > 0 && convo.messages[index - 1];
-              const senderIsSubject = currentBlock[0].sender == props.sender; //subject is the texter to highlight
-              const moreThanTenMinutesSince =
-                lastMsg &&
-                Moment(currentBlock.time).diff(
-                  Moment(lastMsg.time),
-                  "minutes"
-                ) > 10;
+              const senderIsSubject = currentBlock[0].sender === props.sender; //subject is the texter to highlight
 
               return (
                 <section className={senderIsSubject ? "subject" : "contact"}>
