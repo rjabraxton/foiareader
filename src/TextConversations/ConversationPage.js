@@ -3,11 +3,11 @@ import Conversation from "./Conversation";
 import Contacts from "./Contacts";
 import ConversationSummary from "./ConversationSummary";
 import ConversationFilters from "./ConversationFilters";
-import requests from "../conversations/requests.json";
 import contactsJson from "../conversations/contacts.json";
 import Grid from "@material-ui/core/Grid";
 
 import "./ConversationPage.css";
+const requests = require("../conversations/requests.json");
 
 const getAllTexters = (textLogs) => {
   let people = [],
