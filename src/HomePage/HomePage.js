@@ -13,7 +13,7 @@ const HomePage = (props) => {
       {Object.keys(requests).map((key) => {
         const currentRequest = requests[key];
         return (
-          <Grid item xs={4}>
+          <Grid item xs={6} s={4}>
             <Card variant="outlined" className="foiaRequestCard">
               {currentRequest.description}
               <br />

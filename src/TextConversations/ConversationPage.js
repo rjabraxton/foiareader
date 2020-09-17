@@ -40,10 +40,10 @@ const ConversationPage = (props) => {
   return (
     <div>
       <Grid container spacing={3}>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={4}>
           <ConversationSummary info={info} />
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={12} sm={3}>
           <ConversationFilters
             people={getAllTexters(texts)}
             setSender={setSender}
@@ -52,10 +52,10 @@ const ConversationPage = (props) => {
         </Grid>
       </Grid>
       <Grid container spacing={3}>
-        <Grid item xs={9} s={6}>
+        <Grid item xs={12} sm={9}>
           <Conversation texts={texts} info={info} sender={sender} />
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={0} sm={3}>
           <Contacts people={getAllTexters(texts)} />
         </Grid>
       </Grid>
