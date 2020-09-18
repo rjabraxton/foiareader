@@ -1,3 +1,7 @@
 .topBox {
   padding: 10px;
 }
+
+.topBox .conversationFilter {
+  margin: 9px;
+}

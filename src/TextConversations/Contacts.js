@@ -4,7 +4,6 @@ import Paper from "@material-ui/core/Paper";
 import "./Contacts.css";
 
 const Contacts = (props) => {
-  console.warn(props);
   return props.people.map((person) => {
     if (!person) {
       return null;

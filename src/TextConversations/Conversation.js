@@ -8,13 +8,18 @@ import "./Conversation.css";
 import { getFullName, getAbbrName } from "../utility.js";
 
 const Conversation = (props) => {
-  console.log(props);
-  const { sender } = props;
+  const { sender, onlyShowFrom } = props;
 
   return (
     <div id="allConversations">
       {Object.values(props.texts).map((convo, i) => {
-        if (!convo.members.includes(sender)) {
+        console.warn(onlyShowFrom.length);
+        if (
+          convo.members &&
+          (onlyShowFrom.length > 0
+            ? !convo.members.some((a) => onlyShowFrom.includes(a))
+            : false)
+        ) {
           return null;
         }
 
