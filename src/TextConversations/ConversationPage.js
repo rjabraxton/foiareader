@@ -37,7 +37,6 @@ const ConversationPage = (props) => {
 
   const [sender, setSender] = React.useState(info.defaultSender);
   const [onlyShowFrom, setOnlyShowFrom] = React.useState([]);
-  console.log(onlyShowFrom);
 
   return (
     <div>

@@ -5,8 +5,22 @@ import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
+import Checkbox from "@material-ui/core/Checkbox";
+import ListItemText from "@material-ui/core/ListItemText";
 
 const ConversationSummary = (props) => {
+  const getNames = (phoneNums) => {
+    let names = [];
+    for (let i = 0; i < phoneNums.length; i++) {
+      const current = phoneNums[i];
+      const a = props.people.find(
+        (person) => person && person.number === current
+      );
+      names.push(a.name);
+    }
+    return names.join(", ");
+  };
+
   return (
     <Paper elevation={5} className="topBox">
       <Box
@@ -35,23 +49,31 @@ const ConversationSummary = (props) => {
         </FormControl>
 
         <FormControl variant="outlined" className="conversationFilter">
-          <InputLabel id="onlyShow">Only Show </InputLabel>
+          <InputLabel id="onlyShow">Filter Conversations </InputLabel>
           <Select
             labelId="onlyShow"
             id="onlyShow"
             value={props.onlyShowFrom}
             onChange={(e) => {
-              console.log(e.target.value);
               props.setOnlyShowFrom(e.target.value);
             }}
-            label="Only Show"
+            label="Filter Conversations"
             multiple
+            renderValue={(selected) => getNames(selected)}
           >
             {props.people.map((person) => {
               if (!person) {
                 return null;
               }
-              return <MenuItem value={person.number}>{person.name}</MenuItem>;
+              // return <MenuItem value={person.number}>{person.name}</MenuItem>;
+              return (
+                <MenuItem key={person.name} value={person.number}>
+                  {/* <Checkbox
+                    checked={props.onlyShowFrom.indexOf(person.name) > -1}
+                  /> */}
+                  {person.name}
+                </MenuItem>
+              );
             })}
           </Select>
         </FormControl>

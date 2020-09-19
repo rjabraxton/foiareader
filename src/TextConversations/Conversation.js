@@ -13,7 +13,6 @@ const Conversation = (props) => {
   return (
     <div id="allConversations">
       {Object.values(props.texts).map((convo, i) => {
-        console.warn(onlyShowFrom.length);
         if (
           convo.members &&
           (onlyShowFrom.length > 0
