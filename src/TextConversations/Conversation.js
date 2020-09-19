@@ -8,11 +8,11 @@ import "./Conversation.css";
 import { getFullName, getAbbrName } from "../utility.js";
 
 const Conversation = (props) => {
-  const { sender, onlyShowFrom } = props;
+  const { sender, onlyShowFrom, texts } = props;
 
   return (
     <div id="allConversations">
-      {Object.values(props.texts).map((convo, i) => {
+      {Object.values(texts).map((convo, i) => {
         if (
           convo.members &&
           (onlyShowFrom.length > 0
@@ -23,14 +23,20 @@ const Conversation = (props) => {
         }
 
         return (
-          <Paper className="conversation" elevation={12} id={i}>
+          <Paper
+            className="conversation"
+            elevation={12}
+            id={i}
+            key={`messageBlock${i}`}
+          >
             <span className="conversationInfo">
               <span className="members">
-                {convo.members.map((a) => (
+                {convo.members.map((member, i) => (
                   <Chip
+                    key={`memberChip${i}`}
                     className="memberChip"
                     color="primary"
-                    label={getFullName(a)}
+                    label={getFullName(member)}
                   />
                 ))}
               </span>
@@ -42,17 +48,20 @@ const Conversation = (props) => {
             </span>
 
             {convo.messages.map((currentBlock, index) => {
-              const senderIsSubject = currentBlock[0].sender === props.sender; //subject is the texter to highlight
+              const senderIsSubject = currentBlock[0].sender === sender; //subject is the texter to highlight
 
               return (
-                <section className={senderIsSubject ? "subject" : "contact"}>
+                <section
+                  className={senderIsSubject ? "subject" : "contact"}
+                  key={`message${index}`}
+                >
                   <Avatar className="avatar">
                     {getAbbrName(currentBlock[0].sender)}
                   </Avatar>
                   <section className="msgs">
-                    {currentBlock.map((message) => {
+                    {currentBlock.map((message, i) => {
                       return (
-                        <div className="msgBubble">
+                        <div key={`msgBubble${i}`} className="msgBubble">
                           <p>
                             {
                               message.text &&

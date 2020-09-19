@@ -5,24 +5,10 @@ import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
-import Button from "@material-ui/core/Button";
-import ListItemText from "@material-ui/core/ListItemText";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import TextField from "@material-ui/core/TextField";
 
-const ConversationSummary = (props) => {
-  const getNames = (phoneNums) => {
-    let names = [];
-    for (let i = 0; i < phoneNums.length; i++) {
-      const current = phoneNums[i];
-      const a = props.people.find(
-        (person) => person && person.number === current
-      );
-      names.push(a.name);
-    }
-    return names.join(", ");
-  };
-
+const ConversationFilters = (props) => {
   return (
     <Paper elevation={5} className="topBox">
       <Box
@@ -41,11 +27,15 @@ const ConversationSummary = (props) => {
             }}
             label="Sender"
           >
-            {props.people.map((person) => {
+            {props.people.map((person, i) => {
               if (!person) {
                 return null;
               }
-              return <MenuItem value={person.number}>{person.name}</MenuItem>;
+              return (
+                <MenuItem key={`person${i}`} value={person.number}>
+                  {person.name}
+                </MenuItem>
+              );
             })}
           </Select>
         </FormControl>
@@ -76,4 +66,4 @@ const ConversationSummary = (props) => {
   );
 };
 
-export default ConversationSummary;
+export default ConversationFilters;

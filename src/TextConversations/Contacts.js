@@ -4,13 +4,13 @@ import Paper from "@material-ui/core/Paper";
 import "./Contacts.css";
 
 const Contacts = (props) => {
-  return props.people.map((person) => {
+  return props.people.map((person, i) => {
     if (!person) {
       return null;
     }
 
     return (
-      <Paper className="personCard" elevation={3}>
+      <Paper className="personCard" elevation={3} key={`personCard${i}`}>
         <div>
           {" "}
           {person.name} ({person.number}){" "}

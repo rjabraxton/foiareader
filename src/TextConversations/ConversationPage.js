@@ -63,7 +63,7 @@ const ConversationPage = (props) => {
             onlyShowFrom={onlyShowFrom}
           />
         </Grid>
-        <Grid item xs={0} sm={3}>
+        <Grid item xs={false} sm={3}>
           <Contacts people={getAllTexters(texts)} />
         </Grid>
       </Grid>
