@@ -7,6 +7,8 @@ import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import Button from "@material-ui/core/Button";
 import ListItemText from "@material-ui/core/ListItemText";
+import Autocomplete from "@material-ui/lab/Autocomplete";
+import TextField from "@material-ui/core/TextField";
 
 const ConversationSummary = (props) => {
   const getNames = (phoneNums) => {
@@ -49,44 +51,26 @@ const ConversationSummary = (props) => {
         </FormControl>
 
         <FormControl variant="outlined" className="conversationFilter">
-          <InputLabel id="onlyShow">Filter Conversations </InputLabel>
-          <Select
-            labelId="onlyShow"
-            id="onlyShow"
-            value={props.onlyShowFrom}
-            onChange={(e) => {
-              props.setOnlyShowFrom(e.target.value);
-            }}
-            label="Filter Conversations"
+          <Autocomplete
             multiple
-            renderValue={(selected) => getNames(selected)}
-          >
-            {props.people.map((person) => {
-              if (!person) {
-                return null;
-              }
-              // return <MenuItem value={person.number}>{person.name}</MenuItem>;
-              return (
-                <MenuItem key={person.name} value={person.number}>
-                  {/* <Checkbox
-                    checked={props.onlyShowFrom.indexOf(person.name) > -1}
-                  /> */}
-                  {person.name}
-                </MenuItem>
-              );
-            })}
-          </Select>
-        </FormControl>
-        {props.onlyShowFrom.length > 0 && (
-          <Button
-            color="primary"
-            onClick={() => {
-              props.setOnlyShowFrom([]);
+            limitTags={3}
+            id="onlyShow"
+            options={props.people}
+            getOptionLabel={(option) => (option ? option.name : "")}
+            defaultValue={props.onlyShowFrom}
+            onChange={(e, newVal) => {
+              props.setOnlyShowFrom(newVal.map((a) => a.number));
             }}
-          >
-            Clear Filters
-          </Button>
-        )}
+            renderInput={(params) => (
+              <TextField
+                {...params}
+                variant="outlined"
+                label="Filter Conversations"
+                name="Filter Conversations"
+              />
+            )}
+          />
+        </FormControl>
       </Box>
     </Paper>
   );
