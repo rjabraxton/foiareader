@@ -5,7 +5,7 @@ import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
-import Checkbox from "@material-ui/core/Checkbox";
+import Button from "@material-ui/core/Button";
 import ListItemText from "@material-ui/core/ListItemText";
 
 const ConversationSummary = (props) => {
@@ -77,6 +77,16 @@ const ConversationSummary = (props) => {
             })}
           </Select>
         </FormControl>
+        {props.onlyShowFrom.length > 0 && (
+          <Button
+            color="primary"
+            onClick={() => {
+              props.setOnlyShowFrom([]);
+            }}
+          >
+            Clear Filters
+          </Button>
+        )}
       </Box>
     </Paper>
   );
