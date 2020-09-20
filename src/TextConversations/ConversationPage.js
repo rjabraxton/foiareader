@@ -54,8 +54,8 @@ const ConversationPage = (props) => {
           />
         </Grid>
       </Grid>
-      <Grid container spacing={3}>
-        <Grid item xs={12} sm={9}>
+      <Grid container spacing={3} className="conversationGrid">
+        <Grid item xs={12} sm={10} md={7}>
           <Conversation
             texts={texts}
             info={info}
@@ -63,7 +63,7 @@ const ConversationPage = (props) => {
             onlyShowFrom={onlyShowFrom}
           />
         </Grid>
-        <Grid item xs={false} sm={3}>
+        <Grid item xs={false} sm={2} md={3} className="conversationContacts">
           <Contacts people={getAllTexters(texts)} />
         </Grid>
       </Grid>

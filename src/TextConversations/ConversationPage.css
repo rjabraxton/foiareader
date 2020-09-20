@@ -5,3 +5,17 @@
 .topBox .conversationFilter {
   margin: 9px;
 }
+
+@media only screen and (max-width: 600px) {
+  .conversationGrid {
+    overflow: hidden;
+    flex-direction: column-reverse;
+  }
+
+  .conversationGrid .conversationContacts {
+    flex-direction: row;
+    display: flex;
+    overflow-x: scroll;
+    max-width: 100%;
+  }
+}

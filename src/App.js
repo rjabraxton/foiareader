@@ -71,7 +71,7 @@ export default function App() {
             </Typography>
           </Toolbar>
         </AppBar>
-        <Container>
+        <Container maxWidth="lg">
           <Switch>
             <Route path="/record/:id" component={ConversationPage} />
             <Route exact path="/" component={HomePage} />

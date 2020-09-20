@@ -6,7 +6,7 @@
 .conversation {
   margin-bottom: 30px;
   padding: 15px 0;
-  min-width: 532px;
+  /* min-width: 532px; */
 }
 
 .conversationInfo {
@@ -126,4 +126,29 @@ p:last-child {
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
   margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    max-width: 50%;
+  }
+
+  section.contact .msgs {
+    left: 44px;
+  }
+  section.subject .msgs {
+    right: 40px;
+  }
+
+  section.contact .avatar {
+    left: 5px;
+  }
+  section.subject .avatar {
+    right: 5px;
+  }
+
+  section .avatar {
+    width: 35px;
+    height: 35px;
+  }
 }
