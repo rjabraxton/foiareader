@@ -9,27 +9,6 @@ import Grid from "@material-ui/core/Grid";
 import "./ConversationPage.css";
 const requests = require("../conversations/requests.json");
 
-const getAllTexters = (textLogs) => {
-  let people = [],
-    usedNumbers = [];
-  const keys = Object.keys(textLogs);
-
-  for (let i = 0; i < keys.length; i++) {
-    const allNumbers = keys[i].split(","); //every number in each convo
-
-    for (let j = 0; j < allNumbers.length; j++) {
-      //For every of those numbers
-      if (!usedNumbers.includes(allNumbers[j])) {
-        //If the number is present in the array
-        people.push(contactsJson.contacts[allNumbers[j]]);
-        usedNumbers.push(allNumbers[j]);
-      }
-    }
-  }
-
-  return people;
-};
-
 const ConversationPage = (props) => {
   const { id } = props.match.params;
   const texts = require(`../conversations/${requests[id].fileName}`);
@@ -37,6 +16,29 @@ const ConversationPage = (props) => {
 
   const [sender, setSender] = React.useState(info.defaultSender);
   const [onlyShowFrom, setOnlyShowFrom] = React.useState([]);
+
+  const getAllTexters = (textLogs) => {
+    let people = [],
+      usedNumbers = [];
+    const keys = Object.keys(textLogs);
+
+    for (let i = 0; i < keys.length; i++) {
+      const allNumbers = keys[i].split(","); //every number in each convo
+
+      for (let j = 0; j < allNumbers.length; j++) {
+        //For every of those numbers
+        if (!usedNumbers.includes(allNumbers[j])) {
+          //If the number hasn't been seen before
+          if (!onlyShowFrom.includes(allNumbers[j])) {
+            people.push(contactsJson.contacts[allNumbers[j]]);
+          }
+          usedNumbers.push(allNumbers[j]);
+        }
+      }
+    }
+
+    return people;
+  };
 
   return (
     <div>
