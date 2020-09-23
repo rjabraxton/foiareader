@@ -46,12 +46,7 @@ const Conversation = (props) => {
               </span>
 
               <a href={`#${i}`}>
-                <IconButton
-                  color="primary"
-                  onClick={() => {
-                    hashLink(i);
-                  }}
-                >
+                <IconButton color="primary">
                   <LinkIcon />
                 </IconButton>
               </a>
