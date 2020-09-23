@@ -40,8 +40,12 @@ class ConversationPage extends React.Component {
     }`);
 
     const initialFilters =
-      getAllTexters(texts).filter((a) =>
-        this.props.match.params.filters.split(",").includes(a.number.toString())
+      getAllTexters(texts).filter(
+        (a) =>
+          this.props.match.params.filters &&
+          this.props.match.params.filters
+            .split(",")
+            .includes(a.number.toString())
       ) || [];
 
     this.state = {
