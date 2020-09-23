@@ -8,6 +8,7 @@ import Grid from "@material-ui/core/Grid";
 
 import "./ConversationPage.css";
 const requests = require("../conversations/requests.json");
+let texts = undefined;
 
 const getAllTexters = (textLogs) => {
   let people = [],
@@ -34,8 +35,7 @@ class ConversationPage extends React.Component {
   constructor(props) {
     super(props);
     const { id, currentSender, filters } = this.props.match.params;
-    const requests2 = require("../conversations/requests.json");
-    const texts = require(`../conversations/${requests[id].fileName}`);
+    texts = require(`../conversations/${requests[id].fileName}`);
 
     const initialFilters =
       getAllTexters(texts).filter(
@@ -46,7 +46,7 @@ class ConversationPage extends React.Component {
       onlyShowFrom: initialFilters,
       sender:
         (currentSender && Number.parseInt(currentSender)) ||
-        requests2[id].defaultSender,
+        requests[id].defaultSender,
     };
   }
 
@@ -64,7 +64,6 @@ class ConversationPage extends React.Component {
   render() {
     const { id } = this.props.match.params;
     const { sender, onlyShowFrom } = this.state;
-    const texts = require(`../conversations/${requests[id].fileName}`);
     const info = requests[id];
     const initialSender = requests[id].defaultSender;
 
