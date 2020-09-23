@@ -51,7 +51,8 @@ class ConversationPage extends React.Component {
     this.state = {
       onlyShowFrom: initialFilters,
       sender:
-        this.props.match.params.currentSender ||
+        (this.props.match.params.currentSender &&
+          Number.parseInt(this.props.match.params.currentSender)) ||
         requests2[this.props.match.params.id].defaultSender,
     };
   }
