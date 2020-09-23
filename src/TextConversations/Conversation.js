@@ -12,11 +12,6 @@ import { getFullName, getAbbrName } from "../utility.js";
 const Conversation = (props) => {
   const { sender, onlyShowFrom, texts } = props;
 
-  const hashLink = (index) => {
-    console.log(index);
-    console.log(onlyShowFrom);
-  };
-
   return (
     <div id="allConversations">
       {Object.values(texts).map((convo, i) => {
@@ -50,14 +45,16 @@ const Conversation = (props) => {
                 ))}
               </span>
 
-              <IconButton
-                color="primary"
-                onClick={() => {
-                  hashLink(i);
-                }}
-              >
-                <LinkIcon />
-              </IconButton>
+              <a href={`#${i}`}>
+                <IconButton
+                  color="primary"
+                  onClick={() => {
+                    hashLink(i);
+                  }}
+                >
+                  <LinkIcon />
+                </IconButton>
+              </a>
             </span>
 
             {convo.messages.map((currentBlock, index) => {
