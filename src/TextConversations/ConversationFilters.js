@@ -43,7 +43,7 @@ const ConversationFilters = (props) => {
         <FormControl variant="outlined" className="conversationFilter">
           <Autocomplete
             multiple
-            limitTags={3}
+            limitTags={2}
             id="onlyShow"
             options={props.people}
             getOptionLabel={(option) => (option ? option.name : "")}
