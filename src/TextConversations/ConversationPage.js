@@ -33,44 +33,40 @@ const getAllTexters = (textLogs) => {
 class ConversationPage extends React.Component {
   constructor(props) {
     super(props);
-
+    const { id, currentSender, filters } = this.props.match.params;
     const requests2 = require("../conversations/requests.json");
-    const texts = require(`../conversations/${
-      requests[this.props.match.params.id].fileName
-    }`);
+    const texts = require(`../conversations/${requests[id].fileName}`);
 
     const initialFilters =
       getAllTexters(texts).filter(
-        (a) =>
-          this.props.match.params.filters &&
-          this.props.match.params.filters
-            .split(",")
-            .includes(a.number.toString())
+        (a) => filters && filters.split(",").includes(a.number.toString())
       ) || [];
 
     this.state = {
       onlyShowFrom: initialFilters,
       sender:
-        (this.props.match.params.currentSender &&
-          Number.parseInt(this.props.match.params.currentSender)) ||
-        requests2[this.props.match.params.id].defaultSender,
+        (currentSender && Number.parseInt(currentSender)) ||
+        requests2[id].defaultSender,
     };
   }
 
   setUrl = () => {
+    const { id } = this.props.match.params,
+      { sender, onlyShowFrom } = this.state;
+
     this.props.history.replace(
-      `/record/${this.props.match.params.id}/${this.state.sender}${
-        this.state.onlyShowFrom &&
-        "/" + this.state.onlyShowFrom.map((a) => a.number).join()
+      `/record/${id}/${sender}${
+        onlyShowFrom && "/" + onlyShowFrom.map((a) => a.number).join()
       }`
     );
   };
 
   render() {
     const { id } = this.props.match.params;
+    const { sender, onlyShowFrom } = this.state;
     const texts = require(`../conversations/${requests[id].fileName}`);
     const info = requests[id];
-    const initialSender = requests[this.props.match.params.id].defaultSender;
+    const initialSender = requests[id].defaultSender;
 
     const setSender = (val) => {
       this.setState({ sender: val }, this.setUrl);
@@ -90,8 +86,8 @@ class ConversationPage extends React.Component {
               people={getAllTexters(texts)}
               setSender={setSender}
               setOnlyShowFrom={setOnlyShowFrom}
-              sender={this.state.sender || initialSender}
-              onlyShowFrom={this.state.onlyShowFrom}
+              sender={sender || initialSender}
+              onlyShowFrom={onlyShowFrom}
             />
           </Grid>
         </Grid>
@@ -100,8 +96,8 @@ class ConversationPage extends React.Component {
             <Conversation
               texts={texts}
               info={info}
-              sender={this.state.sender}
-              onlyShowFrom={this.state.onlyShowFrom}
+              sender={sender}
+              onlyShowFrom={onlyShowFrom}
             />
           </Grid>
           <Grid item xs={false} sm={2} md={3} className="conversationContacts">
