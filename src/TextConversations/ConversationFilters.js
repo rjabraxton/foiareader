@@ -49,7 +49,7 @@ const ConversationFilters = (props) => {
             getOptionLabel={(option) => (option ? option.name : "")}
             defaultValue={props.onlyShowFrom}
             onChange={(e, newVal) => {
-              props.setOnlyShowFrom(newVal.map((a) => a.number));
+              props.setOnlyShowFrom(newVal);
             }}
             renderInput={(params) => (
               <TextField

@@ -73,7 +73,10 @@ export default function App() {
         </AppBar>
         <Container maxWidth="lg">
           <Switch>
-            <Route path="/record/:id" component={ConversationPage} />
+            <Route
+              path="/record/:id/:currentSender?/:filters?"
+              component={ConversationPage}
+            />
             <Route exact path="/" component={HomePage} />
           </Switch>
           <Box pt={4}>{/* <Copyright /> */}</Box>

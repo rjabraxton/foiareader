@@ -3,6 +3,8 @@ import Moment from "moment";
 import Paper from "@material-ui/core/Paper";
 import Avatar from "@material-ui/core/Avatar";
 import Chip from "@material-ui/core/Chip";
+import IconButton from "@material-ui/core/IconButton";
+import LinkIcon from "@material-ui/icons/Link";
 
 import "./Conversation.css";
 import { getFullName, getAbbrName } from "../utility.js";
@@ -10,13 +12,20 @@ import { getFullName, getAbbrName } from "../utility.js";
 const Conversation = (props) => {
   const { sender, onlyShowFrom, texts } = props;
 
+  const hashLink = (index) => {
+    console.log(index);
+    console.log(onlyShowFrom);
+  };
+
   return (
     <div id="allConversations">
       {Object.values(texts).map((convo, i) => {
         if (
           convo.members &&
           (onlyShowFrom.length > 0
-            ? !convo.members.some((a) => onlyShowFrom.includes(a))
+            ? !convo.members.some((a) =>
+                onlyShowFrom.map((b) => b.number).includes(a)
+              )
             : false)
         ) {
           return null;
@@ -40,11 +49,15 @@ const Conversation = (props) => {
                   />
                 ))}
               </span>
-              {/* <a href={`#${i}`}>
-                <IconButton color="primary">
-                  <LinkIcon />
-                </IconButton>
-              </a> */}
+
+              <IconButton
+                color="primary"
+                onClick={() => {
+                  hashLink(i);
+                }}
+              >
+                <LinkIcon />
+              </IconButton>
             </span>
 
             {convo.messages.map((currentBlock, index) => {
