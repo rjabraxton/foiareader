@@ -3,7 +3,7 @@ const Moment = require("moment");
 const path = require("path");
 const directoryPath = path.join(__dirname, "");
 const fs = require("fs");
-let contactsJson = require("../src/conversations/contacts.json");
+let contactsJson = require("../../src/conversations/contacts.json");
 
 fs.readdir(directoryPath, function (err, files) {
   //handling error
@@ -14,7 +14,7 @@ fs.readdir(directoryPath, function (err, files) {
   files.forEach(function (file) {
     //Only mess with .xlsx files
     if (file.match(/^.*\.(xlsx)$/)) {
-      const workbook = XLSX.readFile(`./conversations/${file}`, {
+      const workbook = XLSX.readFile(`./recordsFiles/textMessages/${file}`, {
         cellDates: true,
       });
       const sheet_name_list = workbook.SheetNames;
