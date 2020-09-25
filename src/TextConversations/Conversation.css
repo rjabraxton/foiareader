@@ -66,6 +66,10 @@ p {
   position: relative;
 }
 
+p .textedImage {
+  max-width: 100%;
+}
+
 .subject .time {
   text-align: right;
 }

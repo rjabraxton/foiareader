@@ -14,13 +14,15 @@ const getAllTexters = (textLogs) => {
   let people = [],
     usedNumbers = [];
   const keys = Object.keys(textLogs);
-
   for (let i = 0; i < keys.length; i++) {
     const allNumbers = keys[i].split(","); //every number in each convo
 
     for (let j = 0; j < allNumbers.length; j++) {
       //For every of those numbers
-      if (!usedNumbers.includes(allNumbers[j])) {
+      if (
+        !usedNumbers.includes(allNumbers[j]) &&
+        contactsJson.contacts[allNumbers[j]]
+      ) {
         //If the number hasn't been seen before
         people.push(contactsJson.contacts[allNumbers[j]]);
         usedNumbers.push(allNumbers[j]);
@@ -35,9 +37,8 @@ class ConversationPage extends React.Component {
   constructor(props) {
     super(props);
     const { id, currentSender, filters } = this.props.match.params;
-    console.log(`../conversations/${requests[id].fileName}/messages.json`);
     texts = require(`../conversations/${requests[id].fileName}/messages.json`);
-
+    console.log(getAllTexters(texts));
     const initialFilters =
       getAllTexters(texts).filter(
         (a) => filters && filters.split(",").includes(a.number.toString())
@@ -98,6 +99,7 @@ class ConversationPage extends React.Component {
               info={info}
               sender={sender}
               onlyShowFrom={onlyShowFrom}
+              imagePrefix={`/${requests[id].fileName}/`}
             />
           </Grid>
           <Grid item xs={false} sm={2} md={3} className="conversationContacts">

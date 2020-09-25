@@ -6,6 +6,8 @@ const fs = require("fs");
 const mkdirp = require("mkdirp");
 const getDirName = require("path").dirname;
 
+const fileExtensionRegex = /(?:\.([^.]+))?$/;
+
 let contactsJson = require("../../src/conversations/contacts.json");
 
 fs.readdir(directoryPath, function (err, files) {
@@ -15,15 +17,15 @@ fs.readdir(directoryPath, function (err, files) {
   }
 
   //listing all files using forEach
-  files.forEach(function (file) {
-    fs.readdir(directoryPath + "/" + file, function (err, filesInFolder) {
-      // THIS SCOPE HAS THE FILE
-
-      const isFile =
+  files.forEach(function (folder) {
+    fs.readdir(directoryPath + "/" + folder, function (err, filesInFolder) {
+      const fileName =
         filesInFolder && filesInFolder.find((a) => a.match(/^.*\.(xlsx)$/));
-      if (isFile) {
+
+      // XSLX file located. This is where the processing happens
+      if (fileName) {
         const workbook = XLSX.readFile(
-          `./recordsFiles/textMessages/${file}/${isFile}`,
+          `./recordsFiles/textMessages/${folder}/${fileName}`,
           {
             cellDates: true,
           }
@@ -34,6 +36,7 @@ fs.readdir(directoryPath, function (err, files) {
           workbook.Sheets[sheet_name_list[0]]
         );
         let conversations = {};
+        let imagesArray = {};
         // For each unparsed conversation
         for (let i = 0; i < unparsed.length; i++) {
           const current = unparsed[i];
@@ -82,13 +85,47 @@ fs.readdir(directoryPath, function (err, files) {
           // END Contacts List work
           const createRecord = (line, msgArray) => {
             if (line["AttachmentCount"]) {
-              // This message has images....
-              msgArray.push({
-                sender: line["Sender"],
-                text: line["MessageId"].toString(),
-                time: Moment(line["Date (UTC)"]),
-                isImage: true,
-              });
+              // This message has attachments....
+
+              //check if it is an image
+              let imageExists = false;
+              let imgExtension, imgPath;
+
+              const imagefiles = fs.readdirSync(
+                directoryPath + "/" + folder + "/files/" + line["MessageId"]
+              );
+
+              if (
+                imagefiles &&
+                imagefiles.find((a) =>
+                  /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(a)
+                )
+              ) {
+                imgPath = imagefiles.find((a) =>
+                  /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(a)
+                );
+                console.log(imgPath);
+
+                imageExists = true;
+                imgExtension = fileExtensionRegex.exec(
+                  imagefiles.find((a) =>
+                    /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(a)
+                  )
+                )[0];
+              }
+
+              if (imageExists) {
+                imagesArray[
+                  line["MessageId"]
+                ] = `${directoryPath}/${folder}/files/${line["MessageId"]}`;
+                msgArray.push({
+                  sender: line["Sender"],
+                  text: line["MessageId"].toString() + imgExtension,
+                  time: Moment(line["Date (UTC)"]),
+                  isImage: true,
+                });
+              }
+
               msgArray.push({
                 sender: line["Sender"],
                 text: line["Body"],
@@ -141,13 +178,41 @@ fs.readdir(directoryPath, function (err, files) {
             }
           }
         }
-        const path = `./src/conversations/${file.replace(
+
+        const path = `./src/conversations/${folder.replace(
           /[^A-Z0-9]/gi,
           "_"
-        )}/messages.json`;
+        )}`;
+
         mkdirp(getDirName(path), function (err) {
           if (err) return;
-          fs.writeFile(path, JSON.stringify(conversations), () => {});
+          fs.writeFile(
+            path + "/messages.json",
+            JSON.stringify(conversations),
+            () => {}
+          );
+
+          // this is where we move images over
+          for (let i = 0; i < Object.values(imagesArray).length; i++) {
+            const imageDirectory = Object.values(imagesArray)[i];
+            fs.readdir(imageDirectory, function (err, filesInImageFolder) {
+              const nameofImage =
+                filesInImageFolder &&
+                filesInImageFolder.find((a) =>
+                  /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(a)
+                );
+              if (nameofImage) {
+                fs.copyFile(
+                  `${imageDirectory}/${nameofImage}`,
+                  `${path}/${Object.keys(imagesArray)[i]}${
+                    fileExtensionRegex.exec(nameofImage)[0]
+                  }`,
+                  0,
+                  () => {}
+                );
+              }
+            });
+          }
         });
       }
     });
