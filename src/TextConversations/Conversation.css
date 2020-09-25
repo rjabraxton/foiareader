@@ -16,7 +16,7 @@
 }
 
 .members .memberChip {
-  margin: 0 4px;
+  margin: 2px 4px;
 }
 
 section {
@@ -54,7 +54,7 @@ section.subject .msgBubble {
   align-items: center;
 }
 
-p {
+.msgBubble p {
   overflow-wrap: anywhere;
   display: flex;
   margin: 0 0 2px;
@@ -66,7 +66,7 @@ p {
   position: relative;
 }
 
-p .textedImage {
+.msgBubble p .textedImage {
   max-width: 100%;
 }
 
