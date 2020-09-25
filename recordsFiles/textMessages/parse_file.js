@@ -51,7 +51,7 @@ fs.readdir(directoryPath, function (err, files) {
               // This handles updating contacts
               if (!Object.keys(contactsJson.contacts).includes(curr.trim())) {
                 newTally++;
-                contactsJson.contacts[parseInt(curr)] = {
+                contactsJson.contacts[curr.toString().trim()] = {
                   abbr: newTally.toString(),
                   role: "Unknown",
                   name: `Unknown Person #${newTally}`,
@@ -110,7 +110,6 @@ fs.readdir(directoryPath, function (err, files) {
                 imgPath = imagefiles.find((a) =>
                   /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(a)
                 );
-                console.log(imgPath);
 
                 imageExists = true;
                 imgExtension = fileExtensionRegex.exec(
