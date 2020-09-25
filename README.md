@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Folder structure for text records
+
+In `recordsFiles/textMessages`, every request should have a folder with the name of its UUID. Within it, it at least needs a .xslx file, and a folder named `files`. The `files` folder should contain text attachments, with a folder for each messages attachments.
