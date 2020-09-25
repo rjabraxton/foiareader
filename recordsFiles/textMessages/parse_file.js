@@ -18,6 +18,8 @@ fs.readdir(directoryPath, function (err, files) {
 
   //listing all files using forEach
   files.forEach(function (folder) {
+    const sanitizedFolderName = folder.replace(/[^A-Z0-9]/gi, "_");
+
     fs.readdir(directoryPath + "/" + folder, function (err, filesInFolder) {
       const fileName =
         filesInFolder && filesInFolder.find((a) => a.match(/^.*\.(xlsx)$/));
@@ -179,20 +181,23 @@ fs.readdir(directoryPath, function (err, files) {
           }
         }
 
-        const path = `./src/conversations/${folder.replace(
-          /[^A-Z0-9]/gi,
-          "_"
-        )}`;
+        const path = `./src/conversations/${sanitizedFolderName}`;
 
         mkdirp(getDirName(path), function (err) {
           if (err) return;
-          fs.writeFile(
-            path + "/messages.json",
-            JSON.stringify(conversations),
-            () => {}
-          );
+          // fs.writeFile(
+          //   path + "/messages.json",
+          //   JSON.stringify(conversations),
+          //   () => {}
+          // );
 
           // this is where we move images over
+
+          // Create public folder for images if it does not exist
+          if (!fs.existsSync(`./public/${sanitizedFolderName}`)) {
+            fs.mkdirSync(`./public/${sanitizedFolderName}`);
+          }
+
           for (let i = 0; i < Object.values(imagesArray).length; i++) {
             const imageDirectory = Object.values(imagesArray)[i];
             fs.readdir(imageDirectory, function (err, filesInImageFolder) {
@@ -204,9 +209,9 @@ fs.readdir(directoryPath, function (err, files) {
               if (nameofImage) {
                 fs.copyFile(
                   `${imageDirectory}/${nameofImage}`,
-                  `${path}/${Object.keys(imagesArray)[i]}${
-                    fileExtensionRegex.exec(nameofImage)[0]
-                  }`,
+                  `./public/${sanitizedFolderName}/${
+                    Object.keys(imagesArray)[i]
+                  }${fileExtensionRegex.exec(nameofImage)[0]}`,
                   0,
                   () => {}
                 );

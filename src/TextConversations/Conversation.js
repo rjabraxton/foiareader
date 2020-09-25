@@ -84,9 +84,7 @@ const Conversation = (props) => {
                             )}
                           </p>
                           <span className="time">
-                            {/* Do not show time if msg was sent less than 30m from last one */}
                             {Moment(message.time).format("MMM Qo HH:mm")}
-                            {/* Mon 00th 11:11  */}
                           </span>
                         </div>
                       );
