@@ -3,14 +3,30 @@ import Moment from "moment";
 import Paper from "@material-ui/core/Paper";
 import Avatar from "@material-ui/core/Avatar";
 import Chip from "@material-ui/core/Chip";
-import IconButton from "@material-ui/core/IconButton";
-import LinkIcon from "@material-ui/icons/Link";
+// import IconButton from "@material-ui/core/IconButton";
+// import LinkIcon from "@material-ui/icons/Link";
+import Linkify from "react-linkify";
 
 import "./Conversation.css";
 import { getFullName, getAbbrName } from "../utility.js";
+import decodeUriComponent from "decode-uri-component";
 
 const Conversation = (props) => {
   const { sender, onlyShowFrom, texts } = props;
+
+  const cleanupMessageText = (text) => {
+    let newText;
+
+    if (text[0] === '"' && text[text.length - 1] === '"') {
+      newText = text.substring(1, text.length - 1);
+    } else {
+      newText = text;
+    }
+
+    newText = decodeUriComponent(newText);
+
+    return <Linkify>{newText.replace("&apos;", "'")}</Linkify>;
+  };
 
   return (
     <div id="allConversations">
@@ -69,14 +85,9 @@ const Conversation = (props) => {
                       return (
                         <div key={`msgBubble${i}`} className="msgBubble">
                           <p>
-                            {
-                              message.text &&
-                                !message.isImage &&
-                                message.text.substring(
-                                  1,
-                                  message.text.length - 1
-                                ) /* remove quotations */
-                            }
+                            {message.text &&
+                              !message.isImage &&
+                              cleanupMessageText(message.text)}
                             {message.isImage && (
                               <img
                                 className="textedImage"
