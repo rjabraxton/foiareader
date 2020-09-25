@@ -70,11 +70,13 @@ const Conversation = (props) => {
                           <p>
                             {
                               message.text &&
+                                !message.isImage &&
                                 message.text.substring(
                                   1,
                                   message.text.length - 1
                                 ) /* remove quotations */
                             }
+                            {message.isImage && message.text}
                           </p>
                           <span className="time">
                             {/* Do not show time if msg was sent less than 30m from last one */}

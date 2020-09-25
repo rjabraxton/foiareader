@@ -35,7 +35,8 @@ class ConversationPage extends React.Component {
   constructor(props) {
     super(props);
     const { id, currentSender, filters } = this.props.match.params;
-    texts = require(`../conversations/${requests[id].fileName}`);
+    console.log(`../conversations/${requests[id].fileName}/messages.json`);
+    texts = require(`../conversations/${requests[id].fileName}/messages.json`);
 
     const initialFilters =
       getAllTexters(texts).filter(
