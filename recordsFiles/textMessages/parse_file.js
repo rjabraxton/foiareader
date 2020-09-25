@@ -3,20 +3,10 @@ const Moment = require("moment");
 const path = require("path");
 const directoryPath = path.join(__dirname, "");
 const fs = require("fs");
-let contactsJson = require("../../src/conversations/contacts.json");
-
-// https://stackoverflow.com/questions/34811222/writefile-no-such-file-or-directory
 const mkdirp = require("mkdirp");
 const getDirName = require("path").dirname;
 
-function writeFile(path, contents, cb) {
-  mkdirp(getDirName(path), function (err) {
-    if (err) return cb(err);
-
-    fs.writeFile(path, contents, cb);
-  });
-}
-// https://stackoverflow.com/questions/34811222/writefile-no-such-file-or-directory
+let contactsJson = require("../../src/conversations/contacts.json");
 
 fs.readdir(directoryPath, function (err, files) {
   //handling error
