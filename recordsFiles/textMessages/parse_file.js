@@ -26,9 +26,11 @@ fs.readdir(directoryPath, function (err, files) {
       );
       let conversations = {};
 
+      // For each unparsed conversation
       for (let i = 0; i < unparsed.length; i++) {
         const current = unparsed[i];
 
+        // In this block we check if the number is listed as a Contact.
         if (!Number.isInteger(current["Recipients"])) {
           //if it's an array of strings, make it an array of ints
           current["Recipients"] = current["Recipients"].split(",");
@@ -73,6 +75,31 @@ fs.readdir(directoryPath, function (err, files) {
           "./src/conversations/contacts.json",
           JSON.stringify(contactsJson)
         );
+        // END Contacts List work
+
+        const createRecord = (line, msgArray) => {
+          if (line["AttachmentCount"]) {
+            // This message has images....
+            msgArray.push({
+              sender: line["Sender"],
+              text: line["MessageId"],
+              time: Moment(line["Date (UTC)"]),
+              isImage: true,
+            });
+            msgArray.push({
+              sender: line["Sender"],
+              text: line["Body"],
+              time: Moment(line["Date (UTC)"]),
+            });
+          } else {
+            // This message does not have images
+            msgArray.push({
+              sender: line["Sender"],
+              text: line["Body"],
+              time: Moment(line["Date (UTC)"]),
+            });
+          }
+        };
 
         const members = [current["Sender"], ...current["Recipients"]]
           .sort()
@@ -102,20 +129,15 @@ fs.readdir(directoryPath, function (err, files) {
 
           if (current["Sender"] == mostRecentBlock[0].sender) {
             //if the last text was sent by the same person as this one
-            mostRecentBlock.push({
-              sender: current["Sender"],
-              text: current["Body"],
-              time: Moment(current["Date (UTC)"]),
-            });
+            createRecord(current, mostRecentBlock);
           } else {
             //Last text was not sent by this person
-            conversations[members].messages.push([
-              {
-                sender: current["Sender"],
-                text: current["Body"],
-                time: Moment(current["Date (UTC)"]),
-              },
-            ]);
+            conversations[members].messages.push([]);
+            const lastBlock =
+              conversations[members].messages[
+                conversations[members].messages.length - 1
+              ];
+            createRecord(current, lastBlock);
           }
         }
       }

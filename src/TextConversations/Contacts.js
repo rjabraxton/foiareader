@@ -11,10 +11,7 @@ const Contacts = (props) => {
 
     return (
       <Paper className="personCard" elevation={3} key={`personCard${i}`}>
-        <div>
-          {" "}
-          {person.name} ({person.number}){" "}
-        </div>
+        <div> {person.name}</div>
         <hr />
         <div>Role: {person.role}</div>
         {person.info && <a href={person.info}>Additional Info</a>}
