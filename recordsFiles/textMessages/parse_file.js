@@ -93,9 +93,13 @@ fs.readdir(directoryPath, function (err, files) {
               let imageExists = false;
               let imgExtension, imgPath;
 
-              const imagefiles = fs.readdirSync(
-                directoryPath + "/" + folder + "/files/" + line["MessageId"]
-              );
+              const imagefiles =
+                fs.existsSync(
+                  `${directoryPath}/${folder}/files/${line["MessageId"]}`
+                ) &&
+                fs.readdirSync(
+                  `${directoryPath}/${folder}/files/${line["MessageId"]}`
+                );
 
               if (
                 imagefiles &&

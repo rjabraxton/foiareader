@@ -65,6 +65,7 @@ const Conversation = (props) => {
                   </Avatar>
                   <section className="msgs">
                     {currentBlock.map((message, i) => {
+                      if (!message.text) return;
                       return (
                         <div key={`msgBubble${i}`} className="msgBubble">
                           <p>
