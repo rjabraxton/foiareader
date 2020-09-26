@@ -81,7 +81,7 @@ const Conversation = (props) => {
                   </Avatar>
                   <section className="msgs">
                     {currentBlock.map((message, i) => {
-                      if (!message.text) return;
+                      if (!message.text) return null;
                       return (
                         <div key={`msgBubble${i}`} className="msgBubble">
                           <p>
@@ -89,6 +89,7 @@ const Conversation = (props) => {
                               !message.isImage &&
                               cleanupMessageText(message.text)}
                             {message.isImage && (
+                              // eslint-disable-next-line jsx-a11y/alt-text
                               <img
                                 className="textedImage"
                                 src={`${props.imagePrefix + message.text}`}
