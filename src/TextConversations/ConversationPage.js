@@ -93,7 +93,7 @@ class ConversationPage extends React.Component {
           </Grid>
         </Grid>
         <Grid container spacing={3} className="conversationGrid">
-          <Grid item xs={12} sm={10} md={7}>
+          <Grid item xs={12} sm={9}>
             <Conversation
               texts={texts}
               info={info}
@@ -102,7 +102,7 @@ class ConversationPage extends React.Component {
               imagePrefix={`/${requests[id].fileName}/`}
             />
           </Grid>
-          <Grid item xs={false} sm={2} md={3} className="conversationContacts">
+          <Grid item xs={false} sm={3} className="conversationContacts">
             <Contacts people={getAllTexters(texts)} />
           </Grid>
         </Grid>

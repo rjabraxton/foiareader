@@ -44,19 +44,19 @@ section.subject .avatar {
 }
 
 section.subject .msgBubble {
-  flex-direction: row-reverse;
+  align-items: flex-end;
 }
 
 .msgBubble {
   margin: 4px 0;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
 }
 
 .msgBubble p {
   overflow-wrap: anywhere;
-  display: flex;
+  display: block;
   margin: 0 0 2px;
   padding: 0.5em 1em 0.65em;
   border-radius: 4px;
@@ -154,5 +154,15 @@ p:last-child {
   section .avatar {
     width: 35px;
     height: 35px;
+  }
+
+  section.contact .msgBubble {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  section.subject .msgBubble {
+    flex-direction: column;
+    align-items: flex-end;
   }
 }
