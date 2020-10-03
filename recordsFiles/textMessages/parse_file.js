@@ -188,11 +188,21 @@ fs.readdir(directoryPath, function (err, files) {
 
         mkdirp(getDirName(path), function (err) {
           if (err) return;
-          // fs.writeFile(
-          //   path + "/messages.json",
-          //   JSON.stringify(conversations),
-          //   () => {}
-          // );
+
+          // Create public folder for messages.json if it does not exist
+          if (!fs.existsSync(`./src/conversations/${sanitizedFolderName}`)) {
+            fs.mkdirSync(`./src/conversations/${sanitizedFolderName}`);
+          }
+
+          if (sanitizedFolderName === "Nelson_Niiya") {
+            console.log(JSON.stringify(conversations));
+          }
+
+          fs.writeFileSync(
+            path + "/messages.json",
+            JSON.stringify(conversations),
+            () => {}
+          );
 
           // this is where we move images over
 

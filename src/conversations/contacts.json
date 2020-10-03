@@ -1,5 +1,5 @@
 {
-  "tally": 553,
+  "tally": 555,
   "contacts": {
     "75973": {
       "number": 75973,
@@ -1016,6 +1016,18 @@
       "role": "Unknown",
       "name": "Unknown Person #553",
       "number": null
+    },
+    "9718063043": {
+      "abbr": "JN",
+      "role": "Portland Police",
+      "name": "Jeff Niiya",
+      "number": 9718063043
+    },
+    "5037935641": {
+      "abbr": "555",
+      "role": "Unknown",
+      "name": "Unknown Person #555",
+      "number": 5037935641
     }
   }
 }
