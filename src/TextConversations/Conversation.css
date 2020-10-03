@@ -6,7 +6,6 @@
 .conversation {
   margin-bottom: 30px;
   padding: 15px 0;
-  /* min-width: 532px; */
 }
 
 .conversationInfo {
@@ -84,9 +83,10 @@ section.subject .msgBubble {
 }
 
 .contact p {
-  width: auto;
+  /* width: auto; */
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
+  width: fit-content;
 }
 .contact p:last-child::after {
   content: "";
