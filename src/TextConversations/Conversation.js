@@ -28,6 +28,14 @@ const Conversation = (props) => {
     return <Linkify>{newText.replace("&apos;", "'")}</Linkify>;
   };
 
+  const getTime = (msgTime) => {
+    if (Moment().year() === Moment(msgTime).year()) {
+      return Moment(msgTime).format("hh:mma, MMM Qo");
+    } else {
+      return Moment(msgTime).format("hh:mma, MMM Qo 'YY");
+    }
+  };
+
   return (
     <div id="allConversations">
       {Object.values(texts).map((convo, i) => {
@@ -96,9 +104,7 @@ const Conversation = (props) => {
                               />
                             )}
                           </p>
-                          <span className="time">
-                            {Moment(message.time).format("MMM Qo HH:mm")}
-                          </span>
+                          <span className="time">{getTime(message.time)}</span>
                         </div>
                       );
                     })}
