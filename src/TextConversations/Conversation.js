@@ -14,6 +14,7 @@ import decodeUriComponent from "decode-uri-component";
 const Conversation = (props) => {
   const { sender, onlyShowFrom, texts } = props;
 
+  console.log(texts);
   const cleanupMessageText = (text) => {
     let newText;
 
@@ -32,9 +33,9 @@ const Conversation = (props) => {
 
   const getTime = (msgTime) => {
     if (Moment().year() === Moment(msgTime).year()) {
-      return Moment(msgTime).format("hh:mma, MMM Qo");
+      return Moment(msgTime).format("hh:mma, MMM Do");
     } else {
-      return Moment(msgTime).format("hh:mma, MMM Qo 'YY");
+      return Moment(msgTime).format("hh:mma, MMM Do 'YY");
     }
   };
 
