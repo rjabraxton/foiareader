@@ -25,7 +25,9 @@ const Conversation = (props) => {
 
     newText = decodeUriComponent(newText);
 
-    return <Linkify>{newText.replace("&apos;", "'")}</Linkify>;
+    return (
+      <Linkify>{newText.replace("&apos;", "'").replace("&quot;", '"')}</Linkify>
+    );
   };
 
   const getTime = (msgTime) => {
