@@ -1,5 +1,5 @@
 {
-  "tally": 555,
+  "tally": 557,
   "contacts": {
     "75973": {
       "number": 75973,
@@ -1028,6 +1028,18 @@
       "role": "Unknown",
       "name": "Unknown Person #555",
       "number": 5037935641
+    },
+    "REDACTED": {
+      "abbr": "R",
+      "role": "Unknown",
+      "name": "REDACTED",
+      "number": null
+    },
+    "5039574364": {
+      "abbr": "557",
+      "role": "Unknown",
+      "name": "Unknown Person #557",
+      "number": 5039574364
     }
   }
 }

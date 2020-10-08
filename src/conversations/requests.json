@@ -34,5 +34,11 @@
     "description": "Berk Nelson/Jeff Niiya text messages, released by the City of Portland",
     "requestedBy": "???",
     "defaultSender": 9718063043
+  },
+  "7": {
+    "fileName": "aug118",
+    "description": "Please Provide all text messages to and from Mayor Wheeler from August 1st, 2020 through August 18th, 2020",
+    "requestedBy": "Michael Kessler",
+    "defaultSender": 5038236773
   }
 }
