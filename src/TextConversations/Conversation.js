@@ -14,7 +14,6 @@ import decodeUriComponent from "decode-uri-component";
 const Conversation = (props) => {
   const { sender, onlyShowFrom, texts } = props;
 
-  console.log(texts);
   const cleanupMessageText = (text) => {
     let newText;
 

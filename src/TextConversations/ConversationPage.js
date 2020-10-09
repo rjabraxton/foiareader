@@ -99,7 +99,7 @@ class ConversationPage extends React.Component {
               info={info}
               sender={sender}
               onlyShowFrom={onlyShowFrom}
-              imagePrefix={`/${requests[id].fileName}/`}
+              imagePrefix={`/images/${requests[id].fileName}/`}
             />
           </Grid>
           <Grid item xs={false} sm={3} className="conversationContacts">

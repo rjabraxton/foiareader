@@ -212,8 +212,8 @@ fs.readdir(directoryPath, function (err, files) {
           // this is where we move images over
 
           // Create public folder for images if it does not exist
-          if (!fs.existsSync(`./public/${sanitizedFolderName}`)) {
-            fs.mkdirSync(`./public/${sanitizedFolderName}`);
+          if (!fs.existsSync(`./public/images/${sanitizedFolderName}`)) {
+            fs.mkdirSync(`./public/images/${sanitizedFolderName}`);
           }
           for (let i = 0; i < imagesArray.length; i++) {
             const imageDirectory = imagesArray[i].path;
@@ -223,12 +223,13 @@ fs.readdir(directoryPath, function (err, files) {
                 filesInImageFolder.find((a) => a == imagesArray[i].fileName);
 
               if (nameofImage) {
-                console.log(`${imageDirectory}/${imagesArray[i].fileName}`);
                 fs.copyFile(
                   `${imageDirectory}/${imagesArray[i].fileName}`,
-                  `./public/${sanitizedFolderName}/${imagesArray[i].msgId}${
-                    imagesArray[i].index
-                  }${fileExtensionRegex.exec(imagesArray[i].fileName)[0]}`,
+                  `./public/images/${sanitizedFolderName}/${
+                    imagesArray[i].msgId
+                  }${imagesArray[i].index}${
+                    fileExtensionRegex.exec(imagesArray[i].fileName)[0]
+                  }`,
                   0,
                   () => {}
                 );
