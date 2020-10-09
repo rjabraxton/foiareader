@@ -38,7 +38,7 @@ fs.readdir(directoryPath, function (err, files) {
           workbook.Sheets[sheet_name_list[0]]
         );
         let conversations = {};
-        let imagesArray = {};
+        let imagesArray = [];
         // For each unparsed conversation
         for (let i = 0; i < unparsed.length; i++) {
           const current = unparsed[i];
@@ -86,13 +86,12 @@ fs.readdir(directoryPath, function (err, files) {
           );
           // END Contacts List work
           const createRecord = (line, msgArray) => {
+            // Does this message have attachments?
             if (line["AttachmentCount"]) {
-              // This message has attachments....
+              //We are about to check if it is an image
+              let imgExtension;
 
-              //check if it is an image
-              let imageExists = false;
-              let imgExtension, imgPath;
-
+              // check if there's even a folder containing images for this message, then save the file contents
               const imagefiles =
                 fs.existsSync(
                   `${directoryPath}/${folder}/files/${line["MessageId"]}`
@@ -101,36 +100,46 @@ fs.readdir(directoryPath, function (err, files) {
                   `${directoryPath}/${folder}/files/${line["MessageId"]}`
                 );
 
+              // If there are any images within the folder
               if (
                 imagefiles &&
                 imagefiles.find((a) =>
                   /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(a)
                 )
               ) {
-                imgPath = imagefiles.find((a) =>
+                const imagesInFolder = imagefiles.filter((a) =>
                   /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(a)
                 );
 
-                imageExists = true;
-                imgExtension = fileExtensionRegex.exec(
-                  imagefiles.find((a) =>
-                    /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(a)
-                  )
-                )[0];
+                //For every image in the folder
+                for (
+                  let everyImgIndex = 0;
+                  everyImgIndex < imagesInFolder.length;
+                  everyImgIndex++
+                ) {
+                  const currentImg = imagesInFolder[everyImgIndex];
+
+                  imgExtension = fileExtensionRegex.exec(currentImg)[0];
+                  imagesArray.push({
+                    path: `${directoryPath}/${folder}/files/${line["MessageId"]}`,
+                    fileName: currentImg,
+                    index: everyImgIndex,
+                    msgId: line["MessageId"],
+                  });
+
+                  msgArray.push({
+                    sender: line["Sender"],
+                    text:
+                      line["MessageId"].toString() +
+                      everyImgIndex +
+                      imgExtension,
+                    time: Moment(line["Date (UTC)"]),
+                    isImage: true,
+                  });
+                }
               }
 
-              if (imageExists) {
-                imagesArray[
-                  line["MessageId"]
-                ] = `${directoryPath}/${folder}/files/${line["MessageId"]}`;
-                msgArray.push({
-                  sender: line["Sender"],
-                  text: line["MessageId"].toString() + imgExtension,
-                  time: Moment(line["Date (UTC)"]),
-                  isImage: true,
-                });
-              }
-
+              // The body of the message containing attachments
               msgArray.push({
                 sender: line["Sender"],
                 text: line["Body"],
@@ -194,10 +203,6 @@ fs.readdir(directoryPath, function (err, files) {
             fs.mkdirSync(`./src/conversations/${sanitizedFolderName}`);
           }
 
-          if (sanitizedFolderName === "Nelson_Niiya") {
-            console.log(JSON.stringify(conversations));
-          }
-
           fs.writeFileSync(
             path + "/messages.json",
             JSON.stringify(conversations),
@@ -210,21 +215,20 @@ fs.readdir(directoryPath, function (err, files) {
           if (!fs.existsSync(`./public/${sanitizedFolderName}`)) {
             fs.mkdirSync(`./public/${sanitizedFolderName}`);
           }
-
-          for (let i = 0; i < Object.values(imagesArray).length; i++) {
-            const imageDirectory = Object.values(imagesArray)[i];
+          for (let i = 0; i < imagesArray.length; i++) {
+            const imageDirectory = imagesArray[i].path;
             fs.readdir(imageDirectory, function (err, filesInImageFolder) {
               const nameofImage =
                 filesInImageFolder &&
-                filesInImageFolder.find((a) =>
-                  /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(a)
-                );
+                filesInImageFolder.find((a) => a == imagesArray[i].fileName);
+
               if (nameofImage) {
+                console.log(`${imageDirectory}/${imagesArray[i].fileName}`);
                 fs.copyFile(
-                  `${imageDirectory}/${nameofImage}`,
-                  `./public/${sanitizedFolderName}/${
-                    Object.keys(imagesArray)[i]
-                  }${fileExtensionRegex.exec(nameofImage)[0]}`,
+                  `${imageDirectory}/${imagesArray[i].fileName}`,
+                  `./public/${sanitizedFolderName}/${imagesArray[i].msgId}${
+                    imagesArray[i].index
+                  }${fileExtensionRegex.exec(imagesArray[i].fileName)[0]}`,
                   0,
                   () => {}
                 );
