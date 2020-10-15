@@ -8,12 +8,6 @@ import "./HomePage.css";
 
 import requests from "../conversations/requests.json";
 
-const sortRequests = (reqs) => {
-  for (let i = 0; i < Object.values(reqs).length; i++) {
-    const current = Object.values(reqs)[i];
-  }
-};
-
 const HomePage = (props) => {
   return (
     <Container>
