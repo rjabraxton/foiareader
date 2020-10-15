@@ -1,5 +1,5 @@
 {
-  "tally": 559,
+  "tally": 611,
   "contacts": {
     "75973": {
       "number": 75973,
@@ -18,6 +18,12 @@
       "abbr": "40",
       "role": "Unknown",
       "name": "Unknown Person #40"
+    },
+    "2063919213": {
+      "abbr": "564",
+      "role": "Unknown",
+      "name": "Unknown Person #564",
+      "number": 2063919213
     },
     "3126722192": {
       "number": 3126722192,
@@ -49,6 +55,18 @@
       "role": "Unknown",
       "name": "Unknown Person #181"
     },
+    "3607629224": {
+      "abbr": "610",
+      "role": "Unknown",
+      "name": "Unknown Person #610",
+      "number": 3607629224
+    },
+    "4022068004": {
+      "abbr": "570",
+      "role": "Unknown",
+      "name": "Unknown Person #570",
+      "number": 4022068004
+    },
     "4042730879": {
       "number": 4042730879,
       "abbr": "197",
@@ -66,6 +84,12 @@
       "abbr": "169",
       "role": "Unknown",
       "name": "Unknown Person #169"
+    },
+    "4154202555": {
+      "abbr": "588",
+      "role": "Unknown",
+      "name": "Unknown Person #588",
+      "number": 4154202555
     },
     "4156131804": {
       "number": 4156131804,
@@ -1052,6 +1076,294 @@
       "role": "Unknown",
       "name": "Unknown Person #559",
       "number": 5037930885
+    },
+    "5037939621": {
+      "abbr": "560",
+      "role": "Unknown",
+      "name": "Unknown Person #560",
+      "number": 5037939621
+    },
+    "Redacted": {
+      "abbr": "561",
+      "role": "Unknown",
+      "name": "Unknown Person #561",
+      "number": null
+    },
+    "5037930865": {
+      "abbr": "562",
+      "role": "Unknown",
+      "name": "Unknown Person #562",
+      "number": 5037930865
+    },
+    "5034671784": {
+      "abbr": "563",
+      "role": "Unknown",
+      "name": "Unknown Person #563",
+      "number": 5034671784
+    },
+    "5037937715": {
+      "abbr": "565",
+      "role": "Unknown",
+      "name": "Unknown Person #565",
+      "number": 5037937715
+    },
+    "9713131774": {
+      "abbr": "566",
+      "role": "Unknown",
+      "name": "Unknown Person #566",
+      "number": 9713131774
+    },
+    "5037939648": {
+      "abbr": "567",
+      "role": "Unknown",
+      "name": "Unknown Person #567",
+      "number": 5037939648
+    },
+    "5035453597": {
+      "abbr": "568",
+      "role": "Unknown",
+      "name": "Unknown Person #568",
+      "number": 5035453597
+    },
+    "9718038549": {
+      "abbr": "569",
+      "role": "Unknown",
+      "name": "Unknown Person #569",
+      "number": 9718038549
+    },
+    "5035771057": {
+      "abbr": "571",
+      "role": "Unknown",
+      "name": "Unknown Person #571",
+      "number": 5035771057
+    },
+    "5035771719": {
+      "abbr": "572",
+      "role": "Unknown",
+      "name": "Unknown Person #572",
+      "number": 5035771719
+    },
+    "5037939622": {
+      "abbr": "573",
+      "role": "Unknown",
+      "name": "Unknown Person #573",
+      "number": 5037939622
+    },
+    "5033602619": {
+      "abbr": "574",
+      "role": "Unknown",
+      "name": "Unknown Person #574",
+      "number": 5033602619
+    },
+    "5034599517": {
+      "abbr": "575",
+      "role": "Unknown",
+      "name": "Unknown Person #575",
+      "number": 5034599517
+    },
+    "5034214141": {
+      "abbr": "576",
+      "role": "Unknown",
+      "name": "Unknown Person #576",
+      "number": 5034214141
+    },
+    "5037101277": {
+      "abbr": "577",
+      "role": "Unknown",
+      "name": "Unknown Person #577",
+      "number": 5037101277
+    },
+    "5039393656": {
+      "abbr": "578",
+      "role": "Unknown",
+      "name": "Unknown Person #578",
+      "number": 5039393656
+    },
+    "5037575721": {
+      "abbr": "579",
+      "role": "Unknown",
+      "name": "Unknown Person #579",
+      "number": 5037575721
+    },
+    "9175926805": {
+      "abbr": "580",
+      "role": "Unknown",
+      "name": "Unknown Person #580",
+      "number": 9175926805
+    },
+    "5037300268": {
+      "abbr": "581",
+      "role": "Unknown",
+      "name": "Unknown Person #581",
+      "number": 5037300268
+    },
+    "5033608376": {
+      "abbr": "582",
+      "role": "Unknown",
+      "name": "Unknown Person #582",
+      "number": 5033608376
+    },
+    "5034753010": {
+      "abbr": "583",
+      "role": "Unknown",
+      "name": "Unknown Person #583",
+      "number": 5034753010
+    },
+    "5038194278": {
+      "abbr": "584",
+      "role": "Unknown",
+      "name": "Unknown Person #584",
+      "number": 5038194278
+    },
+    "5038231056": {
+      "abbr": "585",
+      "role": "Unknown",
+      "name": "Unknown Person #585",
+      "number": 5038231056
+    },
+    "9712398776": {
+      "abbr": "586",
+      "role": "Unknown",
+      "name": "Unknown Person #586",
+      "number": 9712398776
+    },
+    "5039310786": {
+      "abbr": "587",
+      "role": "Unknown",
+      "name": "Unknown Person #587",
+      "number": 5039310786
+    },
+    "5032099563": {
+      "abbr": "589",
+      "role": "Unknown",
+      "name": "Unknown Person #589",
+      "number": 5032099563
+    },
+    "5037934183": {
+      "abbr": "590",
+      "role": "Unknown",
+      "name": "Unknown Person #590",
+      "number": 5037934183
+    },
+    "5037407743": {
+      "abbr": "591",
+      "role": "Unknown",
+      "name": "Unknown Person #591",
+      "number": 5037407743
+    },
+    "5037939061": {
+      "abbr": "592",
+      "role": "Unknown",
+      "name": "Unknown Person #592",
+      "number": 5037939061
+    },
+    "5032091816": {
+      "abbr": "593",
+      "role": "Unknown",
+      "name": "Unknown Person #593",
+      "number": 5032091816
+    },
+    "kristina.jones@portlandoregon.gov": {
+      "abbr": "594",
+      "role": "Unknown",
+      "name": "Unknown Person #594",
+      "number": null
+    },
+    "9712350612": {
+      "abbr": "595",
+      "role": "Unknown",
+      "name": "Unknown Person #595",
+      "number": 9712350612
+    },
+    "5038058459": {
+      "abbr": "596",
+      "role": "Unknown",
+      "name": "Unknown Person #596",
+      "number": 5038058459
+    },
+    "5038236634": {
+      "abbr": "597",
+      "role": "Unknown",
+      "name": "Unknown Person #597",
+      "number": 5038236634
+    },
+    "5038238599": {
+      "abbr": "598",
+      "role": "Unknown",
+      "name": "Unknown Person #598",
+      "number": 5038238599
+    },
+    "5037937669": {
+      "abbr": "599",
+      "role": "Unknown",
+      "name": "Unknown Person #599",
+      "number": 5037937669
+    },
+    "5038238402": {
+      "abbr": "600",
+      "role": "Unknown",
+      "name": "Unknown Person #600",
+      "number": 5038238402
+    },
+    "5037934786": {
+      "abbr": "601",
+      "role": "Unknown",
+      "name": "Unknown Person #601",
+      "number": 5037934786
+    },
+    "5038236286": {
+      "abbr": "602",
+      "role": "Unknown",
+      "name": "Unknown Person #602",
+      "number": 5038236286
+    },
+    "ted.wheeler@portlandoregon.gov": {
+      "abbr": "603",
+      "role": "Unknown",
+      "name": "Unknown Person #603",
+      "number": null
+    },
+    "5038236086": {
+      "abbr": "604",
+      "role": "Unknown",
+      "name": "Unknown Person #604",
+      "number": 5038236086
+    },
+    "5035771120": {
+      "abbr": "605",
+      "role": "Unknown",
+      "name": "Unknown Person #605",
+      "number": 5035771120
+    },
+    "5038231135": {
+      "abbr": "606",
+      "role": "Unknown",
+      "name": "Unknown Person #606",
+      "number": 5038231135
+    },
+    "5037930095": {
+      "abbr": "607",
+      "role": "Unknown",
+      "name": "Unknown Person #607",
+      "number": 5037930095
+    },
+    "5032780109": {
+      "abbr": "608",
+      "role": "Unknown",
+      "name": "Unknown Person #608",
+      "number": 5032780109
+    },
+    "5034532469": {
+      "abbr": "609",
+      "role": "Unknown",
+      "name": "Unknown Person #609",
+      "number": 5034532469
+    },
+    "5037936468": {
+      "abbr": "611",
+      "role": "Unknown",
+      "name": "Unknown Person #611",
+      "number": 5037936468
     }
   }
 }

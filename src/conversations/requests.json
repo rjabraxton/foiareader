@@ -4,62 +4,79 @@
     "description": "All of Mayor Wheeler's text messages from February 17-19. (lawsuit filed against Wheeler for a $73,000 campaign donation)",
     "requestedBy": "Alan Kessler",
     "defaultSender": 5038236773,
-    "category": "Wheeler"
+    "category": "Wheeler",
+    "id": 0
   },
   {
     "fileName": "C135846_060520",
     "description": "All of Eileen Park's (Wheeler's director of communications) text messages from May 2 to June 5",
     "requestedBy": "Alan Kessler",
     "defaultSender": 5038236541,
-    "category": "Wheeler"
+    "category": "Wheeler",
+    "id": 1
   },
   {
     "fileName": "C135119_053120",
     "description": "All of Mayor Wheeler's text messages from May 28-30. (Beginning of protests, 3 nights of rioting/looting downtown)",
     "requestedBy": "Alan Kessler",
     "defaultSender": 5038236773,
-    "category": "Wheeler"
+    "category": "Wheeler",
+    "id": 2
   },
   {
     "fileName": "C141855_072320",
     "description": "All of Mayor Wheeler's text messages from June 21-22. (Protests at the Justice center on the 21st)",
     "requestedBy": "Alan Kessler",
     "defaultSender": 5038236773,
-    "category": "Wheeler"
+    "category": "Wheeler",
+    "id": 3
   },
   {
     "fileName": "Text_messages___first_2000_xlsx",
     "description": "All of Danielle Outlaws text messages between August 1, 2019 and January 1, 2020. (Outlaw left PPB at the end of 2019)",
     "requestedBy": "Alan Kessler",
     "defaultSender": 5033072130,
-    "category": "PPB"
+    "category": "PPB",
+    "id": 4
   },
   {
     "fileName": "Nelson_Niiya",
     "description": "Berk Nelson/Jeff Niiya text messages, released by the City of Portland",
     "requestedBy": "???",
     "defaultSender": 9718063043,
-    "category": "PPB"
+    "category": "PPB",
+    "id": 5
   },
   {
     "fileName": "C142966_080220",
     "description": "All of Mayor Wheeler's text messages from July 28 - Aug 2. (end of the DHS/federal courthouse protests)",
     "requestedBy": "Michael Kessler",
     "defaultSender": 5038236773,
-    "category": "Wheeler"
+    "category": "Wheeler",
+    "id": 6
   },
   {
     "fileName": "C144861_081820",
     "description": "All of Mayor Wheeler's text messages from Aug 1-18.",
     "requestedBy": "Michael Kessler",
     "defaultSender": 5038236773,
-    "category": "Wheeler"
+    "category": "Wheeler",
+    "id": 7
   },
   {
     "fileName": "C146135_082920",
     "description": "All of Mayor Wheeler's text messages from Aug 27-29.",
     "requestedBy": "Michael Kessler",
     "defaultSender": 5038236773,
-    "category": "Wheeler"
+    "category": "Wheeler",
+    "id": 8
+  },
+  {
+    "fileName": "C144511_081420",
+    "description": "All of Robert King's text messages between May 28th and August 14th.",
+    "requestedBy": "PDX Rising Tide",
+    "defaultSender": 5038238056,
+    "category": "PPB",
+    "id": 9
   }
 ]

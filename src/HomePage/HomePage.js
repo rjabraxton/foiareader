@@ -16,14 +16,15 @@ const HomePage = (props) => {
       <Grid container spacing={3}>
         {requests
           .filter((item) => item.category === "Wheeler")
-          .map((req, i) => {
-            const currentRequest = req;
+          .map((currentRequest, i) => {
             return (
               <Grid item xs={6} s={4}>
                 <Card variant="outlined" className="foiaRequestCard">
                   {currentRequest.description}
                   <br />
-                  <Link to={`record/${i}`}>View this request</Link>
+                  <Link to={`record/${currentRequest.id}`}>
+                    View this request
+                  </Link>
                 </Card>
               </Grid>
             );
@@ -34,14 +35,15 @@ const HomePage = (props) => {
       <Grid container spacing={3}>
         {requests
           .filter((item) => item.category === "PPB")
-          .map((req, i) => {
-            const currentRequest = req;
+          .map((currentRequest, i) => {
             return (
               <Grid item xs={6} s={4}>
                 <Card variant="outlined" className="foiaRequestCard">
                   {currentRequest.description}
                   <br />
-                  <Link to={`record/${i}`}>View this request</Link>
+                  <Link to={`record/${currentRequest.id}`}>
+                    View this request
+                  </Link>
                 </Card>
               </Grid>
             );
