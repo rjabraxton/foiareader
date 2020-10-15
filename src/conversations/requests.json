@@ -1,14 +1,7 @@
 [
   {
-    "fileName": "C141855_072320",
-    "description": "All of Mayor Wheeler's text messages from June 21-22. (Protests at the Justice center on the 21st)",
-    "requestedBy": "Alan Kessler",
-    "defaultSender": 5038236773,
-    "category": "Wheeler"
-  },
-  {
-    "fileName": "C135119_053120",
-    "description": "All of Mayor Wheeler's text messages from May 28-30. (Beginning of protests, 3 nights of rioting/looting downtown)",
+    "fileName": "C137498_062120",
+    "description": "All of Mayor Wheeler's text messages from February 17-19. (lawsuit filed against Wheeler for a $73,000 campaign donation)",
     "requestedBy": "Alan Kessler",
     "defaultSender": 5038236773,
     "category": "Wheeler"
@@ -21,8 +14,15 @@
     "category": "Wheeler"
   },
   {
-    "fileName": "C137498_062120",
-    "description": "All of Mayor Wheeler's text messages from February 17-19. (lawsuit filed against Wheeler for a $73,000 campaign donation)",
+    "fileName": "C135119_053120",
+    "description": "All of Mayor Wheeler's text messages from May 28-30. (Beginning of protests, 3 nights of rioting/looting downtown)",
+    "requestedBy": "Alan Kessler",
+    "defaultSender": 5038236773,
+    "category": "Wheeler"
+  },
+  {
+    "fileName": "C141855_072320",
+    "description": "All of Mayor Wheeler's text messages from June 21-22. (Protests at the Justice center on the 21st)",
     "requestedBy": "Alan Kessler",
     "defaultSender": 5038236773,
     "category": "Wheeler"
