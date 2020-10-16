@@ -24,6 +24,14 @@
     "id": 2
   },
   {
+    "fileName": "C146702_090220",
+    "description": "All of Ted Wheeler's text messages between May 27th and August 19th.",
+    "requestedBy": "",
+    "defaultSender": 5038236773,
+    "category": "Wheeler",
+    "id": 11
+  },
+  {
     "fileName": "C141855_072320",
     "description": "All of Mayor Wheeler's text messages from June 21-22. (Protests at the Justice center on the 21st)",
     "requestedBy": "Alan Kessler",
@@ -78,5 +86,13 @@
     "defaultSender": 5038238056,
     "category": "PPB",
     "id": 9
+  },
+  {
+    "fileName": "C146702_090220",
+    "description": "All text messages between Ted Wheeler and Robert King between Aug 25th and September 2nd.",
+    "requestedBy": "",
+    "defaultSender": 5038236773,
+    "category": "PPB",
+    "id": 10
   }
 ]
