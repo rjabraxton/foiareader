@@ -1,1 +1,1405 @@
-{"tally":617,"contacts":{"75973":{"number":75973,"abbr":"206","role":"Unknown","name":"Unknown Person #205"},"2023203432":{"abbr":"174","role":"Unknown","name":"Unknown Person #174","number":2023203432},"2029075507":{"number":2029075507,"abbr":"40","role":"Unknown","name":"Unknown Person #40"},"2063919213":{"abbr":"564","role":"Unknown","name":"Unknown Person #564","number":2063919213},"3126722192":{"number":3126722192,"abbr":"184","role":"Unknown","name":"Unknown Person #184"},"3135109968":{"number":3135109968,"abbr":"166","role":"Unknown","name":"Unknown Person #166"},"3143064263":{"number":3143064263,"abbr":"192","role":"Unknown","name":"Unknown Person #192"},"3472760850":{"number":3472760850,"abbr":"80","role":"Unknown","name":"Unknown Person #80"},"3602417792":{"number":3602417792,"abbr":"181","role":"Unknown","name":"Unknown Person #181"},"3607629224":{"abbr":"610","role":"Unknown","name":"Unknown Person #610","number":3607629224},"4022068004":{"abbr":"570","role":"Unknown","name":"Unknown Person #570","number":4022068004},"4042730879":{"number":4042730879,"abbr":"197","role":"Unknown","name":"Unknown Person #197"},"4047132115":{"number":4047132115,"abbr":"189","role":"Unknown","name":"Unknown Person #189"},"4048498966":{"number":4048498966,"abbr":"169","role":"Unknown","name":"Unknown Person #169"},"4154202555":{"abbr":"588","role":"Unknown","name":"Unknown Person #588","number":4154202555},"4156131804":{"number":4156131804,"abbr":"180","role":"Unknown","name":"Unknown Person #180"},"5038236773":{"number":5038236773,"name":"Ted Wheeler","abbr":"TW","role":"Mayor of Portland, Police Commissioner"},"5038238622":{"number":5038238622,"name":"Jo Ann Hardesty","role":"City Commissioner #4","abbr":"JAH","info":"https://www.portland.gov/hardesty"},"5038236656":{"number":5038236656,"name":"Sonia Schmanski","role":"Deputy Chief of Staff - Ted Wheeler","abbr":"SS","info":"https://www.portland.gov/wheeler/meet-mayors-team"},"5038656086":{"number":5038656086,"name":"Tia Williams","role":"Senior Policy Advisor - Ted Wheeler","abbr":"TiW","info":"https://www.portland.gov/wheeler/meet-mayors-team"},"5038236402":{"number":5038236402,"name":"Dr. Amanda Fritz","role":"City Commissioner #1","abbr":"AF","info":"https://www.portlandonline.com/fritz/"},"5038238056":{"number":5038238056,"name":"Robert King","role":"Senior Policy Advisor - Ted Wheeler, former police commander, former PPA president","abbr":"RK","info":"https://www.portland.gov/wheeler/meet-mayors-team"},"5038238057":{"number":5038238057,"name":"Jamal Fox","role":"Former Deputy Chief of Staff - Ted Wheeler (left end of July 2020)","abbr":"JF"},"5038238819":{"number":5038238819,"abbr":"NG","role":"Director of Policy - Ted Wheeler","name":"Nicole Grant"},"5038238137":{"number":5038238137,"abbr":"CA","role":"Director of Strategic Initiatives - Ted Wheeler","name":"Cupid Alexander"},"5038236541":{"number":5038236541,"name":"Eileen Park","role":"Former Communications Director - Ted Wheeler (left end of July)","abbr":"EP"},"5033518356":{"number":5033518356,"name":"Pastor Matt Hennessee","role":"Pastor, former chair of Portland Development Commission","abbr":"MH"},"5038238021":{"number":5038238021,"name":"Aja Blair","role":"Operations Manager/Executive Assistant - Ted Wheeler","abbr":"AB","info":"https://www.portland.gov/wheeler/meet-mayors-team"},"5037583002":{"number":5037583002,"name":"Jami Resch","role":"Assistant Chief, former Chief of Portland Police","abbr":"JR"},"5037893328":{"number":5037893328,"abbr":"13","role":"Unknown","name":"Unknown Person #13"},"5038656184":{"number":5038656184,"name":"Nike Greene","role":"Unknown","abbr":"NG"},"number":"NaN","5038238657":{"number":5038238657,"abbr":"15","role":"Unknown","name":"Unknown Person #15"},"5037938233":{"number":5037938233,"abbr":"16","role":"Unknown","name":"Unknown Person #16"},"5037931352":{"number":5037931352,"abbr":"17","role":"Unknown","name":"Unknown Person #17"},"5038656047":{"number":5038656047,"name":"Mike Myers","role":"Director of Bureau of Emergency Management, former Fire Chief","abbr":"MM"},"5037936702":{"number":5037936702,"abbr":"19","role":"Unknown","name":"Unknown Person #19"},"5038236184":{"number":5038236184,"abbr":"20","role":"Unknown","name":"Unknown Person #20"},"5038165911":{"number":5038165911,"abbr":"21","role":"Unknown","name":"Unknown Person #21"},"5035596384":{"number":5035596384,"abbr":"22","role":"Unknown","name":"Unknown Person #22"},"5038236784":{"number":5038236784,"abbr":"TB","role":"Interim Director of Communications - Ted Wheeler","name":"Tim Becker"},"5038238172":{"number":5038238172,"abbr":"AT","role":"Videographer/Web Content Manager - Ted Wheeler","name":"Adam Thompson"},"5037939142":{"number":5037939142,"abbr":"26","role":"Unknown","name":"Unknown Person #26"},"9713225966":{"number":9713225966,"abbr":"SM","role":"Multnomah County Commissioner, District 1","name":"Sharon Meieran","info":"https://multco.us/commissioner-meieran"},"5038236571":{"number":5038236571,"abbr":"28","role":"Unknown","name":"Unknown Person #28"},"5037478986":{"number":5037478986,"abbr":"29","role":"Unknown","name":"Unknown Person #29"},"5037933750":{"number":5037933750,"abbr":"30","role":"Unknown","name":"Unknown Person #30"},"5038236521":{"number":5038236521,"abbr":"31","role":"Unknown","name":"Unknown Person #31"},"5038238400":{"number":5038238400,"abbr":"32","role":"Unknown","name":"Unknown Person #32"},"9717085721":{"number":9717085721,"abbr":"33","role":"Unknown","name":"Unknown Person #33"},"5038238199":{"number":5038238199,"abbr":"34","role":"Unknown","name":"Unknown Person #34"},"5037931650":{"number":5037931650,"abbr":"35","role":"Unknown","name":"Unknown Person #35"},"5038231242":{"number":5038231242,"abbr":"36","role":"Unknown","name":"Unknown Person #36"},"5038236741":{"number":5038236741,"abbr":"37","role":"Unknown","name":"Unknown Person #37"},"5039753631":{"number":5039753631,"abbr":"38","role":"Unknown","name":"Unknown Person #38"},"5037939391":{"number":5037939391,"abbr":"39","role":"Unknown","name":"Unknown Person #39"},"5038233038":{"number":5038233038,"abbr":"41","role":"Unknown","name":"Unknown Person #41"},"5038656048":{"number":5038656048,"abbr":"EW","role":"Policy Director - Nick Fish","name":"Everett Wild"},"5038236405":{"number":5038236405,"abbr":"43","role":"Unknown","name":"Unknown Person #43"},"5038656006":{"number":5038656006,"abbr":"44","role":"Unknown","name":"Unknown Person #44"},"5038656240":{"number":5038656240,"abbr":"45","role":"Unknown","name":"Unknown Person #45"},"5039693024":{"number":5039693024,"abbr":"46","role":"Unknown","name":"Unknown Person #46"},"5035191039":{"number":5035191039,"abbr":"47","role":"Unknown","name":"Unknown Person #47"},"5035727629":{"number":5035727629,"abbr":"48","role":"Unknown","name":"Unknown Person #48"},"5039694457":{"number":5039694457,"abbr":"49","role":"Unknown","name":"Unknown Person #49"},"9712802535":{"number":9712802535,"abbr":"50","role":"Unknown","name":"Unknown Person #50"},"5038233592":{"number":5038233592,"abbr":"51","role":"Unknown","name":"Unknown Person #51"},"5038236796":{"number":5038236796,"abbr":"KD","role":"Chief of Staff - Ted Wheeler","name":"Kristin Dennis"},"5038236786":{"number":5038236786,"abbr":"53","role":"Unknown","name":"Unknown Person #53"},"5033130896":{"number":5033130896,"abbr":"TR","role":"Chief Administrative Officer of Portland","name":"Tom Rinehart"},"5038238041":{"number":5038238041,"abbr":"MP","role":"Prosper Portland, Strategies 360","name":"Michelle Plambeck"},"5038232753":{"number":5038232753,"abbr":"SA","role":"Senior Policy Officer - Wheeler","name":"Seraphie Allen"},"5038236700":{"number":5038236700,"abbr":"57","role":"Unknown","name":"Unknown Person #57"},"5038236695":{"number":5038236695,"abbr":"58","role":"Unknown","name":"Unknown Person #58"},"5038236481":{"number":5038236481,"abbr":"JD","role":"Senior Policy Advisor - Nick Fish","name":"Jamie Dunphy"},"5038236560":{"number":5038236560,"abbr":"SK","role":"Portland Development Commission","name":"Sara King"},"5038238484":{"number":5038238484,"abbr":"61","role":"Unknown","name":"Unknown Person #61"},"5038238450":{"number":5038238450,"abbr":"EE","role":"Office of Government Relations","name":"Elizabeth Edwards"},"5038236388":{"number":5038236388,"abbr":"CA","role":"Senior Policy Director - Amanda Fritz","name":"Claire Adamsick"},"5038236458":{"number":5038236458,"abbr":"64","role":"Unknown","name":"Unknown Person #64"},"5039366920":{"number":5039366920,"abbr":"WL","role":"Human Access Project","name":"Willie Levenson"},"5035027046":{"number":5035027046,"abbr":"MJ","role":"Director, Joint Office of Homeless Services - Multnomah County","name":"Marc Jolin"},"9719306869":{"number":9719306869,"abbr":"AR","role":"Joint Office of Homeless Services","name":"April Rohman"},"7079536776":{"number":7079536776,"abbr":"68","role":"Unknown","name":"Unknown Person #68"},"5038236712":{"number":5038236712,"abbr":"69","role":"Unknown","name":"Unknown Person #69"},"8184164312":{"number":8184164312,"abbr":"70","role":"Unknown","name":"Unknown Person #70"},"5038238174":{"number":5038238174,"abbr":"71","role":"Unknown","name":"Unknown Person #71"},"5038236439":{"number":5038236439,"abbr":"72","role":"Unknown","name":"Unknown Person #72"},"5038238775":{"number":5038238775,"abbr":"73","role":"Unknown","name":"Unknown Person #73"},"5032010621":{"number":5032010621,"abbr":"74","role":"Unknown","name":"Unknown Person #74"},"9712769968":{"number":9712769968,"abbr":"LF","role":"Policy Advisor - Deborah Kafourey","name":"Liam Frost"},"7074968229":{"number":7074968229,"abbr":"AZ","role":"Editor - Portland Mercury","name":"Alex Zielinski"},"5033176932":{"number":5033176932,"abbr":"MG","role":"Basic Rights Oregon","name":"Mikki Gillette"},"5035456709":{"number":5035456709,"abbr":"MJ","role":"Director - Bureau of Environmental Services","name":"Michael Jordan"},"5034492287":{"number":5034492287,"abbr":"79","role":"Unknown","name":"Unknown Person #79"},"5038109770":{"number":5038109770,"abbr":"AM","role":"Senior Director - Wheelhouse NW","name":"Angela Martin"},"5037565828":{"number":5037565828,"abbr":"BS","role":"Reporter - Portland Mercury","name":"Blair Stenvick"},"5035049581":{"number":5035049581,"abbr":"83","role":"Unknown","name":"Unknown Person #83"},"5038236556":{"number":5038236556,"abbr":"DE","role":"Deputy Director and Regional Liaison","name":"Dan Eisenbeis"},"5038238582":{"number":5038238582,"abbr":"SJ","role":"Former reporter - Willameete Week","name":"Sophia June"},"9518520284":{"number":9518520284,"abbr":"86","role":"Unknown","name":"Unknown Person #86"},"5035931869":{"number":5035931869,"abbr":"DO","role":"Deputy Director, Bureau of Planning and Sustainability","name":"Donnie Oliveira"},"9713461247":{"number":9713461247,"abbr":"88","role":"Unknown","name":"Unknown Person #88"},"5039578612":{"number":5039578612,"abbr":"NJ","role":"Reporter - Willamette Week","name":"Nigel Jaquiss"},"5039357726":{"number":5039357726,"abbr":"ME","role":"Public Policy Director - Central City Concern","name":"Mercedes Elizalde"},"5038231253":{"number":5038231253,"abbr":"91","role":"Unknown","name":"Unknown Person #91"},"5038656131":{"number":5038656131,"abbr":"92","role":"Unknown","name":"Unknown Person #92"},"5038236510":{"number":5038236510,"abbr":"93","role":"Unknown","name":"Unknown Person #93"},"9713361914":{"number":9713361914,"abbr":"94","role":"Unknown","name":"Unknown Person #94"},"5034429905":{"number":5034429905,"abbr":"JL","role":"Regional Affairs Manager - Metro","name":"Jes Larson"},"5038656077":{"number":5038656077,"abbr":"TL","role":"PCCEP Project Director","name":"Theo Latta"},"9719302710":{"number":9719302710,"abbr":"97","role":"Unknown","name":"Unknown Person #97"},"5033101803":{"number":5033101803,"abbr":"98","role":"Unknown","name":"Unknown Person #98"},"5038232719":{"number":5038232719,"abbr":"99","role":"Unknown","name":"Unknown Person #99"},"5036806873":{"number":5036806873,"abbr":"100","role":"Unknown","name":"Unknown Person #100"},"9712423884":{"number":9712423884,"abbr":"101","role":"Unknown","name":"Unknown Person #101"},"5038233579":{"number":5038233579,"abbr":"AW","role":"Senior Policy Advisor - Wheeler","name":"Amanda Watson"},"5034212603":{"number":5034212603,"abbr":"103","role":"Unknown","name":"Unknown Person #103"},"5037988819":{"number":5037988819,"abbr":"RA","role":"Kaiser Permanente","name":"Ruth Adkins"},"9714090687":{"number":9714090687,"abbr":"105","role":"Unknown","name":"Unknown Person #105"},"5038234180":{"number":5038234180,"abbr":"TP","role":"Office of Youth Violence Prevention","name":"Tom Peavey"},"5034898740":{"number":5034898740,"abbr":"107","role":"Unknown","name":"Unknown Person #107"},"5032387433":{"number":5032387433,"abbr":"T","role":"","name":"Trimet Customer Service"},"5038233077":{"number":5038233077,"abbr":"JJ","role":"Senior Deputy City Attorney - Portland","name":"Jenifer Johnston"},"5035453799":{"number":5035453799,"abbr":"110","role":"Unknown","name":"Unknown Person #110"},"5037087185":{"number":5037087185,"abbr":"111","role":"Unknown","name":"Unknown Person #111"},"NaN":{"abbr":"551","role":"Unknown","name":"Unknown Person #551","number":null},"5033072130":{"number":5033072130,"abbr":"DO","role":"Former Chief of Police (left 2019)","name":"Danielle Outlaw"},"5037930490":{"number":5037930490,"abbr":"114","role":"Unknown","name":"Unknown Person #114"},"900080006000":{"number":900080006000,"abbr":"115","role":"Unknown","name":"Unknown Person #115"},"5037939270":{"number":5037939270,"abbr":"116","role":"Unknown","name":"Unknown Person #116"},"6095029322":{"number":6095029322,"abbr":"138","role":"Unknown","name":"Unknown Person #138"},"5043299569":{"number":5043299569,"abbr":"139","role":"Unknown","name":"Unknown Person #139"},"8012091815":{"number":8012091815,"abbr":"140","role":"Unknown","name":"Unknown Person #140"},"5039324932":{"number":5039324932,"abbr":"141","role":"Unknown","name":"Unknown Person #141"},"5039361884":{"number":5039361884,"abbr":"142","role":"Unknown","name":"Unknown Person #142"},"5037937615":{"number":5037937615,"abbr":"160","role":"Unknown","name":"Unknown Person #160"},"5035809485":{"number":5035809485,"abbr":"161","role":"Unknown","name":"Unknown Person #161"},"5035052622":{"number":5035052622,"abbr":"162","role":"Unknown","name":"Unknown Person #162"},"5419153248":{"number":5419153248,"abbr":"163","role":"Unknown","name":"Unknown Person #163"},"5033190775":{"number":5033190775,"abbr":"164","role":"Unknown","name":"Unknown Person #164"},"5035453497":{"number":5035453497,"abbr":"165","role":"Unknown","name":"Unknown Person #165"},"5039700721":{"number":5039700721,"abbr":"167","role":"Unknown","name":"Unknown Person #167"},"6037810168":{"number":6037810168,"abbr":"168","role":"Unknown","name":"Unknown Person #168"},"8016641907":{"number":8016641907,"abbr":"170","role":"Unknown","name":"Unknown Person #170"},"9718062064":{"number":9718062064,"abbr":"171","role":"Unknown","name":"Unknown Person #171"},"5037578401":{"number":5037578401,"abbr":"172","role":"Unknown","name":"Unknown Person #172"},"5038896079":{"number":5038896079,"abbr":"175","role":"Unknown","name":"Unknown Person #175"},"5413251616":{"number":5413251616,"abbr":"176","role":"Unknown","name":"Unknown Person #176"},"8083755823":{"number":8083755823,"abbr":"177","role":"Unknown","name":"Unknown Person #177"},"9712127505":{"number":9712127505,"abbr":"178","role":"Unknown","name":"Unknown Person #178"},"5104105132":{"number":5104105132,"abbr":"179","role":"Unknown","name":"Unknown Person #179"},"5037937543":{"number":5037937543,"abbr":"182","role":"Unknown","name":"Unknown Person #182"},"8324926106":{"number":8324926106,"abbr":"183","role":"Unknown","name":"Unknown Person #183"},"6025962396":{"number":6025962396,"abbr":"185","role":"Unknown","name":"Unknown Person #185"},"5037933837":{"number":5037933837,"abbr":"186","role":"Unknown","name":"Unknown Person #186"},"5037938997":{"number":5037938997,"abbr":"187","role":"Unknown","name":"Unknown Person #187"},"9714012643":{"number":9714012643,"abbr":"188","role":"Unknown","name":"Unknown Person #188"},"5037938281":{"number":5037938281,"abbr":"190","role":"Unknown","name":"Unknown Person #190"},"5038874007":{"number":5038874007,"abbr":"191","role":"Unknown","name":"Unknown Person #191"},"9167199386":{"number":9167199386,"abbr":"193","role":"Unknown","name":"Unknown Person #193"},"4358434411":{"number":4358434411,"abbr":"194","role":"Unknown","name":"Unknown Person #194"},"5035720036":{"number":5035720036,"abbr":"195","role":"Unknown","name":"Unknown Person #195"},"5037160725":{"number":5037160725,"abbr":"196","role":"Unknown","name":"Unknown Person #196"},"5032603065":{"number":5032603065,"abbr":"198","role":"Unknown","name":"Unknown Person #198"},"9712026301":{"number":9712026301,"abbr":"199","role":"Unknown","name":"Unknown Person #199"},"5037549430":{"number":5037549430,"abbr":"200","role":"Unknown","name":"Unknown Person #200"},"5037936789":{"number":5037936789,"abbr":"201","role":"Unknown","name":"Unknown Person #201"},"5037939329":{"number":5037939329,"abbr":"202","role":"Unknown","name":"Unknown Person #202"},"9713227162":{"number":9713227162,"abbr":"203","role":"Unknown","name":"Unknown Person #203"},"9718062196":{"number":9718062196,"abbr":"204","role":"Unknown","name":"Unknown Person #204"},"5038236328":{"number":5038236328,"abbr":"205","role":"Unknown","name":"Unknown Person #205"},"robert.king@portlandoregon.gov":{"abbr":"RK","role":"Unknown","name":"Robert King (sent via email)","number":"robert.king@portlandoregon.gov"},"9718063043":{"abbr":"JN","role":"Portland Police","name":"Jeff Niiya","number":9718063043},"5037935641":{"abbr":"555","role":"Unknown","name":"Unknown Person #555","number":5037935641},"REDACTED":{"abbr":"R","role":"Unknown","name":"REDACTED","number":null},"5039574364":{"abbr":"557","role":"Unknown","name":"Unknown Person #557","number":5039574364},"5038969825":{"abbr":"558","role":"Unknown","name":"Unknown Person #558","number":5038969825},"5037930885":{"abbr":"559","role":"Unknown","name":"Unknown Person #559","number":5037930885},"5037939621":{"abbr":"560","role":"Unknown","name":"Unknown Person #560","number":5037939621},"Redacted":{"abbr":"561","role":"Unknown","name":"Unknown Person #561","number":null},"5037930865":{"abbr":"562","role":"Unknown","name":"Unknown Person #562","number":5037930865},"5034671784":{"abbr":"563","role":"Unknown","name":"Unknown Person #563","number":5034671784},"5037937715":{"abbr":"565","role":"Unknown","name":"Unknown Person #565","number":5037937715},"9713131774":{"abbr":"566","role":"Unknown","name":"Unknown Person #566","number":9713131774},"5037939648":{"abbr":"567","role":"Unknown","name":"Unknown Person #567","number":5037939648},"5035453597":{"abbr":"568","role":"Unknown","name":"Unknown Person #568","number":5035453597},"9718038549":{"abbr":"569","role":"Unknown","name":"Unknown Person #569","number":9718038549},"5035771057":{"abbr":"571","role":"Unknown","name":"Unknown Person #571","number":5035771057},"5035771719":{"abbr":"572","role":"Unknown","name":"Unknown Person #572","number":5035771719},"5037939622":{"abbr":"573","role":"Unknown","name":"Unknown Person #573","number":5037939622},"5033602619":{"abbr":"574","role":"Unknown","name":"Unknown Person #574","number":5033602619},"5034599517":{"abbr":"575","role":"Unknown","name":"Unknown Person #575","number":5034599517},"5034214141":{"abbr":"576","role":"Unknown","name":"Unknown Person #576","number":5034214141},"5037101277":{"abbr":"577","role":"Unknown","name":"Unknown Person #577","number":5037101277},"5039393656":{"abbr":"578","role":"Unknown","name":"Unknown Person #578","number":5039393656},"5037575721":{"abbr":"579","role":"Unknown","name":"Unknown Person #579","number":5037575721},"9175926805":{"abbr":"580","role":"Unknown","name":"Unknown Person #580","number":9175926805},"5037300268":{"abbr":"581","role":"Unknown","name":"Unknown Person #581","number":5037300268},"5033608376":{"abbr":"582","role":"Unknown","name":"Unknown Person #582","number":5033608376},"5034753010":{"abbr":"583","role":"Unknown","name":"Unknown Person #583","number":5034753010},"5038194278":{"abbr":"584","role":"Unknown","name":"Unknown Person #584","number":5038194278},"5038231056":{"abbr":"585","role":"Unknown","name":"Unknown Person #585","number":5038231056},"9712398776":{"abbr":"586","role":"Unknown","name":"Unknown Person #586","number":9712398776},"5039310786":{"abbr":"587","role":"Unknown","name":"Unknown Person #587","number":5039310786},"5032099563":{"abbr":"589","role":"Unknown","name":"Unknown Person #589","number":5032099563},"5037934183":{"abbr":"590","role":"Unknown","name":"Unknown Person #590","number":5037934183},"5037407743":{"abbr":"591","role":"Unknown","name":"Unknown Person #591","number":5037407743},"5037939061":{"abbr":"592","role":"Unknown","name":"Unknown Person #592","number":5037939061},"5032091816":{"abbr":"593","role":"Unknown","name":"Unknown Person #593","number":5032091816},"kristina.jones@portlandoregon.gov":{"abbr":"594","role":"Unknown","name":"Unknown Person #594","number":null},"9712350612":{"abbr":"595","role":"Unknown","name":"Unknown Person #595","number":9712350612},"5038058459":{"abbr":"596","role":"Unknown","name":"Unknown Person #596","number":5038058459},"5038236634":{"abbr":"597","role":"Unknown","name":"Unknown Person #597","number":5038236634},"5038238599":{"abbr":"598","role":"Unknown","name":"Unknown Person #598","number":5038238599},"5037937669":{"abbr":"599","role":"Unknown","name":"Unknown Person #599","number":5037937669},"5038238402":{"abbr":"600","role":"Unknown","name":"Unknown Person #600","number":5038238402},"5037934786":{"abbr":"601","role":"Unknown","name":"Unknown Person #601","number":5037934786},"5038236286":{"abbr":"602","role":"Unknown","name":"Unknown Person #602","number":5038236286},"ted.wheeler@portlandoregon.gov":{"abbr":"603","role":"Unknown","name":"Unknown Person #603","number":null},"5038236086":{"abbr":"604","role":"Unknown","name":"Unknown Person #604","number":5038236086},"5035771120":{"abbr":"605","role":"Unknown","name":"Unknown Person #605","number":5035771120},"5038231135":{"abbr":"606","role":"Unknown","name":"Unknown Person #606","number":5038231135},"5037930095":{"abbr":"607","role":"Unknown","name":"Unknown Person #607","number":5037930095},"5032780109":{"abbr":"608","role":"Unknown","name":"Unknown Person #608","number":5032780109},"5034532469":{"abbr":"609","role":"Unknown","name":"Unknown Person #609","number":5034532469},"5037936468":{"abbr":"611","role":"Unknown","name":"Unknown Person #611","number":5037936468},"5035526773":{"abbr":"612","role":"Unknown","name":"Unknown Person #612","number":5035526773},"5039570324":{"abbr":"613","role":"Unknown","name":"Unknown Person #613","number":5039570324},"5038102006":{"abbr":"614","role":"Unknown","name":"Unknown Person #614","number":5038102006},"5035076902":{"abbr":"615","role":"Unknown","name":"Unknown Person #615","number":5035076902},"5039135154":{"abbr":"616","role":"Unknown","name":"Unknown Person #616","number":5039135154},"5037055123":{"abbr":"617","role":"Unknown","name":"Unknown Person #617","number":5037055123}}}
+{
+  "tally": 617,
+  "contacts": {
+    "75973": {
+      "number": 75973,
+      "abbr": "206",
+      "role": "Unknown",
+      "name": "Unknown Person #205"
+    },
+    "2023203432": {
+      "abbr": "174",
+      "role": "Unknown",
+      "name": "Unknown Person #174",
+      "number": 2023203432
+    },
+    "2029075507": {
+      "number": 2029075507,
+      "abbr": "40",
+      "role": "Unknown",
+      "name": "Unknown Person #40"
+    },
+    "2063919213": {
+      "abbr": "564",
+      "role": "Unknown",
+      "name": "Unknown Person #564",
+      "number": 2063919213
+    },
+    "3126722192": {
+      "number": 3126722192,
+      "abbr": "184",
+      "role": "Unknown",
+      "name": "Unknown Person #184"
+    },
+    "3135109968": {
+      "number": 3135109968,
+      "abbr": "166",
+      "role": "Unknown",
+      "name": "Unknown Person #166"
+    },
+    "3143064263": {
+      "number": 3143064263,
+      "abbr": "192",
+      "role": "Unknown",
+      "name": "Unknown Person #192"
+    },
+    "3472760850": {
+      "number": 3472760850,
+      "abbr": "80",
+      "role": "Unknown",
+      "name": "Unknown Person #80"
+    },
+    "3602417792": {
+      "number": 3602417792,
+      "abbr": "181",
+      "role": "Unknown",
+      "name": "Unknown Person #181"
+    },
+    "3607629224": {
+      "abbr": "610",
+      "role": "Unknown",
+      "name": "Unknown Person #610",
+      "number": 3607629224
+    },
+    "4022068004": {
+      "abbr": "570",
+      "role": "Unknown",
+      "name": "Unknown Person #570",
+      "number": 4022068004
+    },
+    "4042730879": {
+      "number": 4042730879,
+      "abbr": "197",
+      "role": "Unknown",
+      "name": "Unknown Person #197"
+    },
+    "4047132115": {
+      "number": 4047132115,
+      "abbr": "189",
+      "role": "Unknown",
+      "name": "Unknown Person #189"
+    },
+    "4048498966": {
+      "number": 4048498966,
+      "abbr": "169",
+      "role": "Unknown",
+      "name": "Unknown Person #169"
+    },
+    "4154202555": {
+      "abbr": "588",
+      "role": "Unknown",
+      "name": "Unknown Person #588",
+      "number": 4154202555
+    },
+    "4156131804": {
+      "number": 4156131804,
+      "abbr": "180",
+      "role": "Unknown",
+      "name": "Unknown Person #180"
+    },
+    "5038236773": {
+      "number": 5038236773,
+      "name": "Ted Wheeler",
+      "abbr": "TW",
+      "role": "Mayor of Portland, Police Commissioner"
+    },
+    "5038238622": {
+      "number": 5038238622,
+      "name": "Jo Ann Hardesty",
+      "role": "City Commissioner #4",
+      "abbr": "JAH",
+      "info": "https://www.portland.gov/hardesty"
+    },
+    "5038236656": {
+      "number": 5038236656,
+      "name": "Sonia Schmanski",
+      "role": "Deputy Chief of Staff - Ted Wheeler",
+      "abbr": "SS",
+      "info": "https://www.portland.gov/wheeler/meet-mayors-team"
+    },
+    "5038656086": {
+      "number": 5038656086,
+      "name": "Tia Williams",
+      "role": "Senior Policy Advisor - Ted Wheeler",
+      "abbr": "TiW",
+      "info": "https://www.portland.gov/wheeler/meet-mayors-team"
+    },
+    "5038236402": {
+      "number": 5038236402,
+      "name": "Dr. Amanda Fritz",
+      "role": "City Commissioner #1",
+      "abbr": "AF",
+      "info": "https://www.portlandonline.com/fritz/"
+    },
+    "5038238056": {
+      "number": 5038238056,
+      "name": "Robert King",
+      "role": "Senior Policy Advisor - Ted Wheeler, former police commander, former PPA president",
+      "abbr": "RK",
+      "info": "https://www.portland.gov/wheeler/meet-mayors-team"
+    },
+    "5038238057": {
+      "number": 5038238057,
+      "name": "Jamal Fox",
+      "role": "Former Deputy Chief of Staff - Ted Wheeler (left end of July 2020)",
+      "abbr": "JF"
+    },
+    "5038238819": {
+      "number": 5038238819,
+      "abbr": "NG",
+      "role": "Director of Policy - Ted Wheeler",
+      "name": "Nicole Grant"
+    },
+    "5038238137": {
+      "number": 5038238137,
+      "abbr": "CA",
+      "role": "Director of Strategic Initiatives - Ted Wheeler",
+      "name": "Cupid Alexander"
+    },
+    "5038236541": {
+      "number": 5038236541,
+      "name": "Eileen Park",
+      "role": "Former Communications Director - Ted Wheeler (left end of July)",
+      "abbr": "EP"
+    },
+    "5033518356": {
+      "number": 5033518356,
+      "name": "Pastor Matt Hennessee",
+      "role": "Pastor, former chair of Portland Development Commission",
+      "abbr": "MH"
+    },
+    "5038238021": {
+      "number": 5038238021,
+      "name": "Aja Blair",
+      "role": "Operations Manager/Executive Assistant - Ted Wheeler",
+      "abbr": "AB",
+      "info": "https://www.portland.gov/wheeler/meet-mayors-team"
+    },
+    "5037583002": {
+      "number": 5037583002,
+      "name": "Unknown Person #19",
+      "role": "",
+      "abbr": "19"
+    },
+    "5037893328": {
+      "number": 5037893328,
+      "abbr": "13",
+      "role": "Unknown",
+      "name": "Unknown Person #13"
+    },
+    "5038656184": {
+      "number": 5038656184,
+      "name": "Nike Greene",
+      "role": "Unknown",
+      "abbr": "NG"
+    },
+    "number": "NaN",
+    "5038238657": {
+      "number": 5038238657,
+      "abbr": "15",
+      "role": "Unknown",
+      "name": "Unknown Person #15"
+    },
+    "5037938233": {
+      "number": 5037938233,
+      "abbr": "16",
+      "role": "Unknown",
+      "name": "Unknown Person #16"
+    },
+    "5037931352": {
+      "number": 5037931352,
+      "abbr": "17",
+      "role": "Unknown",
+      "name": "Unknown Person #17"
+    },
+    "5038656047": {
+      "number": 5038656047,
+      "name": "Mike Myers",
+      "role": "Director of Bureau of Emergency Management, former Fire Chief",
+      "abbr": "MM"
+    },
+    "5037936702": {
+      "number": 5037936702,
+      "abbr": "JR",
+      "role": "Assistant Chief, former Chief of Portland Police",
+      "name": "Jami Resch"
+    },
+    "5038236184": {
+      "number": 5038236184,
+      "abbr": "20",
+      "role": "Unknown",
+      "name": "Unknown Person #20"
+    },
+    "5038165911": {
+      "number": 5038165911,
+      "abbr": "21",
+      "role": "Unknown",
+      "name": "Unknown Person #21"
+    },
+    "5035596384": {
+      "number": 5035596384,
+      "abbr": "22",
+      "role": "Unknown",
+      "name": "Unknown Person #22"
+    },
+    "5038236784": {
+      "number": 5038236784,
+      "abbr": "TB",
+      "role": "Interim Director of Communications - Ted Wheeler",
+      "name": "Tim Becker"
+    },
+    "5038238172": {
+      "number": 5038238172,
+      "abbr": "AT",
+      "role": "Videographer/Web Content Manager - Ted Wheeler",
+      "name": "Adam Thompson"
+    },
+    "5037939142": {
+      "number": 5037939142,
+      "abbr": "26",
+      "role": "Unknown",
+      "name": "Unknown Person #26"
+    },
+    "9713225966": {
+      "number": 9713225966,
+      "abbr": "SM",
+      "role": "Multnomah County Commissioner, District 1",
+      "name": "Sharon Meieran",
+      "info": "https://multco.us/commissioner-meieran"
+    },
+    "5038236571": {
+      "number": 5038236571,
+      "abbr": "28",
+      "role": "Unknown",
+      "name": "Unknown Person #28"
+    },
+    "5037478986": {
+      "number": 5037478986,
+      "abbr": "29",
+      "role": "Unknown",
+      "name": "Unknown Person #29"
+    },
+    "5037933750": {
+      "number": 5037933750,
+      "abbr": "30",
+      "role": "Unknown",
+      "name": "Unknown Person #30"
+    },
+    "5038236521": {
+      "number": 5038236521,
+      "abbr": "31",
+      "role": "Unknown",
+      "name": "Unknown Person #31"
+    },
+    "5038238400": {
+      "number": 5038238400,
+      "abbr": "32",
+      "role": "Unknown",
+      "name": "Unknown Person #32"
+    },
+    "9717085721": {
+      "number": 9717085721,
+      "abbr": "33",
+      "role": "Unknown",
+      "name": "Unknown Person #33"
+    },
+    "5038238199": {
+      "number": 5038238199,
+      "abbr": "34",
+      "role": "Unknown",
+      "name": "Unknown Person #34"
+    },
+    "5037931650": {
+      "number": 5037931650,
+      "abbr": "35",
+      "role": "Unknown",
+      "name": "Unknown Person #35"
+    },
+    "5038231242": {
+      "number": 5038231242,
+      "abbr": "36",
+      "role": "Unknown",
+      "name": "Unknown Person #36"
+    },
+    "5038236741": {
+      "number": 5038236741,
+      "abbr": "37",
+      "role": "Unknown",
+      "name": "Unknown Person #37"
+    },
+    "5039753631": {
+      "number": 5039753631,
+      "abbr": "38",
+      "role": "Unknown",
+      "name": "Unknown Person #38"
+    },
+    "5037939391": {
+      "number": 5037939391,
+      "abbr": "39",
+      "role": "Unknown",
+      "name": "Unknown Person #39"
+    },
+    "5038233038": {
+      "number": 5038233038,
+      "abbr": "41",
+      "role": "Unknown",
+      "name": "Unknown Person #41"
+    },
+    "5038656048": {
+      "number": 5038656048,
+      "abbr": "EW",
+      "role": "Policy Director - Nick Fish",
+      "name": "Everett Wild"
+    },
+    "5038236405": {
+      "number": 5038236405,
+      "abbr": "43",
+      "role": "Unknown",
+      "name": "Unknown Person #43"
+    },
+    "5038656006": {
+      "number": 5038656006,
+      "abbr": "44",
+      "role": "Unknown",
+      "name": "Unknown Person #44"
+    },
+    "5038656240": {
+      "number": 5038656240,
+      "abbr": "45",
+      "role": "Unknown",
+      "name": "Unknown Person #45"
+    },
+    "5039693024": {
+      "number": 5039693024,
+      "abbr": "46",
+      "role": "Unknown",
+      "name": "Unknown Person #46"
+    },
+    "5035191039": {
+      "number": 5035191039,
+      "abbr": "47",
+      "role": "Unknown",
+      "name": "Unknown Person #47"
+    },
+    "5035727629": {
+      "number": 5035727629,
+      "abbr": "48",
+      "role": "Unknown",
+      "name": "Unknown Person #48"
+    },
+    "5039694457": {
+      "number": 5039694457,
+      "abbr": "49",
+      "role": "Unknown",
+      "name": "Unknown Person #49"
+    },
+    "9712802535": {
+      "number": 9712802535,
+      "abbr": "50",
+      "role": "Unknown",
+      "name": "Unknown Person #50"
+    },
+    "5038233592": {
+      "number": 5038233592,
+      "abbr": "51",
+      "role": "Unknown",
+      "name": "Unknown Person #51"
+    },
+    "5038236796": {
+      "number": 5038236796,
+      "abbr": "KD",
+      "role": "Chief of Staff - Ted Wheeler",
+      "name": "Kristin Dennis"
+    },
+    "5038236786": {
+      "number": 5038236786,
+      "abbr": "53",
+      "role": "Unknown",
+      "name": "Unknown Person #53"
+    },
+    "5033130896": {
+      "number": 5033130896,
+      "abbr": "TR",
+      "role": "Chief Administrative Officer of Portland",
+      "name": "Tom Rinehart"
+    },
+    "5038238041": {
+      "number": 5038238041,
+      "abbr": "MP",
+      "role": "Prosper Portland, Strategies 360",
+      "name": "Michelle Plambeck"
+    },
+    "5038232753": {
+      "number": 5038232753,
+      "abbr": "SA",
+      "role": "Senior Policy Officer - Wheeler",
+      "name": "Seraphie Allen"
+    },
+    "5038236700": {
+      "number": 5038236700,
+      "abbr": "57",
+      "role": "Unknown",
+      "name": "Unknown Person #57"
+    },
+    "5038236695": {
+      "number": 5038236695,
+      "abbr": "58",
+      "role": "Unknown",
+      "name": "Unknown Person #58"
+    },
+    "5038236481": {
+      "number": 5038236481,
+      "abbr": "JD",
+      "role": "Senior Policy Advisor - Nick Fish",
+      "name": "Jamie Dunphy"
+    },
+    "5038236560": {
+      "number": 5038236560,
+      "abbr": "SK",
+      "role": "Portland Development Commission",
+      "name": "Sara King"
+    },
+    "5038238484": {
+      "number": 5038238484,
+      "abbr": "61",
+      "role": "Unknown",
+      "name": "Unknown Person #61"
+    },
+    "5038238450": {
+      "number": 5038238450,
+      "abbr": "EE",
+      "role": "Office of Government Relations",
+      "name": "Elizabeth Edwards"
+    },
+    "5038236388": {
+      "number": 5038236388,
+      "abbr": "CA",
+      "role": "Senior Policy Director - Amanda Fritz",
+      "name": "Claire Adamsick"
+    },
+    "5038236458": {
+      "number": 5038236458,
+      "abbr": "64",
+      "role": "Unknown",
+      "name": "Unknown Person #64"
+    },
+    "5039366920": {
+      "number": 5039366920,
+      "abbr": "WL",
+      "role": "Human Access Project",
+      "name": "Willie Levenson"
+    },
+    "5035027046": {
+      "number": 5035027046,
+      "abbr": "MJ",
+      "role": "Director, Joint Office of Homeless Services - Multnomah County",
+      "name": "Marc Jolin"
+    },
+    "9719306869": {
+      "number": 9719306869,
+      "abbr": "AR",
+      "role": "Joint Office of Homeless Services",
+      "name": "April Rohman"
+    },
+    "7079536776": {
+      "number": 7079536776,
+      "abbr": "68",
+      "role": "Unknown",
+      "name": "Unknown Person #68"
+    },
+    "5038236712": {
+      "number": 5038236712,
+      "abbr": "69",
+      "role": "Unknown",
+      "name": "Unknown Person #69"
+    },
+    "8184164312": {
+      "number": 8184164312,
+      "abbr": "70",
+      "role": "Unknown",
+      "name": "Unknown Person #70"
+    },
+    "5038238174": {
+      "number": 5038238174,
+      "abbr": "71",
+      "role": "Unknown",
+      "name": "Unknown Person #71"
+    },
+    "5038236439": {
+      "number": 5038236439,
+      "abbr": "72",
+      "role": "Unknown",
+      "name": "Unknown Person #72"
+    },
+    "5038238775": {
+      "number": 5038238775,
+      "abbr": "73",
+      "role": "Unknown",
+      "name": "Unknown Person #73"
+    },
+    "5032010621": {
+      "number": 5032010621,
+      "abbr": "74",
+      "role": "Unknown",
+      "name": "Unknown Person #74"
+    },
+    "9712769968": {
+      "number": 9712769968,
+      "abbr": "LF",
+      "role": "Policy Advisor - Deborah Kafourey",
+      "name": "Liam Frost"
+    },
+    "7074968229": {
+      "number": 7074968229,
+      "abbr": "AZ",
+      "role": "Editor - Portland Mercury",
+      "name": "Alex Zielinski"
+    },
+    "5033176932": {
+      "number": 5033176932,
+      "abbr": "MG",
+      "role": "Basic Rights Oregon",
+      "name": "Mikki Gillette"
+    },
+    "5035456709": {
+      "number": 5035456709,
+      "abbr": "MJ",
+      "role": "Director - Bureau of Environmental Services",
+      "name": "Michael Jordan"
+    },
+    "5034492287": {
+      "number": 5034492287,
+      "abbr": "79",
+      "role": "Unknown",
+      "name": "Unknown Person #79"
+    },
+    "5038109770": {
+      "number": 5038109770,
+      "abbr": "AM",
+      "role": "Senior Director - Wheelhouse NW",
+      "name": "Angela Martin"
+    },
+    "5037565828": {
+      "number": 5037565828,
+      "abbr": "BS",
+      "role": "Reporter - Portland Mercury",
+      "name": "Blair Stenvick"
+    },
+    "5035049581": {
+      "number": 5035049581,
+      "abbr": "83",
+      "role": "Unknown",
+      "name": "Unknown Person #83"
+    },
+    "5038236556": {
+      "number": 5038236556,
+      "abbr": "DE",
+      "role": "Deputy Director and Regional Liaison",
+      "name": "Dan Eisenbeis"
+    },
+    "5038238582": {
+      "number": 5038238582,
+      "abbr": "SJ",
+      "role": "Former reporter - Willameete Week",
+      "name": "Sophia June"
+    },
+    "9518520284": {
+      "number": 9518520284,
+      "abbr": "86",
+      "role": "Unknown",
+      "name": "Unknown Person #86"
+    },
+    "5035931869": {
+      "number": 5035931869,
+      "abbr": "DO",
+      "role": "Deputy Director, Bureau of Planning and Sustainability",
+      "name": "Donnie Oliveira"
+    },
+    "9713461247": {
+      "number": 9713461247,
+      "abbr": "88",
+      "role": "Unknown",
+      "name": "Unknown Person #88"
+    },
+    "5039578612": {
+      "number": 5039578612,
+      "abbr": "NJ",
+      "role": "Reporter - Willamette Week",
+      "name": "Nigel Jaquiss"
+    },
+    "5039357726": {
+      "number": 5039357726,
+      "abbr": "ME",
+      "role": "Public Policy Director - Central City Concern",
+      "name": "Mercedes Elizalde"
+    },
+    "5038231253": {
+      "number": 5038231253,
+      "abbr": "91",
+      "role": "Unknown",
+      "name": "Unknown Person #91"
+    },
+    "5038656131": {
+      "number": 5038656131,
+      "abbr": "92",
+      "role": "Unknown",
+      "name": "Unknown Person #92"
+    },
+    "5038236510": {
+      "number": 5038236510,
+      "abbr": "93",
+      "role": "Unknown",
+      "name": "Unknown Person #93"
+    },
+    "9713361914": {
+      "number": 9713361914,
+      "abbr": "94",
+      "role": "Unknown",
+      "name": "Unknown Person #94"
+    },
+    "5034429905": {
+      "number": 5034429905,
+      "abbr": "JL",
+      "role": "Regional Affairs Manager - Metro",
+      "name": "Jes Larson"
+    },
+    "5038656077": {
+      "number": 5038656077,
+      "abbr": "TL",
+      "role": "PCCEP Project Director",
+      "name": "Theo Latta"
+    },
+    "9719302710": {
+      "number": 9719302710,
+      "abbr": "97",
+      "role": "Unknown",
+      "name": "Unknown Person #97"
+    },
+    "5033101803": {
+      "number": 5033101803,
+      "abbr": "98",
+      "role": "Unknown",
+      "name": "Unknown Person #98"
+    },
+    "5038232719": {
+      "number": 5038232719,
+      "abbr": "99",
+      "role": "Unknown",
+      "name": "Unknown Person #99"
+    },
+    "5036806873": {
+      "number": 5036806873,
+      "abbr": "100",
+      "role": "Unknown",
+      "name": "Unknown Person #100"
+    },
+    "9712423884": {
+      "number": 9712423884,
+      "abbr": "101",
+      "role": "Unknown",
+      "name": "Unknown Person #101"
+    },
+    "5038233579": {
+      "number": 5038233579,
+      "abbr": "AW",
+      "role": "Senior Policy Advisor - Wheeler",
+      "name": "Amanda Watson"
+    },
+    "5034212603": {
+      "number": 5034212603,
+      "abbr": "103",
+      "role": "Unknown",
+      "name": "Unknown Person #103"
+    },
+    "5037988819": {
+      "number": 5037988819,
+      "abbr": "RA",
+      "role": "Kaiser Permanente",
+      "name": "Ruth Adkins"
+    },
+    "9714090687": {
+      "number": 9714090687,
+      "abbr": "105",
+      "role": "Unknown",
+      "name": "Unknown Person #105"
+    },
+    "5038234180": {
+      "number": 5038234180,
+      "abbr": "TP",
+      "role": "Office of Youth Violence Prevention",
+      "name": "Tom Peavey"
+    },
+    "5034898740": {
+      "number": 5034898740,
+      "abbr": "107",
+      "role": "Unknown",
+      "name": "Unknown Person #107"
+    },
+    "5032387433": {
+      "number": 5032387433,
+      "abbr": "T",
+      "role": "",
+      "name": "Trimet Customer Service"
+    },
+    "5038233077": {
+      "number": 5038233077,
+      "abbr": "JJ",
+      "role": "Senior Deputy City Attorney - Portland",
+      "name": "Jenifer Johnston"
+    },
+    "5035453799": {
+      "number": 5035453799,
+      "abbr": "110",
+      "role": "Unknown",
+      "name": "Unknown Person #110"
+    },
+    "5037087185": {
+      "number": 5037087185,
+      "abbr": "111",
+      "role": "Unknown",
+      "name": "Unknown Person #111"
+    },
+    "NaN": {
+      "abbr": "551",
+      "role": "Unknown",
+      "name": "Unknown Person #551",
+      "number": null
+    },
+    "5033072130": {
+      "number": 5033072130,
+      "abbr": "DO",
+      "role": "Former Chief of Police (left 2019)",
+      "name": "Danielle Outlaw"
+    },
+    "5037930490": {
+      "number": 5037930490,
+      "abbr": "114",
+      "role": "Unknown",
+      "name": "Unknown Person #114"
+    },
+    "900080006000": {
+      "number": 900080006000,
+      "abbr": "115",
+      "role": "Unknown",
+      "name": "Unknown Person #115"
+    },
+    "5037939270": {
+      "number": 5037939270,
+      "abbr": "116",
+      "role": "Unknown",
+      "name": "Unknown Person #116"
+    },
+    "6095029322": {
+      "number": 6095029322,
+      "abbr": "138",
+      "role": "Unknown",
+      "name": "Unknown Person #138"
+    },
+    "5043299569": {
+      "number": 5043299569,
+      "abbr": "139",
+      "role": "Unknown",
+      "name": "Unknown Person #139"
+    },
+    "8012091815": {
+      "number": 8012091815,
+      "abbr": "140",
+      "role": "Unknown",
+      "name": "Unknown Person #140"
+    },
+    "5039324932": {
+      "number": 5039324932,
+      "abbr": "141",
+      "role": "Unknown",
+      "name": "Unknown Person #141"
+    },
+    "5039361884": {
+      "number": 5039361884,
+      "abbr": "142",
+      "role": "Unknown",
+      "name": "Unknown Person #142"
+    },
+    "5037937615": {
+      "number": 5037937615,
+      "abbr": "160",
+      "role": "Unknown",
+      "name": "Unknown Person #160"
+    },
+    "5035809485": {
+      "number": 5035809485,
+      "abbr": "161",
+      "role": "Unknown",
+      "name": "Unknown Person #161"
+    },
+    "5035052622": {
+      "number": 5035052622,
+      "abbr": "162",
+      "role": "Unknown",
+      "name": "Unknown Person #162"
+    },
+    "5419153248": {
+      "number": 5419153248,
+      "abbr": "163",
+      "role": "Unknown",
+      "name": "Unknown Person #163"
+    },
+    "5033190775": {
+      "number": 5033190775,
+      "abbr": "164",
+      "role": "Unknown",
+      "name": "Unknown Person #164"
+    },
+    "5035453497": {
+      "number": 5035453497,
+      "abbr": "165",
+      "role": "Unknown",
+      "name": "Unknown Person #165"
+    },
+    "5039700721": {
+      "number": 5039700721,
+      "abbr": "167",
+      "role": "Unknown",
+      "name": "Unknown Person #167"
+    },
+    "6037810168": {
+      "number": 6037810168,
+      "abbr": "168",
+      "role": "Unknown",
+      "name": "Unknown Person #168"
+    },
+    "8016641907": {
+      "number": 8016641907,
+      "abbr": "170",
+      "role": "Unknown",
+      "name": "Unknown Person #170"
+    },
+    "9718062064": {
+      "number": 9718062064,
+      "abbr": "171",
+      "role": "Unknown",
+      "name": "Unknown Person #171"
+    },
+    "5037578401": {
+      "number": 5037578401,
+      "abbr": "172",
+      "role": "Unknown",
+      "name": "Unknown Person #172"
+    },
+    "5038896079": {
+      "number": 5038896079,
+      "abbr": "175",
+      "role": "Unknown",
+      "name": "Unknown Person #175"
+    },
+    "5413251616": {
+      "number": 5413251616,
+      "abbr": "176",
+      "role": "Unknown",
+      "name": "Unknown Person #176"
+    },
+    "8083755823": {
+      "number": 8083755823,
+      "abbr": "177",
+      "role": "Unknown",
+      "name": "Unknown Person #177"
+    },
+    "9712127505": {
+      "number": 9712127505,
+      "abbr": "178",
+      "role": "Unknown",
+      "name": "Unknown Person #178"
+    },
+    "5104105132": {
+      "number": 5104105132,
+      "abbr": "179",
+      "role": "Unknown",
+      "name": "Unknown Person #179"
+    },
+    "5037937543": {
+      "number": 5037937543,
+      "abbr": "182",
+      "role": "Unknown",
+      "name": "Unknown Person #182"
+    },
+    "8324926106": {
+      "number": 8324926106,
+      "abbr": "183",
+      "role": "Unknown",
+      "name": "Unknown Person #183"
+    },
+    "6025962396": {
+      "number": 6025962396,
+      "abbr": "185",
+      "role": "Unknown",
+      "name": "Unknown Person #185"
+    },
+    "5037933837": {
+      "number": 5037933837,
+      "abbr": "186",
+      "role": "Unknown",
+      "name": "Unknown Person #186"
+    },
+    "5037938997": {
+      "number": 5037938997,
+      "abbr": "187",
+      "role": "Unknown",
+      "name": "Unknown Person #187"
+    },
+    "9714012643": {
+      "number": 9714012643,
+      "abbr": "188",
+      "role": "Unknown",
+      "name": "Unknown Person #188"
+    },
+    "5037938281": {
+      "number": 5037938281,
+      "abbr": "190",
+      "role": "Unknown",
+      "name": "Unknown Person #190"
+    },
+    "5038874007": {
+      "number": 5038874007,
+      "abbr": "191",
+      "role": "Unknown",
+      "name": "Unknown Person #191"
+    },
+    "9167199386": {
+      "number": 9167199386,
+      "abbr": "193",
+      "role": "Unknown",
+      "name": "Unknown Person #193"
+    },
+    "4358434411": {
+      "number": 4358434411,
+      "abbr": "194",
+      "role": "Unknown",
+      "name": "Unknown Person #194"
+    },
+    "5035720036": {
+      "number": 5035720036,
+      "abbr": "195",
+      "role": "Unknown",
+      "name": "Unknown Person #195"
+    },
+    "5037160725": {
+      "number": 5037160725,
+      "abbr": "196",
+      "role": "Unknown",
+      "name": "Unknown Person #196"
+    },
+    "5032603065": {
+      "number": 5032603065,
+      "abbr": "198",
+      "role": "Unknown",
+      "name": "Unknown Person #198"
+    },
+    "9712026301": {
+      "number": 9712026301,
+      "abbr": "199",
+      "role": "Unknown",
+      "name": "Unknown Person #199"
+    },
+    "5037549430": {
+      "number": 5037549430,
+      "abbr": "200",
+      "role": "Unknown",
+      "name": "Unknown Person #200"
+    },
+    "5037936789": {
+      "number": 5037936789,
+      "abbr": "201",
+      "role": "Unknown",
+      "name": "Unknown Person #201"
+    },
+    "5037939329": {
+      "number": 5037939329,
+      "abbr": "202",
+      "role": "Unknown",
+      "name": "Unknown Person #202"
+    },
+    "9713227162": {
+      "number": 9713227162,
+      "abbr": "203",
+      "role": "Unknown",
+      "name": "Unknown Person #203"
+    },
+    "9718062196": {
+      "number": 9718062196,
+      "abbr": "204",
+      "role": "Unknown",
+      "name": "Unknown Person #204"
+    },
+    "5038236328": {
+      "number": 5038236328,
+      "abbr": "205",
+      "role": "Unknown",
+      "name": "Unknown Person #205"
+    },
+    "robert.king@portlandoregon.gov": {
+      "abbr": "RK",
+      "role": "Unknown",
+      "name": "Robert King (sent via email)",
+      "number": "robert.king@portlandoregon.gov"
+    },
+    "9718063043": {
+      "abbr": "JN",
+      "role": "Portland Police",
+      "name": "Jeff Niiya",
+      "number": 9718063043
+    },
+    "5037935641": {
+      "abbr": "555",
+      "role": "Unknown",
+      "name": "Unknown Person #555",
+      "number": 5037935641
+    },
+    "REDACTED": {
+      "abbr": "R",
+      "role": "Unknown",
+      "name": "REDACTED",
+      "number": null
+    },
+    "5039574364": {
+      "abbr": "557",
+      "role": "Unknown",
+      "name": "Unknown Person #557",
+      "number": 5039574364
+    },
+    "5038969825": {
+      "abbr": "558",
+      "role": "Unknown",
+      "name": "Unknown Person #558",
+      "number": 5038969825
+    },
+    "5037930885": {
+      "abbr": "559",
+      "role": "Unknown",
+      "name": "Unknown Person #559",
+      "number": 5037930885
+    },
+    "5037939621": {
+      "abbr": "560",
+      "role": "Unknown",
+      "name": "Unknown Person #560",
+      "number": 5037939621
+    },
+    "Redacted": {
+      "abbr": "561",
+      "role": "Unknown",
+      "name": "Unknown Person #561",
+      "number": null
+    },
+    "5037930865": {
+      "abbr": "562",
+      "role": "Unknown",
+      "name": "Unknown Person #562",
+      "number": 5037930865
+    },
+    "5034671784": {
+      "abbr": "563",
+      "role": "Unknown",
+      "name": "Unknown Person #563",
+      "number": 5034671784
+    },
+    "5037937715": {
+      "abbr": "565",
+      "role": "Unknown",
+      "name": "Unknown Person #565",
+      "number": 5037937715
+    },
+    "9713131774": {
+      "abbr": "566",
+      "role": "Unknown",
+      "name": "Unknown Person #566",
+      "number": 9713131774
+    },
+    "5037939648": {
+      "abbr": "567",
+      "role": "Unknown",
+      "name": "Unknown Person #567",
+      "number": 5037939648
+    },
+    "5035453597": {
+      "abbr": "568",
+      "role": "Unknown",
+      "name": "Unknown Person #568",
+      "number": 5035453597
+    },
+    "9718038549": {
+      "abbr": "569",
+      "role": "Unknown",
+      "name": "Unknown Person #569",
+      "number": 9718038549
+    },
+    "5035771057": {
+      "abbr": "571",
+      "role": "Unknown",
+      "name": "Unknown Person #571",
+      "number": 5035771057
+    },
+    "5035771719": {
+      "abbr": "572",
+      "role": "Unknown",
+      "name": "Unknown Person #572",
+      "number": 5035771719
+    },
+    "5037939622": {
+      "abbr": "573",
+      "role": "Unknown",
+      "name": "Unknown Person #573",
+      "number": 5037939622
+    },
+    "5033602619": {
+      "abbr": "574",
+      "role": "Unknown",
+      "name": "Unknown Person #574",
+      "number": 5033602619
+    },
+    "5034599517": {
+      "abbr": "575",
+      "role": "Unknown",
+      "name": "Unknown Person #575",
+      "number": 5034599517
+    },
+    "5034214141": {
+      "abbr": "576",
+      "role": "Unknown",
+      "name": "Unknown Person #576",
+      "number": 5034214141
+    },
+    "5037101277": {
+      "abbr": "577",
+      "role": "Unknown",
+      "name": "Unknown Person #577",
+      "number": 5037101277
+    },
+    "5039393656": {
+      "abbr": "578",
+      "role": "Unknown",
+      "name": "Unknown Person #578",
+      "number": 5039393656
+    },
+    "5037575721": {
+      "abbr": "579",
+      "role": "Unknown",
+      "name": "Unknown Person #579",
+      "number": 5037575721
+    },
+    "9175926805": {
+      "abbr": "580",
+      "role": "Unknown",
+      "name": "Unknown Person #580",
+      "number": 9175926805
+    },
+    "5037300268": {
+      "abbr": "581",
+      "role": "Unknown",
+      "name": "Unknown Person #581",
+      "number": 5037300268
+    },
+    "5033608376": {
+      "abbr": "582",
+      "role": "Unknown",
+      "name": "Unknown Person #582",
+      "number": 5033608376
+    },
+    "5034753010": {
+      "abbr": "583",
+      "role": "Unknown",
+      "name": "Unknown Person #583",
+      "number": 5034753010
+    },
+    "5038194278": {
+      "abbr": "584",
+      "role": "Unknown",
+      "name": "Unknown Person #584",
+      "number": 5038194278
+    },
+    "5038231056": {
+      "abbr": "585",
+      "role": "Unknown",
+      "name": "Unknown Person #585",
+      "number": 5038231056
+    },
+    "9712398776": {
+      "abbr": "586",
+      "role": "Unknown",
+      "name": "Unknown Person #586",
+      "number": 9712398776
+    },
+    "5039310786": {
+      "abbr": "587",
+      "role": "Unknown",
+      "name": "Unknown Person #587",
+      "number": 5039310786
+    },
+    "5032099563": {
+      "abbr": "589",
+      "role": "Unknown",
+      "name": "Unknown Person #589",
+      "number": 5032099563
+    },
+    "5037934183": {
+      "abbr": "590",
+      "role": "Unknown",
+      "name": "Unknown Person #590",
+      "number": 5037934183
+    },
+    "5037407743": {
+      "abbr": "591",
+      "role": "Unknown",
+      "name": "Unknown Person #591",
+      "number": 5037407743
+    },
+    "5037939061": {
+      "abbr": "592",
+      "role": "Unknown",
+      "name": "Unknown Person #592",
+      "number": 5037939061
+    },
+    "5032091816": {
+      "abbr": "593",
+      "role": "Unknown",
+      "name": "Unknown Person #593",
+      "number": 5032091816
+    },
+    "kristina.jones@portlandoregon.gov": {
+      "abbr": "594",
+      "role": "Unknown",
+      "name": "Unknown Person #594",
+      "number": null
+    },
+    "9712350612": {
+      "abbr": "595",
+      "role": "Unknown",
+      "name": "Unknown Person #595",
+      "number": 9712350612
+    },
+    "5038058459": {
+      "abbr": "596",
+      "role": "Unknown",
+      "name": "Unknown Person #596",
+      "number": 5038058459
+    },
+    "5038236634": {
+      "abbr": "597",
+      "role": "Unknown",
+      "name": "Unknown Person #597",
+      "number": 5038236634
+    },
+    "5038238599": {
+      "abbr": "598",
+      "role": "Unknown",
+      "name": "Unknown Person #598",
+      "number": 5038238599
+    },
+    "5037937669": {
+      "abbr": "599",
+      "role": "Unknown",
+      "name": "Unknown Person #599",
+      "number": 5037937669
+    },
+    "5038238402": {
+      "abbr": "600",
+      "role": "Unknown",
+      "name": "Unknown Person #600",
+      "number": 5038238402
+    },
+    "5037934786": {
+      "abbr": "601",
+      "role": "Unknown",
+      "name": "Unknown Person #601",
+      "number": 5037934786
+    },
+    "5038236286": {
+      "abbr": "602",
+      "role": "Unknown",
+      "name": "Unknown Person #602",
+      "number": 5038236286
+    },
+    "ted.wheeler@portlandoregon.gov": {
+      "abbr": "603",
+      "role": "Unknown",
+      "name": "Unknown Person #603",
+      "number": null
+    },
+    "5038236086": {
+      "abbr": "604",
+      "role": "Unknown",
+      "name": "Unknown Person #604",
+      "number": 5038236086
+    },
+    "5035771120": {
+      "abbr": "605",
+      "role": "Unknown",
+      "name": "Unknown Person #605",
+      "number": 5035771120
+    },
+    "5038231135": {
+      "abbr": "606",
+      "role": "Unknown",
+      "name": "Unknown Person #606",
+      "number": 5038231135
+    },
+    "5037930095": {
+      "abbr": "607",
+      "role": "Unknown",
+      "name": "Unknown Person #607",
+      "number": 5037930095
+    },
+    "5032780109": {
+      "abbr": "608",
+      "role": "Unknown",
+      "name": "Unknown Person #608",
+      "number": 5032780109
+    },
+    "5034532469": {
+      "abbr": "609",
+      "role": "Unknown",
+      "name": "Unknown Person #609",
+      "number": 5034532469
+    },
+    "5037936468": {
+      "abbr": "611",
+      "role": "Unknown",
+      "name": "Unknown Person #611",
+      "number": 5037936468
+    },
+    "5035526773": {
+      "abbr": "612",
+      "role": "Unknown",
+      "name": "Unknown Person #612",
+      "number": 5035526773
+    },
+    "5039570324": {
+      "abbr": "613",
+      "role": "Unknown",
+      "name": "Unknown Person #613",
+      "number": 5039570324
+    },
+    "5038102006": {
+      "abbr": "614",
+      "role": "Unknown",
+      "name": "Unknown Person #614",
+      "number": 5038102006
+    },
+    "5035076902": {
+      "abbr": "615",
+      "role": "Unknown",
+      "name": "Unknown Person #615",
+      "number": 5035076902
+    },
+    "5039135154": {
+      "abbr": "616",
+      "role": "Unknown",
+      "name": "Unknown Person #616",
+      "number": 5039135154
+    },
+    "5037055123": {
+      "abbr": "617",
+      "role": "Unknown",
+      "name": "Unknown Person #617",
+      "number": 5037055123
+    }
+  }
+}
